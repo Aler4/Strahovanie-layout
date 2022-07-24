@@ -1,0 +1,108 @@
+
+
+h1 {
+	font-family: "Proxima Nova Bold", sans-serif;
+}
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Montserrat SemiBold',sans-serif;
+	font-size: 1rem;
+}
+.container {
+	width: 1300px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.big {
+	width: 1530px;
+}
+.sticky {
+	position: sticky;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+
+	.logo__img {
+		height: 53px;
+	}
+
+	.logo__text {
+		padding-left: 14px;
+		padding-bottom: 10px;
+		letter-spacing: 0.1rem;
+		font-family: 'Proxima Nova Bold', sans-serif;
+
+		p:nth-child(1){
+
+			color: #001237;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+
+		p:nth-child(2){
+			color: transparent;
+			-webkit-background-clip: text;
+			background-clip: text;
+			background-image: linear-gradient(180deg, #09A9E5 -15.6%, #2155CF 100.41%);
+		}
+	}
+}
+
+@media (max-width: 1360px) {
+	.container {
+			width: 1130px;
+	}
+	button {
+		font-size: .8rem;;
+	}
+}
+@media (max-width: 1140px) {
+	.container{
+		width: 970px;
+	}
+
+}
+@media (max-width: 970px) {
+	.container{
+		width: 760px;
+
+	}
+}
+
+
+@media (max-width: 768px) {
+	.logo {
+		padding-right: 18px;
+		padding-left: 19px;
+
+		.logo__img {
+			height: 30px;
+			width: 25px;
+
+		}
+
+		.logo__text {
+			font-size: 10px;
+			padding-left: 7px;
+			padding-bottom: 0;
+			letter-spacing: 0;
+		}
+	}
+	.container {
+		width: 560px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 360px;
+	}
+}
+
+@import 'header';
+@import 'footer.scss';
+@import 'fonts';

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectId" id="26NKjaOqYlWClUmfQpNJEmFl0Za" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\gulp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\dist" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=".offer-card__info-item{" />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="" />
+      <created>1647258739257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647258739257</updated>
+      <workItem from="1647258740721" duration="4056000" />
+      <workItem from="1647274676090" duration="76000" />
+      <workItem from="1647274753883" duration="6414000" />
+      <workItem from="1647295246437" duration="1523000" />
+      <workItem from="1647446158090" duration="7053000" />
+      <workItem from="1647518606195" duration="12785000" />
+      <workItem from="1647545125854" duration="3430000" />
+      <workItem from="1647627582020" duration="7767000" />
+      <workItem from="1647972992935" duration="8139000" />
+      <workItem from="1648057541597" duration="3736000" />
+      <workItem from="1648131081898" duration="17476000" />
+      <workItem from="1648230281536" duration="6461000" />
+      <workItem from="1648319723785" duration="1393000" />
+      <workItem from="1648323262209" duration="1326000" />
+      <workItem from="1649095043629" duration="256000" />
+      <workItem from="1656339963621" duration="42000" />
+      <workItem from="1656340007635" duration="149000" />
+      <workItem from="1656340485790" duration="18000" />
+      <workItem from="1656449097316" duration="4169000" />
+      <workItem from="1656865974180" duration="11554000" />
+      <workItem from="1657133423305" duration="8591000" />
+      <workItem from="1657304813975" duration="6875000" />
+      <workItem from="1657397187596" duration="4046000" />
+      <workItem from="1657651464421" duration="9013000" />
+      <workItem from="1657910054770" duration="6846000" />
+      <workItem from="1658088169508" duration="3882000" />
+      <workItem from="1658258216648" duration="4135000" />
+      <workItem from="1658344206737" duration="4436000" />
+      <workItem from="1658418976697" duration="10488000" />
+      <workItem from="1658697163609" duration="2943000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656868741191">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1656868741191" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1656449139739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656449139739" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1657910547572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1657910547572" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657311685096" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1656449850244" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1658094183012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657313823869" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1657308051454">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657308051454" />
+  </component>
+</project>
