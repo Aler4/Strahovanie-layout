@@ -11,7 +11,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/contacts/contacts-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contacts-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/contacts_style/contacts-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/dogovor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/dogovor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/offer/banner-section.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/offer/dogovor-section.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/offer/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/offer/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/offer/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/banner-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/offer/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/offer/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/offer_style/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/offers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/offers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
       <recent name="C:\Aler4_Study\Artjoker\verstka" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\gulp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
@@ -114,7 +138,9 @@
       <workItem from="1658258216648" duration="4135000" />
       <workItem from="1658344206737" duration="4436000" />
       <workItem from="1658418976697" duration="10488000" />
-      <workItem from="1658697163609" duration="2943000" />
+      <workItem from="1658697163609" duration="3240000" />
+      <workItem from="1658947540428" duration="4426000" />
+      <workItem from="1659023449333" duration="11763000" />
     </task>
     <servers />
   </component>
@@ -131,6 +157,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656868741191">

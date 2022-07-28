@@ -90,15 +90,10 @@
   display: flex;
 }
 
-.banner-section .container {
-  padding: 0;
-}
-
 .banner-section .container .banner {
   background: linear-gradient(0deg, #072D85, #072D85);
   border-radius: 12px;
   display: flex;
-  margin: 0 15px;
   flex-direction: column;
 }
 

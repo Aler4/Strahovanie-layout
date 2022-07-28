@@ -5,15 +5,10 @@
   display: flex;
 }
 
-.banner-section .container {
-  padding: 0;
-}
-
 .banner-section .container .banner {
   background: linear-gradient(0deg, #072D85, #072D85);
   border-radius: 12px;
   display: flex;
-  margin: 0 15px;
   flex-direction: column;
 }
 
@@ -34,7 +29,6 @@
 }
 
 .banner-section .container .banner .banner-description .banner-description__title {
-  width: 650px;
   font-size: 1.6rem;
   line-height: 1.6rem;
   padding-bottom: 32px;
@@ -152,7 +146,6 @@
     font-size: 2.8rem;
     line-height: 2.8rem;
     padding-bottom: 36px;
-    width: auto;
   }
 
   .banner-section .container .banner .banner-description .banner-description__item p {

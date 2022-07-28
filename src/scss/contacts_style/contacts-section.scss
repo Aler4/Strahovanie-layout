@@ -1,11 +1,67 @@
 .contacts-section {
+  padding: 70px 0 90px 0;
   .container {
     .contacts-form {
       width: 490px;
+      font-family: "Proxima Nova Regular",sans-serif;
+      color:  #001237;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 36px;
+      .form-title {
+        font-size: 2.9rem;
+        font-weight: 700;
+        padding-bottom: 16px;
 
+      }
       .form-inp__container {
         display: flex;
         flex-direction: column;
+        width: fit-content;
+        padding: 24px 0 0 0;
+        .form-inp__title {
+          font-size: 1rem;
+          line-height: 1.6rem;
+          font-weight: 600;
+        }
+        .form-inp__name,
+        .form-inp__phone,
+        .form-inp__theme,
+        .form-inp__message{
+          height: 40px;
+          width: 476px;
+          padding: 0 0 0 14px;
+          border: 1px solid #D7E1E9;
+          border-radius: 6px;
+          outline: none;
+        }
+        .form-inp__name,
+        .form-inp__phone{
+          width: 216px;
+        }
+
+        .form-inp__message {
+          resize: none;
+          height: 124px;
+        }
+      }
+      .padding {
+        padding-left: 26px;
+      }
+      .form-btn_submit {
+        width: 333px;
+        height: 60px;
+        color: #ffff;
+        background-color: #FF9504;
+        border-radius: 50px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin: 32px auto 0 auto;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        &:hover {
+          background-color: #E28300;
+        }
       }
     }
   }
