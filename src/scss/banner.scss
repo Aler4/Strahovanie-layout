@@ -3,7 +3,9 @@
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
+  justify-content: center;
   .container {
+    display: block;
     .banner {
       background: linear-gradient(0deg, #072D85, #072D85);
       border-radius: 12px;

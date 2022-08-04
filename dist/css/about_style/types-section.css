@@ -1,0 +1,110 @@
+.types-section {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.types-section .types {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.types-section .types .types__title {
+  font-family: "Proxima Nova Bold", sans-serif;
+  font-size: 2.9rem;
+  line-height: 3rem;
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.types-section .types .types-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.types-section .types .types-cards .types-card {
+  position: relative;
+  width: 23.5%;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.types-section .types .types-cards .types-card .types-card__img {
+  width: 100%;
+  height: auto;
+}
+
+.types-section .types .types-cards .types-card .types-card__title {
+  position: absolute;
+  color: #ffff;
+  font-size: 1.25rem;
+  font-family: "Proxima Nova Regular", sans-serif;
+  width: 100%;
+  z-index: 1;
+  bottom: 24px;
+  left: 24px;
+}
+
+.types-section .types .types-cards .types-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 109px;
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 93%);
+  left: 0;
+  bottom: 0;
+}
+
+.types-section .types .types-cards .types-card:hover {
+  transform: scale(1.05);
+}
+
+.types-section .types .types-cards .types-card:hover .types-card__title {
+  color: #b7c9da;
+}
+
+@media (max-width: 970px) {
+  .types-section {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 10px;
+  }
+
+  .types-section .types {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .types-section .types .types__title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: 7px;
+  }
+
+  .types-section .types .types-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .types-section .types .types-cards .types-card {
+    width: 328px;
+    height: auto;
+    margin: 25px auto;
+  }
+
+  .types-section .types .types-cards .types-card .types-card__title {
+    text-align: center;
+    bottom: 24px;
+    left: 0;
+  }
+}

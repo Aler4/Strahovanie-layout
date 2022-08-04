@@ -1,7 +1,9 @@
 .offer-filter-section {
   display: flex;
   justify-content: center;
-
+  .container {
+    display: block;
+  }
   .offer-filter {
     display: flex;
     align-items: center;

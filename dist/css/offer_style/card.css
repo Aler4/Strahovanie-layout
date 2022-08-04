@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.offer-card-section .container {
+  display: block;
+}
+
 .offer-card-section .offer-card {
   background-color: #FFFFFF;
   color: #001237;

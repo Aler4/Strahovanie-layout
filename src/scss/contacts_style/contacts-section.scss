@@ -1,9 +1,14 @@
 .contacts-section {
   padding: 70px 0 90px 0;
+  font-family: "Proxima Nova Regular",sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
   .container {
+    justify-content: space-between;
+    flex-wrap: wrap;
     .contacts-form {
       width: 490px;
-      font-family: "Proxima Nova Regular",sans-serif;
       color:  #001237;
       display: flex;
       flex-wrap: wrap;
@@ -27,9 +32,10 @@
         .form-inp__name,
         .form-inp__phone,
         .form-inp__theme,
-        .form-inp__message{
+        .form-inp__message {
+          box-sizing: border-box;
           height: 40px;
-          width: 476px;
+          width: 490px;
           padding: 0 0 0 14px;
           border: 1px solid #D7E1E9;
           border-radius: 6px;
@@ -37,7 +43,7 @@
         }
         .form-inp__name,
         .form-inp__phone{
-          width: 216px;
+          width: 230px;
         }
 
         .form-inp__message {
@@ -46,7 +52,7 @@
         }
       }
       .padding {
-        padding-left: 26px;
+        padding-left: 30px;
       }
       .form-btn_submit {
         width: 333px;
@@ -61,6 +67,188 @@
         text-transform: uppercase;
         &:hover {
           background-color: #E28300;
+        }
+      }
+    }
+    .contacts-topic__container {
+      padding-right: 12.3%;
+      padding-top: 90px;
+      padding-left: 20px;
+      .contacts-topic {
+        width: 695px;
+        height: 465px;
+        padding: 64px 0 54px 64px;
+        border-radius: 12px;
+        color: #ffff;
+        background-color: #353D52;
+        .topic-title {
+          font-size: 2.9rem;
+          line-height: 3rem;
+          padding-bottom: 32px;
+          font-weight: 700;
+        }
+        .topic-list {
+          .topic-item {
+            position: relative;
+            padding-left: 20px;
+            padding-right: 10px;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            padding-bottom: 20px;
+            font-weight: 400;
+            &::before {
+              content: '';
+              position: absolute;
+              display: block;
+              width: 12px;
+              height: 3px;
+              background-color: #fff;
+              left: -1px;
+              top: 9px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .contacts-section {
+    .container {
+      .contacts-topic__container {
+        padding-right: 0;
+        padding-left: 15px;
+        padding-top: 90px;
+        .contacts-topic {
+          width: 595px;
+          height: 400px;
+          padding: 44px 0 34px 44px;
+          .topic-title {
+            font-size: 2.9rem;
+            line-height: 3rem;
+            padding-bottom: 32px;
+            font-weight: 700;
+          }
+          .topic-list {
+            .topic-item {
+              font-size: 1.5rem;
+              line-height: 1.5rem;
+              padding-bottom: 20px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1140px) {
+  .contacts-section {
+    .container {
+      justify-content: center;
+      .contacts-topic__container {
+        padding-right: 0;
+        padding-left: 0px;
+        padding-top: 40px;
+        .contacts-topic {
+          width: 595px;
+          height: 400px;
+          padding: 44px 0 34px 44px;
+          .topic-title {
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .contacts-section {
+    .container {
+      .contacts-form {
+        width: 100%;
+
+        padding-bottom: 36px;
+        .form-title {
+          font-size: 2.9rem;
+          font-weight: 700;
+          padding-bottom: 16px;
+        }
+        .form-inp__container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: 24px 0 0 0;
+          .form-inp__title {
+            font-size: 1rem;
+            line-height: 1.6rem;
+            font-weight: 600;
+          }
+          .form-inp__name,
+          .form-inp__phone,
+          .form-inp__theme,
+          .form-inp__message{
+            height: 40px;
+            width: 100%;
+            padding: 0;
+            border: 1px solid #D7E1E9;
+            border-radius: 6px;
+            outline: none;
+          }
+          .form-inp__name,
+          .form-inp__phone{
+            width: 100%;
+            padding-left: 14px;
+          }
+
+          .form-inp__message {
+            resize: none;
+            height: 124px;
+          }
+        }
+        .padding {
+          padding-left: 0;
+        }
+        .form-btn_submit {
+          width: 333px;
+          height: 60px;
+          color: #ffff;
+          background-color: #FF9504;
+          border-radius: 50px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          margin: 32px auto 0 auto;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          &:hover {
+            background-color: #E28300;
+          }
+        }
+      }
+      .contacts-topic__container {
+        padding-right: 0;
+        padding-left: 0px;
+        padding-top: 40px;
+        .contacts-topic {
+          width: 100%;
+          height: auto;
+          padding: 32px 0 32px 16px;
+          .topic-title {
+            font-size: 1.6rem;
+            line-height: 1.6rem;
+            padding-bottom: 24px;
+          }
+          .topic-list {
+            .topic-item {
+              font-size: 1.1rem;
+              line-height: 1.1rem;
+              padding-bottom: 12px;
+              &::before {
+                top: 7px;
+              }
+            }
+          }
+
         }
       }
     }

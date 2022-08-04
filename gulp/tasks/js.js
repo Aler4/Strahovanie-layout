@@ -1,6 +1,4 @@
 import webpack from 'webpack-stream';
-import rename from "gulp-rename";
-
 export const js = () => {
     return app.gulp.src(app.path.src.js, { sourcemaps: true })
         .pipe(webpack({

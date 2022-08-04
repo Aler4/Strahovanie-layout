@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "del": "^6.0.0",
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "browser-sync": "^2.27.9",

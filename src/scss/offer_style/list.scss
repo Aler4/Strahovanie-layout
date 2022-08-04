@@ -5,7 +5,9 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-
+  .container {
+    display: block;
+  }
 
   .offers-item {
     display: flex;

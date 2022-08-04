@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.offer-filter-section .container {
+  display: block;
+}
+
 .offer-filter-section .offer-filter {
   display: flex;
   align-items: center;

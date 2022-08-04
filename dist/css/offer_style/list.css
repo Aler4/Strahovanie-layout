@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+.offers-list-section .container {
+  display: block;
+}
+
 .offers-list-section .offers-item {
   display: flex;
   justify-content: space-between;

@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.footer .container {
+  display: block;
+}
+
 .footer .container .logo {
   width: -webkit-fit-content;
   width: -moz-fit-content;

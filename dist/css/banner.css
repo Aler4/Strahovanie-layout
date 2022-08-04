@@ -3,6 +3,11 @@
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
+  justify-content: center;
+}
+
+.banner-section .container {
+  display: block;
 }
 
 .banner-section .container .banner {

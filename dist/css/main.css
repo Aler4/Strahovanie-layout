@@ -1,5 +1,7 @@
-h1 {
+.section-title {
   font-family: "Proxima Nova Bold", sans-serif;
+  font-size: 2.9rem;
+  line-height: 3rem;
 }
 
 button {
@@ -11,13 +13,14 @@ button {
 }
 
 .container {
+  display: flex;
   width: 1300px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
 .big {
   width: 1530px;
+  margin: 0 15px;
 }
 
 .sticky {
@@ -95,6 +98,10 @@ button {
   align-items: center;
   background-color: #F1F8FE;
   overflow: hidden;
+}
+
+.footer .container {
+  display: block;
 }
 
 .footer .container .logo {
@@ -244,6 +251,11 @@ button {
 @media (max-width: 970px) {
   .container {
     width: 760px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    line-height: 2.1rem;
   }
 
   .header .logo {

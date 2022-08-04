@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.offer-card-section .container {
+  display: block;
+}
+
 .offer-card-section .offer-card {
   background-color: #FFFFFF;
   color: #001237;
@@ -88,6 +92,11 @@
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
+  justify-content: center;
+}
+
+.banner-section .container {
+  display: block;
 }
 
 .banner-section .container .banner {
@@ -214,6 +223,10 @@
   justify-content: center;
 }
 
+.offer-filter-section .container {
+  display: block;
+}
+
 .offer-filter-section .offer-filter {
   display: flex;
   align-items: center;
@@ -302,6 +315,10 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+}
+
+.offers-list-section .container {
+  display: block;
 }
 
 .offers-list-section .offers-item {
