@@ -1,18 +1,19 @@
 .slider-section {
-  .slider {
+  background-color: #F8FBFE;
+  padding: 90px 0 60px 0;
+  .sliders__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     .slider-title {
-      //text-align: center;
       padding-bottom: 70px;
     }
     .slider-range{
       position: relative;
       display: flex;
       justify-content: space-between;
-      width: 750px;
+      width: 800px;
       &::after {
         content: '';
         display: block;
@@ -21,7 +22,7 @@
         width: 100%;
         height: 1px;
         background-color: #C0C2C3;
-        z-index: -1;
+        z-index: 1;
       }
       .slider-range_runner{
         position: absolute;
@@ -46,13 +47,14 @@
         height: 44px;
         border-radius: 50%;
         box-shadow: 0px 0px 0px 6px rgba(192 194 195 /.15);
-       .slider-step__title {
-         position: absolute;
-         font-size: 1rem;
-         bottom: -26px;
-         color: #9E9E9E;
-         width: max-content;
-       }
+        z-index: 2;
+        .slider-step__title {
+          position: absolute;
+          font-size: 1rem;
+          bottom: -26px;
+          color: #9E9E9E;
+          width: max-content;
+        }
       }
       .active {
         background-color: rgb(66 104 178);
@@ -67,5 +69,49 @@
         }
       }
     }
+
+    .sliders {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      height: 395px;
+      padding-top: 100px;
+      .slide {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 1050px;
+        padding: 40px 65px 47px 90px;
+        margin: 0 auto;
+        box-shadow: 0px 4px 46px rgba(123, 139, 181, 0.22);
+        border-radius: 10px;
+        background: #fff;
+        left: 10%;
+        visibility: hidden;
+        .slide_img {
+
+        }
+        .slide__description {
+          width: 570px;
+          .slide__title {
+            font-family: "Proxima Nova Bold",sans-serif;
+            font-size: 1.9rem;
+            padding-bottom: 16px;
+            color: #001237;
+          }
+          .slide__text {
+            font-family: "Proxima Nova Regular",sans-serif;
+            font-size: 1rem;
+            line-height: 1.7rem;
+            color: #000000;
+            opacity: 0.8;
+          }
+        }
+      }
+      .visible {
+        visibility: visible;
+      }
+    }
+
   }
 }

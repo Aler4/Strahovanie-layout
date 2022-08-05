@@ -6,6 +6,6 @@ import {setProgress} from "./modules/slider.js";
 addBurger();
 changeText();
 setProgress()
-window.onload = () => setInterval(setProgress,100)
+window.onload = () => setInterval(setProgress,200)
 window.addEventListener('resize', addBurger);
 window.addEventListener('resize', changeText);

@@ -11,69 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/about/description-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/about/types-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/about_style/description-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/banner.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/banner.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts/contacts-section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts/contacts-section.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/footer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/footer.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/banner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/banner.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/card.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/card.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/filter.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/filter.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/list.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/list.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/banner-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/contacts/contacts-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/contacts/contacts-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/car-hand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/car-hand.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/crash-car1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/crash-car1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/crash-car2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/img/crash-car2.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/banner-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/contacts/contacts-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/contacts/contacts-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/car-hand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/crash-car1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/img/crash-car2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icons/Component1.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/contacts_style/contacts-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/contacts_style/contacts-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/offer_style/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/offer_style/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/offer_style/filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/offer_style/filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/offer_style/list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/offer_style/list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +137,8 @@
       <workItem from="1659542617981" duration="1564000" />
       <workItem from="1659544883997" duration="7286000" />
       <workItem from="1659606460533" duration="10347000" />
-      <workItem from="1659629516651" duration="13608000" />
+      <workItem from="1659629516651" duration="13793000" />
+      <workItem from="1659693919223" duration="9212000" />
     </task>
     <servers />
   </component>
@@ -232,9 +182,10 @@
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657313823869" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1657308051454">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1659704847097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657308051454" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1659704847097" />
   </component>
 </project>
