@@ -48,6 +48,12 @@
         border-radius: 50%;
         box-shadow: 0px 0px 0px 6px rgba(192 194 195 /.15);
         z-index: 2;
+        cursor: pointer;
+        &:hover {
+          color: #2155CF;
+          background-color: #ffff;
+          transition: .3s;
+        }
         .slider-step__title {
           position: absolute;
           font-size: 1rem;
@@ -60,6 +66,10 @@
         background-color: rgb(66 104 178);
         box-shadow: 0px 0px 0px 6px rgba(66 104 178 /.15);
         transition: .4s;
+        &:hover {
+          background-color: rgb(66 104 178);
+          color: #ffff;
+        }
         .slider-step__title {
           position: absolute;
           font-size: 1rem;
@@ -71,6 +81,8 @@
     }
 
     .sliders {
+      display: flex;
+      justify-content: center;
       width: 100%;
       overflow: hidden;
       position: relative;
@@ -80,19 +92,19 @@
         position: absolute;
         display: flex;
         justify-content: space-between;
-        width: 1050px;
+        width: 80.8%;
         padding: 40px 65px 47px 90px;
         margin: 0 auto;
         box-shadow: 0px 4px 46px rgba(123, 139, 181, 0.22);
         border-radius: 10px;
         background: #fff;
-        left: 10%;
         visibility: hidden;
+        opacity: 0;
         .slide_img {
 
         }
         .slide__description {
-          width: 570px;
+          width: 64%;
           .slide__title {
             font-family: "Proxima Nova Bold",sans-serif;
             font-size: 1.9rem;
@@ -110,8 +122,37 @@
       }
       .visible {
         visibility: visible;
+        opacity: 1;
+        transition: 1s;
       }
     }
 
+  }
+}
+@media (max-width: 1140px) {
+  .slider-section {
+    .sliders__wrapper {
+      .slider-title {
+        padding-bottom: 40px;
+      }
+
+      .slider-range {
+        width: 750px;
+      }
+
+      .sliders {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        height: 395px;
+        padding-top: 100px;
+
+        .slide {
+          padding: 40px 35px 37px 45px;
+        }
+      }
+    }
   }
 }
