@@ -18,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/dist/css/slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/slider.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icons/Component1.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
@@ -28,6 +27,8 @@
       <change beforePath="$PROJECT_DIR$/src/html/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +147,8 @@
       <workItem from="1659629516651" duration="13793000" />
       <workItem from="1659693919223" duration="9942000" />
       <workItem from="1659974580121" duration="11842000" />
-      <workItem from="1660213430308" duration="5872000" />
+      <workItem from="1660213430308" duration="5911000" />
+      <workItem from="1660314027133" duration="9557000" />
     </task>
     <servers />
   </component>
