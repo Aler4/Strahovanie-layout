@@ -13,7 +13,7 @@ export const path = {
         fonts: `${buildFolder}/fonts/`,
         images: `${buildFolder}/img/`,
         pages: `${buildFolder}/pages/`,
-    },
+          },
     src: {
         js: `${srcFolder}/js/main.js`,
         scss: `${srcFolder}/scss/**/*.scss`,
@@ -22,8 +22,7 @@ export const path = {
         html: `${srcFolder}/**/*.html`,
         fonts: `${srcFolder}/fonts/**/*.*`,
         pages: `${srcFolder}/pages/`,
-
-    },
+       },
     watch: {
         js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg}`,

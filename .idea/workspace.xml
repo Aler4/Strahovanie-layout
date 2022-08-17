@@ -11,25 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/html/review-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/swiper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/reviews-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/slider.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/path.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about_style/types-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/swiper_style" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,19 +75,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\dist" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\js\modules" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss\swiper_style" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -148,7 +148,10 @@
       <workItem from="1659693919223" duration="9942000" />
       <workItem from="1659974580121" duration="11842000" />
       <workItem from="1660213430308" duration="5911000" />
-      <workItem from="1660314027133" duration="9557000" />
+      <workItem from="1660314027133" duration="9678000" />
+      <workItem from="1660570273028" duration="6123000" />
+      <workItem from="1660635878640" duration="5751000" />
+      <workItem from="1660645714024" duration="9505000" />
     </task>
     <servers />
   </component>
@@ -173,10 +176,10 @@
     </state>
     <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1656868741191" />
     <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1659457877709" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1659633680250">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1660645442972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1659633680250" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1660645442972" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1656449139739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -187,11 +190,12 @@
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1657910547572" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657311685096" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1659639608761" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1658094183012">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1660646843108">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657313823869" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1660646843108" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1659704847097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

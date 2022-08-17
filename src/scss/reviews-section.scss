@@ -1,0 +1,17 @@
+.review-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  .reviews {
+    display: flex;
+    position: relative;
+    .reviews-title {
+
+    }
+    .reviews-slider {
+
+    }
+  }
+}
+@import 'swiper_style/swiper';
