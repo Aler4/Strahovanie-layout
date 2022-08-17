@@ -11,25 +11,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/review-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/swiper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/reviews-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/swiper_style/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/swiper_style/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/swiper_style/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/swiper_style/swiper.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/review-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/review-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/photo.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/path.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/review-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/review-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/photo.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/reviews-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/reviews-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/swiper_style/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper_style/swiper.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +158,8 @@
       <workItem from="1660570273028" duration="6123000" />
       <workItem from="1660635878640" duration="5751000" />
       <workItem from="1660645714024" duration="9505000" />
+      <workItem from="1660740511958" duration="12747000" />
+      <workItem from="1660761001627" duration="611000" />
     </task>
     <servers />
   </component>

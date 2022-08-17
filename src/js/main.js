@@ -9,22 +9,17 @@ import Swiper, {Navigation, Pagination} from 'swiper';
     changeText();
     window.addEventListener('resize', addBurger);
     window.addEventListener('resize', changeText);
-
     const swiper = new Swiper('.swiper', {
-        // Optional parameters
+
         modules: [Navigation, Pagination],
         direction: 'horizontal',
         loop: true,
-
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
+        spaceBetween: window.innerWidth < 768 ? 15 : 30,
+        slidesPerView: window.innerWidth < 768 ? 1 : 3,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
     });
+
 

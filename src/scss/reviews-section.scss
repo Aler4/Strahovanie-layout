@@ -1,16 +1,79 @@
 .review-section {
   display: flex;
   justify-content: center;
-  padding-top: 90px;
-  padding-bottom: 100px;
+  padding-top: 70px;
   .reviews {
     display: flex;
     position: relative;
-    .reviews-title {
+    width: inherit;
+    padding-bottom: 50px;
 
+    @media (max-width: 1360px) {
+      flex-direction: column;
+    }
+
+    .reviews-title {
+      padding-top: 20px;
+      padding-right: 50px;
+
+      @media (max-width: 1360px) {
+        text-align: center;
+      }
     }
     .reviews-slider {
+      .reviews-card {
+        width: 360px;
+        height: 322px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 14px rgba(123, 139, 181, 0.22);
+        border-radius: 10px;
+        padding: 27px 24px 44px 27px;
+        color: #263238;
 
+        .reviews-card__rating {
+          width: 118px;
+        }
+        .reviews-card_text {
+          font-family: "Proxima Nova Regular",sans-serif;
+          font-size: 1rem;
+          line-height: 1.3rem;
+          height: 120px;
+          padding-top: 19px;
+          overflow: hidden;
+          opacity: 0.8;
+        }
+        .reviews-card__person-container {
+          display: flex;
+          padding-top: 35px;
+          .person-avatar__container {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            .person-avatar {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            }
+          .person-info {
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+            font-family: "Proxima Nova Bold",sans-serif;
+            .person-info__name {
+              font-size: 1.3rem;
+              line-height: 1.5rem;
+              padding-bottom: 4px;
+            }
+            .person-info__date {
+              font-size: .9rem;
+              line-height: .9rem;
+              color: #C0C2C3;
+            }
+          }
+        }
+      }
     }
   }
 }
