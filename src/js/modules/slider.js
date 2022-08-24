@@ -7,6 +7,7 @@ export class Slider {
         this.slides = document.querySelectorAll('.slide');
         this.runnerWidth = Math.floor(this.range.clientWidth / 2) / 100;
         this.move();
+
         this.range.addEventListener('click',(e) => {
             switch (e.target) {
                 case this.points[0] : {
@@ -53,9 +54,6 @@ export class Slider {
             this.changeSlide(this.points[2],this.slides[2],this.slides);
             clearInterval(this.progress)
         }
-        console.log(this.runnerWidth);
-
-
         this.runner.style.width = Number(this.runner.style.width.replace('px', '')) + this.runnerWidth + 'px';
     }
     changeSlide(point,slide,slides) {

@@ -387,6 +387,7 @@ button {
 @media (max-width: 480px) {
   .container {
     width: 360px;
+    overflow: visible;
   }
 
   .footer {

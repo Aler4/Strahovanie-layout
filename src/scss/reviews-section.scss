@@ -5,27 +5,30 @@
   .reviews {
     display: flex;
     position: relative;
-    width: inherit;
+    width: 100%;
     padding-bottom: 50px;
+    overflow: hidden;
 
     @media (max-width: 1360px) {
       flex-direction: column;
     }
 
     .reviews-title {
+      width: 23%;
+      box-sizing: content-box;
       padding-top: 20px;
       padding-right: 50px;
 
       @media (max-width: 1360px) {
+        width: 100%;
         text-align: center;
       }
     }
     .reviews-slider {
       .reviews-card {
-        width: 360px;
         height: 322px;
         background: #FFFFFF;
-        box-shadow: 0px 4px 14px rgba(123, 139, 181, 0.22);
+        box-shadow: 0px 0px 14px rgba(123, 139, 181, 0.22);
         border-radius: 10px;
         padding: 27px 24px 44px 27px;
         color: #263238;
