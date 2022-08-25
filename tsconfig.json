@@ -1,0 +1,19 @@
+{
+  "include": [
+    "src/ts/**/*"
+  ],
+  "exclude": [
+    ""
+  ],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./src/js/modules",
+    "strict": true,
+    "noImplicitAny": true
+  }
+}

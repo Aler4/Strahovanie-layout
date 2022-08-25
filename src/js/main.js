@@ -3,14 +3,17 @@ import {addBurger} from "./modules/burger.js";
 import {changeText} from "./modules/banner.js";
 import {Slider} from "./modules/slider.js";
 import Swiper, {Navigation, Pagination} from 'swiper';
+import { dropdown } from './modules/dropdown.js';
 window.onload = (function() {
+    if (document.querySelector('.questions-list')){
+        document.querySelector('.questions-list').addEventListener('mousedown',dropdown);
+    }
     let slider = new Slider();
     addBurger();
     changeText();
     window.addEventListener('resize', addBurger);
     window.addEventListener('resize', changeText);
     const swiper = new Swiper('.swiper', {
-
         modules: [Navigation],
         direction: 'horizontal',
         loop: true,
@@ -31,12 +34,6 @@ window.onload = (function() {
             prevEl: '.swiper-button-prev',
         },
     });
-    let drp = document.querySelector('.questions-list');
-    drp.addEventListener('click', (e) => {
-        if (e.target.classList.contains("question-dropdown")) {
-            e.target.closest('.question').classList.toggle('open');
-        }
-    })
 })();
 
 

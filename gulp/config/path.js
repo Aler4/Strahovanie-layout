@@ -22,9 +22,12 @@ export const path = {
         html: `${srcFolder}/**/*.html`,
         fonts: `${srcFolder}/fonts/**/*.*`,
         pages: `${srcFolder}/pages/`,
+        modules: `${srcFolder}/js/modules/`,
+        ts: `${srcFolder}/ts`,
        },
     watch: {
         js: `${srcFolder}/js/**/*.js`,
+        ts: `${srcFolder}/ts/**/*.ts`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg}`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,

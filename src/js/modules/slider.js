@@ -1,5 +1,8 @@
 export class Slider {
     constructor() {
+        if (document.querySelector('.slider-section') == null){
+            return;
+        }
         this.runner = document.querySelector('.slider-range_runner');
         this.range = document.querySelector('.slider-range');
         this.points = document.querySelectorAll('.slider-step');
