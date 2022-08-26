@@ -40,6 +40,7 @@ section.questions-section .container .questions-wrapper .questions-list .questio
 }
 
 section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn {
+  position: relative;
   display: flex;
   align-items: center;
   background-color: #ffff;
@@ -48,11 +49,29 @@ section.questions-section .container .questions-wrapper .questions-list .questio
   border: 1px solid #D7E1E9;
   border-radius: 50%;
   cursor: pointer;
-  z-index: 3;
+  position: relative;
 }
 
-section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn .question-dropdown__btn-image {
-  z-index: -1;
+section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 9px;
+  background-color: #2155CF;
+  transform: rotate(45deg);
+  right: 11px;
+}
+
+section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 9px;
+  background-color: #2155CF;
+  transform: rotate(-45deg);
+  left: 11px;
 }
 
 section.questions-section .container .questions-wrapper .questions-list .question:first-child .question-dropdown {
@@ -109,8 +128,9 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
   background-color: #2155CF;
 }
 
-section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn .question-dropdown__btn-image path {
-  stroke: #ffffff;
+section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn:before,
+section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn:after {
+  background-color: #F3F4F5;
 }
 
 section.questions-section .container .questions-wrapper .questions-list .open .question__description__container {

@@ -11,29 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulp/tasks/typescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ts/banner.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ts/burger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/dropdown.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/slider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/about.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/questions-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/questions-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/questions-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/questions-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/path.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/questions-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/questions-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/dropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/questions-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/questions-section.scss" afterDir="false" />
     </list>
@@ -165,7 +159,8 @@
       <workItem from="1661330396585" duration="8438000" />
       <workItem from="1661368144982" duration="7961000" />
       <workItem from="1661423350433" duration="5709000" />
-      <workItem from="1661456528034" duration="6274000" />
+      <workItem from="1661456528034" duration="6392000" />
+      <workItem from="1661533498015" duration="8909000" />
     </task>
     <servers />
   </component>
@@ -202,11 +197,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1661335357733" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1659639608761">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1661540757542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1657910547572" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657311685096" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661540757542" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1659639608761" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1661376354334">
       <screen x="0" y="0" width="1366" height="728" />
@@ -214,10 +209,10 @@
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661376354334" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1660646843108" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1659704847097">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1661541107228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1657308051454" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661541107228" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1659704847097" />
   </component>
   <component name="XDebuggerManager">
@@ -226,7 +221,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/ts/burger.ts</url>
           <line>16</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
