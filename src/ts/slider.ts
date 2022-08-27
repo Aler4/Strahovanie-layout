@@ -16,55 +16,58 @@ export class Slider {
         this.slidersContainer = (document.querySelector('.sliders') as Element)
         this.slides = document.querySelectorAll('.slide');
         this.runnerWidth = Math.floor(this.range.clientWidth / 2) / 100;
+        // @ts-ignore
         this.move();
 
         this.range.addEventListener('click',(e) => {
             switch (e.target) {
                 case ((this.points as NodeList)[0]) : {
                     this.backToInitState();
+                    // @ts-ignore
                     this.move();
                     break;
                 }
-                case this.points[1] : {
-                    this.rangeStep(Math.floor(this.range.clientWidth / 2))
-                    clearInterval(this.progress);
+                case (this.points as NodeList)[1] : {
+                    this.rangeStep(Math.floor((this.range as Element).clientWidth / 2))
+                    clearInterval((this.progress as NodeJS.Timeout));
+                    // @ts-ignore
                     this.move();
                     break;
                 }
-                case this.points[2] : {
-                    this.rangeStep((this.range.clientWidth - this.points[0].clientWidth))
+                case (this.points as NodeList)[2] : {
+                    this.rangeStep(((this.range as Element).clientWidth - ((this.points as NodeList)[0] as Element).clientWidth))
 
                     break;
                 }
             }
         })
         this.slidersContainer.addEventListener('mouseover',(e) => {
-            if(e.target.classList.contains('slide__description') || e.target.parentNode.classList.contains('slide__description')){
-                clearInterval(this.progress);
+            if((e.target as Element).classList.contains('slide__description') || ((e.target as Element).parentNode as Element).classList.contains('slide__description')){
+                clearInterval((this.progress as NodeJS.Timeout));
             }
         })
         this.slidersContainer.addEventListener('mouseout',(e) => {
-            if(e.target.classList.contains('slide__description') || e.target.parentNode.classList.contains('slide__description')){
-                this.move();
+            if((e.target as Element).classList.contains('slide__description') || ((e.target as Element).parentNode as Element).classList.contains('slide__description')){
+                this.move(undefined);
             }
         })
     }
-    rangeStep(point) {
+    rangeStep(point: number | undefined) {
         if(typeof point !== "undefined") {
-            this.runner.style.width = point + 'px'
+            (this.runner as HTMLElement).style.width = point + 'px'
         }
-        if(parseInt(this.runner.style.width) == Math.floor(this.range.clientWidth / 2)) {
-            this.points[1].classList.add('active');
-            this.changeSlide(this.points[1],this.slides[1],this.slides);
-            this.points[2].classList.remove('active');
+        if(parseInt((this.runner as HTMLElement).style.width) == Math.floor((this.range as Element).clientWidth / 2)) {
+            ((this.points as NodeList)[1] as Element).classList.add('active');
+            this.changeSlide(((this.points as NodeList)[1] as Element),((this.slides as NodeList)[1] as Element),(this.slides as NodeList));
+            ((this.points as NodeList)[2] as Element).classList.remove('active');
         }
-        if (parseInt(this.runner.style.width) >= (this.range.clientWidth - this.points[0].clientWidth)){
-            this.points[1].classList.add('active');
-            this.points[2].classList.add('active');
-            this.changeSlide(this.points[2],this.slides[2],this.slides);
-            clearInterval(this.progress)
+        if (parseInt((this.runner as HTMLElement).style.width) >= ((this.range as HTMLElement).clientWidth - ((this.points as NodeList)[0] as Element).clientWidth)){
+            ((this.points as NodeList)[1] as Element).classList.add('active');
+            ((this.points as NodeList)[2] as Element).classList.add('active');
+            this.changeSlide(((this.points as NodeList)[2] as Element),((this.slides as NodeList)[2] as Element),(this.slides as NodeList));
+            clearInterval((this.progress as NodeJS.Timeout));
         }
-        this.runner.style.width = Number(this.runner.style.width.replace('px', '')) + this.runnerWidth + 'px';
+        (this.runner as HTMLElement).style.width = Number((this.runner as HTMLElement).style.width.replace('px', '')) + (<number>this.runnerWidth) + 'px';
     }
     changeSlide(point: Element,slide: Element,slides: NodeList) {
         if(point.classList.contains('active')){
@@ -81,7 +84,7 @@ export class Slider {
         ((this.points as NodeList)[1] as Element).classList.remove('active');
         this.changeSlide(((this.points as NodeList)[0] as Element),((this.slides as NodeList)[0] as Element),(this.slides as NodeList));
     }
-    move(): void {
-        this.progress = setInterval(() => this.rangeStep(0),100)
+    move(start: number | undefined): void {
+        this.progress = setInterval(() => this.rangeStep(start),100)
     }
 }

@@ -9,17 +9,20 @@ export class Slider {
         this.slidersContainer = document.querySelector('.sliders');
         this.slides = document.querySelectorAll('.slide');
         this.runnerWidth = Math.floor(this.range.clientWidth / 2) / 100;
+        // @ts-ignore
         this.move();
         this.range.addEventListener('click', (e) => {
             switch (e.target) {
                 case (this.points[0]): {
                     this.backToInitState();
+                    // @ts-ignore
                     this.move();
                     break;
                 }
                 case this.points[1]: {
                     this.rangeStep(Math.floor(this.range.clientWidth / 2));
                     clearInterval(this.progress);
+                    // @ts-ignore
                     this.move();
                     break;
                 }
@@ -36,7 +39,7 @@ export class Slider {
         });
         this.slidersContainer.addEventListener('mouseout', (e) => {
             if (e.target.classList.contains('slide__description') || e.target.parentNode.classList.contains('slide__description')) {
-                this.move();
+                this.move(undefined);
             }
         });
     }
@@ -72,7 +75,7 @@ export class Slider {
         this.points[1].classList.remove('active');
         this.changeSlide(this.points[0], this.slides[0], this.slides);
     }
-    move() {
-        this.progress = setInterval(() => this.rangeStep(0), 100);
+    move(start) {
+        this.progress = setInterval(() => this.rangeStep(start), 100);
     }
 }
