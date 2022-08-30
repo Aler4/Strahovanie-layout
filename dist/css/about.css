@@ -117,7 +117,7 @@
 }
 
 .banner-section {
-  padding-top: 60px;
+  padding-top: 26px;
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
@@ -1318,6 +1318,7 @@ section.questions-section .container .questions-wrapper .questions-list .questio
 section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__title {
   font-size: 1.4rem;
   color: #1A1B20;
+  flex-shrink: 10;
 }
 
 section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn {
@@ -1387,7 +1388,28 @@ section.questions-section .container .questions-wrapper .questions-list .questio
   align-items: center;
 }
 
+section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__dot {
+  width: 16px;
+  height: 16px;
+  background-color: #2155CF;
+  border-radius: 50%;
+  position: relative;
+}
+
+section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__dot::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 25%;
+  left: 25%;
+  border-radius: 50%;
+  background-color: #F3F4F5;
+}
+
 section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__text {
+  flex-shrink: 10;
   font-size: 1.2rem;
   line-height: 1.3rem;
   font-weight: 600;
@@ -1457,6 +1479,10 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
     line-height: 1.5rem;
   }
 
+  .banner-section {
+    padding-top: 60px;
+  }
+
   .banner-section .container .banner {
     display: flex;
     flex-direction: row;
@@ -1509,6 +1535,7 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
   .review-section .reviews .reviews-title {
     width: 100%;
     text-align: center;
+    padding-right: 0;
   }
 
   .swiper {
@@ -1546,6 +1573,15 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
 
   .slider-section .sliders__wrapper .sliders .slide {
     padding: 40px 35px 37px 45px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown {
+    padding-left: 20px;
+    padding-right: 16px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open .question__description__container {
+    padding: 34px 16px 40px 20px;
   }
 }
 
@@ -1630,9 +1666,148 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
     color: #001237;
   }
 
+  .review-section {
+    padding-top: 50px;
+  }
+
+  .review-section .reviews .reviews-title {
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
   .rewies-slider_navigation {
     left: auto;
     bottom: 0;
     right: 16px;
+  }
+
+  section.questions-section .container {
+    overflow: visible;
+  }
+
+  section.questions-section .container .questions-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 30px 15px 20px 15px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-section__title.section-title {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__title {
+    font-size: 1rem;
+    color: #1A1B20;
+    letter-spacing: 0.02em;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #D7E1E9;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    background-color: #2155CF;
+    transform: rotate(45deg);
+    right: 11px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question-dropdown .question-dropdown__btn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    background-color: #2155CF;
+    transform: rotate(-45deg);
+    left: 11px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container {
+    font-family: "Proxima Nova Regular", sans-serif;
+    width: 90%;
+    height: 0;
+    display: none;
+    overflow-y: auto;
+    transition: all 8s ease-out 0.3s;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .question__description {
+    font-size: 0.88rem;
+    line-height: 1.2rem;
+    padding-bottom: 0;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item {
+    padding-top: 16px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__dot {
+    width: 9px;
+    height: 9px;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__dot::after {
+    display: none;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .question .question__description__container .description-item .description-item__text {
+    font-size: 0.94rem;
+    line-height: 1.1rem;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open {
+    background-color: #F8FBFE;
+    border-left: 0;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__title {
+    font-size: 1rem;
+    color: #2155CF;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn {
+    transform: rotate(180deg);
+    background-color: #2155CF;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn:before,
+  section.questions-section .container .questions-wrapper .questions-list .open .question-dropdown .question-dropdown__btn:after {
+    background-color: #F3F4F5;
+  }
+
+  section.questions-section .container .questions-wrapper .questions-list .open .question__description__container {
+    display: block;
+    height: auto;
+    padding: 24px 16px 18px 16px;
   }
 }

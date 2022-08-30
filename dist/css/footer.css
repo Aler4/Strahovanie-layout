@@ -4,6 +4,7 @@
   flex-direction: column;
   flex-flow: wrap;
   align-items: center;
+  justify-content: center;
   background-color: #F1F8FE;
   overflow: hidden;
 }

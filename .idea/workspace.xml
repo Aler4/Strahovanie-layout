@@ -11,19 +11,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ts/rewiew-slider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/tourism-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/tourism.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/about.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/banner.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/banner.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contacts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/footer.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/footer.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/questions-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/questions-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/about/description-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/about/description-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/about/types-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/about/types-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/banner-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/questions-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/questions-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/review-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/review-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/swiper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg/papers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg/papers.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg/papers.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg/papers_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg/papers_big.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg/papers_big.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons/Star.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons/Vector(1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons/mail-icon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons/phone-icon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/about-desc__img-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/about-desc__img-small.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/about-desc__img-small.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/about-desc__img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/about-desc__img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/about-desc__img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/card-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/card-avatar.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/card-avatar.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/crashCar_1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/crashCar_2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/crashCar_3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/crashCar_4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/crashCar_4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/document1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/document1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/document1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/document2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img/document2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img/document2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo/art-logo.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/images.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/titles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/slider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/slider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about/description-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/description-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about/types-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/types-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/banner-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/questions-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/questions-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/review-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/review-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/swiper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg/papers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg/papers_big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/about-desc__img-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/about-desc__img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/card-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/crashCar_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/crashCar_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/crashCar_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/crashCar_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/document1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/img/document2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/questions-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/questions-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/reviews-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/reviews-section.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +227,8 @@
       <workItem from="1661456528034" duration="6392000" />
       <workItem from="1661533498015" duration="8976000" />
       <workItem from="1661619285650" duration="5095000" />
+      <workItem from="1661789693034" duration="11208000" />
+      <workItem from="1661883524956" duration="4704000" />
     </task>
     <servers />
   </component>
@@ -175,11 +248,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1659457877709">
+    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661794329439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1656868741191" />
-    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1659457877709" />
+    <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1661794329439" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1660645442972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -192,18 +265,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1661335357733" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1661796292469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661796292469" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1661630766160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1657910547572" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661540757542" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661630766160" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1661376354334">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1661884529453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661376354334" />
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1660646843108" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1661884529453" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1661541107228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

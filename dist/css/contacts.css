@@ -128,7 +128,7 @@
 }
 
 .banner-section {
-  padding-top: 60px;
+  padding-top: 26px;
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
@@ -259,6 +259,10 @@
 }
 
 @media (min-width: 970px) {
+  .banner-section {
+    padding-top: 60px;
+  }
+
   .banner-section .container .banner {
     display: flex;
     flex-direction: row;
