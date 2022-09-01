@@ -18,7 +18,6 @@ export const scss = () => {
             overriderBrowserslist: ["last 3 version"],
             cascade: true,
         }))
-        //Расскоментировать если нужен не сжатій дубль файл стилей
         .pipe(app.gulp.dest(app.path.build.css))
         .pipe(cleanCss())
         .pipe(rename({

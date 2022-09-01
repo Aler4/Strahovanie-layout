@@ -44,7 +44,7 @@ section.questions-section .container .questions-wrapper .questions-list .questio
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #ffff;
+  background-color: white;
   width: 32px;
   height: 32px;
   border: 1px solid #D7E1E9;
@@ -210,7 +210,7 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #ffff;
+    background-color: white;
     width: 32px;
     height: 32px;
     border: 1px solid #D7E1E9;

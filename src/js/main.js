@@ -3,7 +3,7 @@ import {addBurger} from "./modules/burger.js";
 import {changeText} from "./modules/banner.js";
 import {Slider} from "./modules/slider.js";
 import {createReviewSlider} from  './modules/rewiew-slider.js'
-import { dropdown } from './modules/dropdown.js';
+import {dropdown} from './modules/dropdown.js';
 
 window.onload = (function() {
     if (document.querySelector('.questions-list')){

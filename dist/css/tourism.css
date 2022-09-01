@@ -1,3 +1,153 @@
+section.form-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.form-section .container .tourism-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-emplate-rows: repeat(4, auto);
+  justify-items: center;
+  grid-template-areas: "A A" "B C" "D D" "E E";
+  background: #FFFFFF;
+  box-shadow: 0px 4px 32px rgba(123, 139, 181, 0.2);
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+
+section.form-section .container .tourism-form .tourism-form__title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: A;
+  padding-bottom: 40px;
+}
+
+section.form-section .container .tourism-form .tourism-inp__container {
+  display: flex;
+  flex-direction: column;
+}
+
+section.form-section .container .tourism-form .inp {
+  height: 46px;
+  background: #FFFFFF;
+  border: 1px solid #D7E1E9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+section.form-section .container .tourism-form .inp-title {
+  font-family: "Proxima Nova Bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #001237;
+  padding-bottom: 6px;
+}
+
+section.form-section .container .tourism-form .tourism-inp__container {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: B;
+}
+
+section.form-section .container .tourism-form .tourism-inp__container .tourism__direction-inp {
+  width: 554px;
+}
+
+section.form-section .container .tourism-form .dates-inp__container {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: C;
+}
+
+section.form-section .container .tourism-form .dates-inp__container .date-notes {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-bottom: 6px;
+}
+
+section.form-section .container .tourism-form .dates-inp__container .date-inp__title {
+  padding-left: 30px;
+  padding-right: 8px;
+}
+
+section.form-section .container .tourism-form .dates-inp__container .date-from__inp,
+section.form-section .container .tourism-form .dates-inp__container .date-until__inp {
+  width: 174px;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+section.form-section .container .tourism-form .tourists-list {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: D;
+  width: 100%;
+}
+
+section.form-section .container .tourism-form .tourists-list .tourists-list__title {
+  text-align: center;
+  font-family: "Proxima Nova Bold", san-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  color: #001237;
+  padding: 32px 0 24px 0;
+}
+
+section.form-section .container .tourism-form .tourists-list .tourist-data__card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px 30px 32px 30px;
+  background: #F8FBFE;
+  border: 1px dashed #DEE5EC;
+  border-radius: 12px;
+}
+
+section.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
+  width: 100%;
+  font-size: 0.9rem;
+  font-family: "Proxima Nova Bold", san-serif;
+  line-height: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  color: #94A1AF;
+}
+
+section.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
+  width: 200px;
+}
+
+section.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
+  width: 721px;
+}
+
+section.form-section .container .tourism-form .form__btns {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: E;
+}
+
+section.form-section .container .tourism-form .arrow__close::-webkit-calendar-picker-indicator {
+  background-image: url("../img/icons/arrow.svg");
+}
+
+section.form-section .container .tourism-form .arrow__open::-webkit-calendar-picker-indicator {
+  background-image: url("../img/icons/arrow.svg");
+  transform: rotate(180deg);
+}
+
 .banner-section {
   padding-top: 26px;
   padding-bottom: 50px;
@@ -182,8 +332,8 @@
   align-items: center;
   font-family: "Proxima Nova Regular", sans-serif;
   font-size: 1.5rem;
-  color: #ffff;
-  background-color: #c0c2c3;
+  color: white;
+  background-color: rgb(192, 194, 195);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -194,7 +344,7 @@
 
 .slider-section .sliders__wrapper .slider-range .slider-step:hover {
   color: #2155CF;
-  background-color: #ffff;
+  background-color: white;
   transition: 0.3s;
 }
 
@@ -209,14 +359,14 @@
 }
 
 .slider-section .sliders__wrapper .slider-range .active {
-  background-color: #4268b2;
+  background-color: rgb(66, 104, 178);
   box-shadow: 0px 0px 0px 6px rgba(66, 104, 178, 0.15);
   transition: 0.4s;
 }
 
 .slider-section .sliders__wrapper .slider-range .active:hover {
-  background-color: #4268b2;
-  color: #ffff;
+  background-color: rgb(66, 104, 178);
+  color: white;
 }
 
 .slider-section .sliders__wrapper .slider-range .active .slider-step__title {
@@ -378,7 +528,7 @@
   margin-right: auto;
   position: revert;
   overflow: hidden;
-  background-color: #ffff;
+  background-color: white;
   list-style: none;
   z-index: 1;
 }
@@ -510,13 +660,11 @@
 }
 
 .swiper-horizontal.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .swiper-vertical.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .swiper-centered > .swiper-wrapper::before {
@@ -597,7 +745,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #2155CF;
-  color: #ffff;
+  color: white;
 }
 
 .swiper-button-prev:hover,
@@ -1207,7 +1355,7 @@ section.questions-section .container .questions-wrapper .questions-list .questio
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #ffff;
+  background-color: white;
   width: 32px;
   height: 32px;
   border: 1px solid #D7E1E9;
@@ -1526,7 +1674,7 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #ffff;
+    background-color: white;
     width: 32px;
     height: 32px;
     border: 1px solid #D7E1E9;

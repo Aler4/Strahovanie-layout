@@ -70,7 +70,7 @@
 .contacts-section .container .contacts-form .form-btn_submit {
   width: 333px;
   height: 60px;
-  color: #ffff;
+  color: white;
   background-color: #FF9504;
   border-radius: 50px;
   letter-spacing: 0.08em;
@@ -95,7 +95,7 @@
   height: 465px;
   padding: 64px 0 54px 64px;
   border-radius: 12px;
-  color: #ffff;
+  color: white;
   background-color: #353D52;
 }
 
@@ -408,7 +408,7 @@
   .contacts-section .container .contacts-form .form-btn_submit {
     width: 333px;
     height: 60px;
-    color: #ffff;
+    color: white;
     background-color: #FF9504;
     border-radius: 50px;
     letter-spacing: 0.08em;

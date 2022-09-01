@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourism</title>
-  <link rel="stylesheet" href="../css/reset.min.css?_v=20220830231557" />
-  <link rel="stylesheet" href="../css/about.min.css?_v=20220830231557" />
-  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220830231557" />
-  <link rel="stylesheet" href="../css/main.min.css?_v=20220830231557"/>
+  <link rel="stylesheet" href="../css/reset.min.css?_v=20220901220350" />
+  <link rel="stylesheet" href="../css/tourism.min.css?_v=20220901220350" />
+  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220901220350" />
+  <link rel="stylesheet" href="../css/main.min.css?_v=20220901220350"/>
 
-  <script type="module" defer src="../js/main.min.js?_v=20220830231557"></script>
+  <script type="module" defer src="../js/main.min.js?_v=20220901220350"></script>
 </head>
 <body>
 
@@ -47,9 +47,9 @@
       <legend class="tourism-form__title section-title">
         Туристическое страхование
       </legend>
-      <div class="tourism-direction-inp__container">
-        <label class="inp-title" for="direction"></label>
-        <input class="tourism__direction-inp" type="text" id="direction">
+      <div class="tourism-inp__container">
+        <label class="inp-title" for="direction">Направление поездки</label>
+        <input class="tourism__direction-inp inp" type="text" id="direction" />
           <p class="direction-examples">
             <span class="direction-example__title">Например</span>
             <span class="direction-example">Шенгенская зона(Европа)</span>
@@ -65,29 +65,41 @@
           <span class="dates__period">
             11 дней
           </span>
-          <label class="date-inp__title" for="from">От</label>
-          <input type="date" class="tourism__dates-from" id="from">
-          <label class="date-inp__title" for="until">До</label>
-          <input type="date" class="tourism__dates-until" id="until">
         </div>
+
+          <label class="date-inp__title" for="from">От</label>
+          <input type="date" class="date-from__inp inp arrow__open" id="from" />
+          <label class="date-inp__title" for="until">До</label>
+          <input type="date" class="date-until__inp inp arrow__close" id="until" />
       </div>
-      <h3 class="tourist-data_title">
-        Данные о туристах
-      </h3>
+
       <div class="tourists-list">
+        <h3 class="tourists-list__title">
+          Данные о туристах
+        </h3>
         <div class="tourist-data__card">
           <h3 class="tourist-data__card-title">Турист 1</h3>
-          <label class="inp-title" for="birth">Дата рождения</label>
-          <input type="date" class="tourist__birth-inp" id="birth">
-          <label class="inp-title" for="purpose">Цель поездки</label>
-          <input type="date" class="tourist__purpose-inp" id="purpose">
+          <div class="tourism-inp__container">
+              <label class="inp-title" for="birth">Дата рождения</label>
+              <input type="date"  class="tourist__birth-inp inp arrow__close" id="birth" />
+          </div>
+          <div class="tourism-inp__container">
+            <label class="inp-title" for="purpose">Цель поездки</label>
+            <select class="tourist__purpose-inp inp" id="purpose">
+              <option value=""> Посещение родственников</option>
+              <option value=""> Посещение родственников 3</option>
+              <option value=""> Посещение родственников 3</option>
+            </select>
+          </div>
         </div>
       </div>
-      <button class="add-tourist__btn">
-        <span class="add-tourist__btn-icon">+</span>
-        Добавить туриста
-      </button>
-      <input type="submit" class="tourism-form__inp-submit" value="От 1296 грн - смотреть полисы">
+      <div class="form__btns">
+        <button class="add-tourist__btn">
+          <span class="add-tourist__btn-icon">+</span>
+          Добавить туриста
+        </button>
+        <input type="submit" class="tourism-form__inp-submit" value="От 1296 грн - смотреть полисы" />
+      </div>
     </form>
   </div>
 </section>
@@ -165,7 +177,6 @@
       </div>
   </div>
 </section>
-  @@include("../html/forms/
   <section class="review-section">
   <div class="container big">
     <div class="reviews">

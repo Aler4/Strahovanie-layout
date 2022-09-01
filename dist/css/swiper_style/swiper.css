@@ -17,7 +17,7 @@
   margin-right: auto;
   position: revert;
   overflow: hidden;
-  background-color: #ffff;
+  background-color: white;
   list-style: none;
   z-index: 1;
 }
@@ -149,13 +149,11 @@
 }
 
 .swiper-horizontal.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .swiper-vertical.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .swiper-centered > .swiper-wrapper::before {
@@ -236,7 +234,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #2155CF;
-  color: #ffff;
+  color: white;
 }
 
 .swiper-button-prev:hover,

@@ -88,7 +88,7 @@
 
 .types-section .types .types-cards .types-card .types-card__title {
   position: absolute;
-  color: #ffff;
+  color: white;
   font-size: 1.25rem;
   font-family: "Proxima Nova Regular", sans-serif;
   width: 100%;
@@ -300,8 +300,8 @@
   align-items: center;
   font-family: "Proxima Nova Regular", sans-serif;
   font-size: 1.5rem;
-  color: #ffff;
-  background-color: #c0c2c3;
+  color: white;
+  background-color: rgb(192, 194, 195);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -312,7 +312,7 @@
 
 .slider-section .sliders__wrapper .slider-range .slider-step:hover {
   color: #2155CF;
-  background-color: #ffff;
+  background-color: white;
   transition: 0.3s;
 }
 
@@ -327,14 +327,14 @@
 }
 
 .slider-section .sliders__wrapper .slider-range .active {
-  background-color: #4268b2;
+  background-color: rgb(66, 104, 178);
   box-shadow: 0px 0px 0px 6px rgba(66, 104, 178, 0.15);
   transition: 0.4s;
 }
 
 .slider-section .sliders__wrapper .slider-range .active:hover {
-  background-color: #4268b2;
-  color: #ffff;
+  background-color: rgb(66, 104, 178);
+  color: white;
 }
 
 .slider-section .sliders__wrapper .slider-range .active .slider-step__title {
@@ -496,7 +496,7 @@
   margin-right: auto;
   position: revert;
   overflow: hidden;
-  background-color: #ffff;
+  background-color: white;
   list-style: none;
   z-index: 1;
 }
@@ -628,13 +628,11 @@
 }
 
 .swiper-horizontal.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .swiper-vertical.swiper-css-mode > .swiper-wrapper {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .swiper-centered > .swiper-wrapper::before {
@@ -715,7 +713,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: #2155CF;
-  color: #ffff;
+  color: white;
 }
 
 .swiper-button-prev:hover,
@@ -1325,7 +1323,7 @@ section.questions-section .container .questions-wrapper .questions-list .questio
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #ffff;
+  background-color: white;
   width: 32px;
   height: 32px;
   border: 1px solid #D7E1E9;
@@ -1719,7 +1717,7 @@ section.questions-section .container .questions-wrapper .questions-list .open .q
     position: relative;
     display: flex;
     align-items: center;
-    background-color: #ffff;
+    background-color: white;
     width: 32px;
     height: 32px;
     border: 1px solid #D7E1E9;
