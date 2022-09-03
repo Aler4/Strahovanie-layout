@@ -11,43 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/input-date.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/about.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/about_style/description-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/description-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/about_style/types-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/types-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/about_style/types-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/types-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/header.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/header.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/navigation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/navigation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/filter.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/filter.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/list.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/list.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/offers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offers.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/questions-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/questions-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/questions-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/reviews-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reviews-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/slider.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/swiper_style/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/swiper_style/swiper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/swiper_style/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/swiper_style/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/tourism.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/tourism.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/forms/tourismForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/forms/tourismForm-section.html" afterDir="false" />
@@ -58,18 +25,12 @@
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/tourism-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/tourism-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/scss.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/rewiew-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/rewiew-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tourism-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tourism-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/tourism.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/tourism.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +76,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
-    <property name="ts.external.directory.path" value="C:\Aler4_Study\Artjoker\verstka\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Aler4\Strahovanie-layout\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -211,7 +172,9 @@
       <workItem from="1661883524956" duration="4704000" />
       <workItem from="1661982817721" duration="458000" />
       <workItem from="1662022123104" duration="15893000" />
-      <workItem from="1662051970978" duration="7433000" />
+      <workItem from="1662051970978" duration="7496000" />
+      <workItem from="1662110741597" duration="12604000" />
+      <workItem from="1662229312527" duration="8123000" />
     </task>
     <servers />
   </component>
@@ -253,13 +216,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661796292469" />
-    <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1662033507685">
+    <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1662152147618">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1657910547572" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661540757542" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661630766160" />
-    <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1662033507685" />
+    <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1662152147618" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1661884529453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

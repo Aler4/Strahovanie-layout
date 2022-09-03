@@ -1,18 +1,40 @@
-section.form-section {
+section.form-section .container {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 section.form-section .container .tourism-form {
   display: grid;
+  font-family: "Proxima Nova Bold", sans-serif;
   grid-template-columns: auto auto;
-  grid-emplate-rows: repeat(4, auto);
+  grid-auto-right: 4;
   justify-items: center;
   grid-template-areas: "A A" "B C" "D D" "E E";
   background: #FFFFFF;
-  box-shadow: 0px 4px 32px rgba(123, 139, 181, 0.2);
+  box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
   border-radius: 10px;
   padding: 50px 30px;
+}
+
+section.form-section .container .tourism-form input[type=date] {
+  position: relative;
+}
+
+section.form-section .container .tourism-form input[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+section.form-section .container .tourism-form input[type=date]::-webkit-inner-spin-button,
+section.form-section .container .tourism-form input[type=date]::-webkit-clear-button {
+  z-index: 1;
 }
 
 section.form-section .container .tourism-form .tourism-form__title {
@@ -39,7 +61,6 @@ section.form-section .container .tourism-form .inp {
 }
 
 section.form-section .container .tourism-form .inp-title {
-  font-family: "Proxima Nova Bold";
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -58,10 +79,32 @@ section.form-section .container .tourism-form .tourism-inp__container .tourism__
   width: 554px;
 }
 
+section.form-section .container .tourism-form .tourism-inp__container .direction-examples {
+  font-family: "Proxima Nova Bold", sans-serif;
+}
+
+section.form-section .container .tourism-form .tourism-inp__container .direction-examples .direction-example__title {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #8D94A4;
+}
+
+section.form-section .container .tourism-form .tourism-inp__container .direction-examples .direction-example {
+  font-size: 0.8rem;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2155CF;
+}
+
 section.form-section .container .tourism-form .dates-inp__container {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: C;
+}
+
+section.form-section .container .tourism-form .dates-inp__container .tourism-inp__container {
+  display: flex;
+  flex-direction: row;
 }
 
 section.form-section .container .tourism-form .dates-inp__container .date-notes {
@@ -71,9 +114,17 @@ section.form-section .container .tourism-form .dates-inp__container .date-notes 
   padding-bottom: 6px;
 }
 
+section.form-section .container .tourism-form .dates-inp__container .date-notes .dates__period {
+  font-size: 0.8rem;
+  color: #2155CF;
+}
+
 section.form-section .container .tourism-form .dates-inp__container .date-inp__title {
   padding-left: 30px;
   padding-right: 8px;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #8D94A4;
 }
 
 section.form-section .container .tourism-form .dates-inp__container .date-from__inp,
@@ -93,7 +144,6 @@ section.form-section .container .tourism-form .tourists-list {
 
 section.form-section .container .tourism-form .tourists-list .tourists-list__title {
   text-align: center;
-  font-family: "Proxima Nova Bold", san-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -116,7 +166,6 @@ section.form-section .container .tourism-form .tourists-list .tourist-data__card
 section.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
   width: 100%;
   font-size: 0.9rem;
-  font-family: "Proxima Nova Bold", san-serif;
   line-height: 1rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -137,14 +186,79 @@ section.form-section .container .tourism-form .form__btns {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: E;
+  padding-top: 32px;
 }
 
-section.form-section .container .tourism-form .arrow__close::-webkit-calendar-picker-indicator {
-  background-image: url("../img/icons/arrow.svg");
+section.form-section .container .tourism-form .form__btns .add-tourist__btn {
+  display: flex;
+  justify-content: space-between;
+  width: 171px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-section.form-section .container .tourism-form .arrow__open::-webkit-calendar-picker-indicator {
-  background-image: url("../img/icons/arrow.svg");
+section.form-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #2155cf;
+  font-family: serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.form-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-text {
+  font-size: 0.85rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: #001237;
+}
+
+section.form-section .container .tourism-form .form__btns .add-tourist__btn:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+section.form-section .container .tourism-form .form__btns .tourism-form__inp-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 410px;
+  height: 60px;
+  margin-top: 24px;
+  background: #FF9504;
+  border-radius: 50px;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+section.form-section .container .tourism-form .form__btns .tourism-form__inp-submit:hover {
+  background-color: #E28300;
+}
+
+section.form-section .container .tourism-form .arrow {
+  position: relative;
+}
+
+section.form-section .container .tourism-form .arrow:after {
+  content: url("../img/icons/arrow.svg");
+  position: absolute;
+  display: block;
+  right: 20px;
+}
+
+section.form-section .container .tourism-form .open:after {
   transform: rotate(180deg);
 }
 
@@ -280,7 +394,6 @@ section.form-section .container .tourism-form .arrow__open::-webkit-calendar-pic
 }
 
 .slider-section {
-  display: flex;
   display: flex;
   background-color: #F8FBFE;
   padding: 90px 0 60px 0;

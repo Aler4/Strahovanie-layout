@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourism</title>
-  <link rel="stylesheet" href="../css/reset.min.css?_v=20220901220350" />
-  <link rel="stylesheet" href="../css/tourism.min.css?_v=20220901220350" />
-  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220901220350" />
-  <link rel="stylesheet" href="../css/main.min.css?_v=20220901220350"/>
+  <link rel="stylesheet" href="../css/reset.min.css?_v=20220903235141" />
+  <link rel="stylesheet" href="../css/tourism.min.css?_v=20220903235141" />
+  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220903235141" />
+  <link rel="stylesheet" href="../css/main.min.css?_v=20220903235141"/>
 
-  <script type="module" defer src="../js/main.min.js?_v=20220901220350"></script>
+  <script type="module" defer src="../js/main.min.js?_v=20220903235141"></script>
 </head>
 <body>
 
@@ -66,11 +66,15 @@
             11 дней
           </span>
         </div>
-
-          <label class="date-inp__title" for="from">От</label>
-          <input type="date" class="date-from__inp inp arrow__open" id="from" />
+          <div class="tourism-inp__container">
+            <label class="date-inp__title" for="from">От</label>
+            <input type="date" class="date-from__inp inp arrow" id="from" name="date" />
+          </div>
+        <div class="tourism-inp__container">
           <label class="date-inp__title" for="until">До</label>
-          <input type="date" class="date-until__inp inp arrow__close" id="until" />
+          <input type="date" class="date-until__inp inp arrow" id="until" name="date" />
+        </div>
+
       </div>
 
       <div class="tourists-list">
@@ -81,7 +85,7 @@
           <h3 class="tourist-data__card-title">Турист 1</h3>
           <div class="tourism-inp__container">
               <label class="inp-title" for="birth">Дата рождения</label>
-              <input type="date"  class="tourist__birth-inp inp arrow__close" id="birth" />
+              <input type="date"  class="tourist__birth-inp inp arrow" onchange="this.classList.remove('open')" id="birth" name="date" />
           </div>
           <div class="tourism-inp__container">
             <label class="inp-title" for="purpose">Цель поездки</label>
@@ -96,7 +100,7 @@
       <div class="form__btns">
         <button class="add-tourist__btn">
           <span class="add-tourist__btn-icon">+</span>
-          Добавить туриста
+          <span class="add-tourist__btn-text">Добавить туриста</span>
         </button>
         <input type="submit" class="tourism-form__inp-submit" value="От 1296 грн - смотреть полисы" />
       </div>

@@ -1,11 +1,12 @@
 section.form-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
   .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     .tourism-form {
       display: grid;
+      font-family: 'Proxima Nova Bold',sans-serif;
       grid-template-columns: auto auto;
-      grid-emplate-rows: repeat(4, auto);
+      grid-auto-right: 4;
       justify-items: center;
       grid-template-areas:
               "A A"
@@ -13,9 +14,27 @@ section.form-section {
               "D D"
               "E E";
       background: #FFFFFF;
-      box-shadow: 0px 4px 32px rgba(123, 139, 181, 0.2);
+      box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
       border-radius: 10px;
       padding: 50px 30px;
+      input[type="date"] {
+        position: relative;
+      }
+      input[type="date"]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        color: transparent;
+        background: transparent;
+      }
+      input[type="date"]::-webkit-inner-spin-button,
+      input[type="date"]::-webkit-clear-button {
+        z-index: 1;
+      }
 
       .tourism-form__title {
         grid-area: A;
@@ -25,6 +44,10 @@ section.form-section {
         display: flex;
         flex-direction: column;
       }
+
+
+
+
       .inp {
         height: 46px;
         background: #FFFFFF;
@@ -35,7 +58,6 @@ section.form-section {
         padding-right: 20px;
       }
       .inp-title {
-        font-family: 'Proxima Nova Bold';
         font-style: normal;
         font-weight: 600;
         font-size: 1rem;
@@ -49,13 +71,25 @@ section.form-section {
           width: 554px;
         }
         .direction-examples {
-          .direction-example__title {}
-          .direction-example {}
-          .direction-example {}
+          font-family: 'Proxima Nova Bold',sans-serif;
+          .direction-example__title {
+            font-size: .9rem;
+            line-height: 1.3rem;
+            color: #8D94A4;
+          }
+          .direction-example {
+            font-size: .8rem;
+            text-decoration-line: underline;
+            color: #2155CF;
+          }
         }
       }
       .dates-inp__container {
         grid-area: C;
+        .tourism-inp__container {
+          display: flex;
+          flex-direction: row;
+        }
         .date-notes {
           display: flex;
           justify-content: space-between;
@@ -63,11 +97,16 @@ section.form-section {
           padding-bottom: 6px;
 
           .dates__period {
+            font-size: .8rem;
+            color: #2155CF;
           }
         }
         .date-inp__title {
           padding-left: 30px;
           padding-right: 8px;
+          font-size: .9rem;
+          line-height: 1.3rem;
+          color: #8D94A4;
         }
           .date-from__inp,
           .date-until__inp {
@@ -81,7 +120,6 @@ section.form-section {
         width: 100%;
         .tourists-list__title {
           text-align: center;
-          font-family: 'Proxima Nova Bold',san-serif ;
           font-style: normal;
           font-weight: 600;
           font-size: 1.4rem;
@@ -101,7 +139,6 @@ section.form-section {
           .tourist-data__card-title {
             width: 100%;
             font-size: .9rem;
-            font-family: 'Proxima Nova Bold',san-serif;
             line-height: 1rem;
             letter-spacing: 0.06em;
             text-transform: uppercase;
@@ -118,21 +155,74 @@ section.form-section {
       }
       .form__btns {
         grid-area: E;
-        button.add-tourist__btn {
-          .add-tourist__btn-icon {}
+        padding-top: 32px;
+        .add-tourist__btn {
+          display: flex;
+          justify-content: space-between;
+          width: 171px;
+          padding: 0;
+          margin: 0 auto;
+          background-color: #ffffff;
+          cursor: pointer;
+          transition: .3s;
+          .add-tourist__btn-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #2155cf;
+            font-family: serif;
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .add-tourist__btn-text {
+            font-size: .85rem;
+            line-height: 1rem;
+            font-weight: 400;
+            color: #001237;
+          }
+          &:hover {
+            transform: scale(1.2);
+            transition: .3s;
+
+          }
         }
-        .tourism-form__inp-submit {}
+        .tourism-form__inp-submit {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 410px;
+          height: 60px;
+          margin-top: 24px;
+          background: #FF9504;
+          border-radius: 50px;
+          font-size: 1rem;
+          line-height: 1rem;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          cursor: pointer;
+          &:hover {
+            background-color: #E28300;
+          }
+        }
       }
-      .arrow__close {
-        &::-webkit-calendar-picker-indicator {
-          background-image: url("../img/icons/arrow.svg");
+      .arrow {
+        position: relative;
+        &:after {
+          content: url("../img/icons/arrow.svg");
+          position: absolute;
+          display: block;
+          right: 20px;
         }
       }
-      .arrow__open {
-        &::-webkit-calendar-picker-indicator {
-          background-image: url("../img/icons/arrow.svg");
-          transform: rotate(180deg);
-        }
+        .open {
+          &:after {
+            transform: rotate(180deg);
+          }
       }
     }
   }
