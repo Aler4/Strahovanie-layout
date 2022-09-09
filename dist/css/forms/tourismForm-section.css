@@ -20,23 +20,6 @@ section.form-section .container .tourism-form input[type=date] {
   position: relative;
 }
 
-section.form-section .container .tourism-form input[type=date]::-webkit-calendar-picker-indicator {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  color: transparent;
-  background: transparent;
-}
-
-section.form-section .container .tourism-form input[type=date]::-webkit-inner-spin-button,
-section.form-section .container .tourism-form input[type=date]::-webkit-clear-button {
-  z-index: 1;
-}
-
 section.form-section .container .tourism-form .tourism-form__title {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -249,15 +232,10 @@ section.form-section .container .tourism-form .form__btns .tourism-form__inp-sub
 
 section.form-section .container .tourism-form .arrow {
   position: relative;
+  overflow: hidden;
+  background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px);
 }
 
-section.form-section .container .tourism-form .arrow:after {
-  content: url("../img/icons/arrow.svg");
-  position: absolute;
-  display: block;
-  right: 20px;
-}
-
-section.form-section .container .tourism-form .open:after {
-  transform: rotate(180deg);
+section.form-section .container .tourism-form .open {
+  background: url("../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
 }

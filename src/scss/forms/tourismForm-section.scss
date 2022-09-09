@@ -20,21 +20,6 @@ section.form-section {
       input[type="date"] {
         position: relative;
       }
-      input[type="date"]::-webkit-calendar-picker-indicator {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: auto;
-        height: auto;
-        color: transparent;
-        background: transparent;
-      }
-      input[type="date"]::-webkit-inner-spin-button,
-      input[type="date"]::-webkit-clear-button {
-        z-index: 1;
-      }
 
       .tourism-form__title {
         grid-area: A;
@@ -212,17 +197,25 @@ section.form-section {
       }
       .arrow {
         position: relative;
-        &:after {
-          content: url("../img/icons/arrow.svg");
-          position: absolute;
-          display: block;
-          right: 20px;
-        }
+        overflow: hidden;
+        background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px); 
+
+        // &:after {
+
+        //   // content: url("../img/icons/arrow.svg");
+        //   // position: absolute;
+        //   // right: 20px;
+        //   // padding: 0 8px;
+        //   // pointer-events: none;
+        //   // box-sizing: border-box;
+        // }
       }
         .open {
-          &:after {
-            transform: rotate(180deg);
-          }
+        background: url("../img/icons/arrow-up.svg") no-repeat calc(100% - 20px); 
+
+          // &:after {
+          //   transform: rotate(180deg);
+          // }
       }
     }
   }

@@ -3,15 +3,16 @@ export const inpBehavior = () => {
         let form = document.querySelector('form');
         form.addEventListener('click', (e) => {
             let inpts = form.querySelectorAll('.arrow');
+            inpts.forEach(el => {
+                if (el.classList.contains('open')) {
+                    el.classList.remove('open');
+                }
+            });
             if (e.target.classList.contains('arrow')) {
                 (e.target).classList.add('open');
-                // @ts-ignore
-                e.target.onchange = this.classList.remove('open');
-            }
-            else {
-                inpts.forEach(el => {
-                    if (el.classList.contains('open')) {
-                        el.classList.remove('open');
+                e.target.addEventListener('change', (e) => {
+                    if (e.target.classList.contains('open')) {
+                        e.target.classList.remove('open');
                     }
                 });
             }

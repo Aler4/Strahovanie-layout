@@ -26,7 +26,6 @@ button {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -61,7 +60,6 @@ button {
 
 .header {
   display: flex;
-  position: -webkit-sticky;
   position: sticky;
   z-index: 99999;
   justify-content: center;

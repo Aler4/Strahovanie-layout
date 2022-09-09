@@ -24,4 +24,4 @@ export const createReviewSlider: Function = ():void => {
             prevEl: '.swiper-button-prev',
         },
     });
-}
+};
