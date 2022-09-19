@@ -12,7 +12,7 @@ export const inpBehavior: Function = (): any => {
 
             if((e.target as Element).classList.contains('arrow')){
               ((e.target) as Element).classList.add('open');
-                (e.target as HTMLInputElement).addEventListener('change', (e)=> {
+                (e.target as HTMLInputElement).addEventListener('input', (e)=> {
                   if((e.target as Element).classList.contains('open')){
                     (e.target as Element).classList.remove('open')
                   }

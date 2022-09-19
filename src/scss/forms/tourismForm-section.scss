@@ -29,27 +29,6 @@ section.form-section {
         display: flex;
         flex-direction: column;
       }
-
-
-
-
-      .inp {
-        height: 46px;
-        background: #FFFFFF;
-        border: 1px solid #D7E1E9;
-        border-radius: 6px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        padding-right: 20px;
-      }
-      .inp-title {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1rem;
-        line-height: 1.6rem;
-        color: #001237;
-        padding-bottom: 6px;
-      }
       .tourism-inp__container {
         grid-area: B;
         .tourism__direction-inp {
@@ -198,7 +177,8 @@ section.form-section {
       .arrow {
         position: relative;
         overflow: hidden;
-        background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px); 
+        background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+        cursor: pointer;
 
         // &:after {
 
@@ -220,3 +200,4 @@ section.form-section {
     }
   }
 }
+@import '../plugins/air-datepicker';

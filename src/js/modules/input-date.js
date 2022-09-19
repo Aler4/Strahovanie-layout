@@ -10,7 +10,7 @@ export const inpBehavior = () => {
             });
             if (e.target.classList.contains('arrow')) {
                 (e.target).classList.add('open');
-                e.target.addEventListener('change', (e) => {
+                e.target.addEventListener('input', (e) => {
                     if (e.target.classList.contains('open')) {
                         e.target.classList.remove('open');
                     }

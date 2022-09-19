@@ -64,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/plugins" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,19 +80,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\js\modules" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\home\alerch\Dev\Strahovanie-layout\src\scss\plugins" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss\swiper_style" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\home\alerch\Dev\Strahovanie-layout\src\scss\plugins" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\js\modules" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -175,6 +175,7 @@
       <workItem from="1662051970978" duration="7496000" />
       <workItem from="1662110741597" duration="12604000" />
       <workItem from="1662229312527" duration="8123000" />
+      <workItem from="1662914629923" duration="1443000" />
     </task>
     <servers />
   </component>
@@ -212,10 +213,11 @@
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1661335357733" />
     <state x="184" y="8" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1662028789777" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1661796292469">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="161" y="121" width="1113" height="554" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1662915583993">
+      <screen x="74" y="27" width="1286" height="741" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661796292469" />
+    <state x="161" y="121" width="1113" height="554" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/74.27.1286.741@74.27.1286.741" timestamp="1662915583993" />
     <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1662152147618">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
