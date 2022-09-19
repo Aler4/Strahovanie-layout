@@ -1,4 +1,5 @@
 section.form-section {
+  display: flex;
   .container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -6,7 +7,7 @@ section.form-section {
       display: grid;
       font-family: 'Proxima Nova Bold',sans-serif;
       grid-template-columns: auto auto;
-      grid-auto-right: 4;
+      grid-auto-row: 4;
       justify-items: center;
       grid-template-areas:
               "A A"
@@ -17,13 +18,12 @@ section.form-section {
       box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
       border-radius: 10px;
       padding: 50px 30px;
-      input[type="date"] {
-        position: relative;
-      }
+      width: 1072px;
 
       .tourism-form__title {
         grid-area: A;
         padding-bottom: 40px;
+        text-align: center;
       }
       .tourism-inp__container {
         display: flex;
@@ -36,6 +36,7 @@ section.form-section {
         }
         .direction-examples {
           font-family: 'Proxima Nova Bold',sans-serif;
+          padding-top: 12px;
           .direction-example__title {
             font-size: .9rem;
             line-height: 1.3rem;
@@ -50,15 +51,25 @@ section.form-section {
       }
       .dates-inp__container {
         grid-area: C;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: flex-start;
+        justify-content: space-between;
+        padding-left: 30px;
+        
         .tourism-inp__container {
           display: flex;
           flex-direction: row;
+          width: fit-content;
+          align-items: center;
         }
         .date-notes {
           display: flex;
           justify-content: space-between;
-          padding-left: 30px;
-          padding-bottom: 6px;
+          width: 100%;
 
           .dates__period {
             font-size: .8rem;
@@ -66,7 +77,6 @@ section.form-section {
           }
         }
         .date-inp__title {
-          padding-left: 30px;
           padding-right: 8px;
           font-size: .9rem;
           line-height: 1.3rem;
@@ -179,24 +189,100 @@ section.form-section {
         overflow: hidden;
         background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px);
         cursor: pointer;
-
-        // &:after {
-
-        //   // content: url("../img/icons/arrow.svg");
-        //   // position: absolute;
-        //   // right: 20px;
-        //   // padding: 0 8px;
-        //   // pointer-events: none;
-        //   // box-sizing: border-box;
-        // }
       }
         .open {
         background: url("../img/icons/arrow-up.svg") no-repeat calc(100% - 20px); 
-
-          // &:after {
-          //   transform: rotate(180deg);
-          // }
       }
+    }
+  }
+  @media (max-width: 1140px) {
+    .container {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      .tourism-form {
+        grid-auto-row: 5;
+        grid-template-areas:
+                          "A A"
+                          "B B"
+                          "C C"
+                          "D D"
+                          "E E";
+        padding: 30px 15px;
+  
+        .dates-inp__container {
+          padding-top: 25px;
+          
+          .date-from__inp,
+          .date-until__inp {
+            width: 200px;
+          }
+        }
+        .tourists-list {
+          .tourist-data__card {
+            .tourist__birth-inp {
+              width: 200px;
+            }
+
+            .tourist__purpose-inp {
+            width: 521px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+    width: 100%;
+    .tourism-form {
+      padding: 25px 15px;
+      overflow: hidden;
+
+      .tourism-inp__container {
+        width: 100%;
+        .tourism__direction-inp {
+          width: 100%;
+        }
+      }
+      
+      .dates-inp__container {
+        padding-top: 25px;
+        padding-left: 0;
+
+        .tourism-inp__container {
+          flex-direction:column;
+          align-items: start;
+        }
+
+          .date-from__inp,
+          .date-until__inp {
+            width: 156px;
+        }
+      }
+      .tourists-list {
+        width: 110%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        .tourist-data__card {
+          border-radius: 0;
+          padding: 24px 15px 32px 15px;
+          .tourist__birth-inp {
+            width: 328px;
+          }
+
+          .tourist__purpose-inp {
+            width: 99%;
+          }
+        }
+      }
+      .form__btns {
+        padding-top: 24px;
+        .tourism-form__inp-submit {
+          width: 328px;
+        }    
+      }
+     }
     }
   }
 }
