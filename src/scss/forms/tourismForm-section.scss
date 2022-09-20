@@ -1,11 +1,12 @@
-section.form-section {
+.form-section {
   display: flex;
+  background-color: #F1F6FE;
   .container {
     padding-top: 50px;
     padding-bottom: 50px;
+  flex-direction: column;
     .tourism-form {
       display: grid;
-      font-family: 'Proxima Nova Bold',sans-serif;
       grid-template-columns: auto auto;
       grid-auto-row: 4;
       justify-items: center;
@@ -14,22 +15,14 @@ section.form-section {
               "B C"
               "D D"
               "E E";
-      background: #FFFFFF;
-      box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
-      border-radius: 10px;
+      
       padding: 50px 30px;
-      width: 1072px;
-
       .tourism-form__title {
         grid-area: A;
         padding-bottom: 40px;
         text-align: center;
       }
-      .tourism-inp__container {
-        display: flex;
-        flex-direction: column;
-      }
-      .tourism-inp__container {
+      .form-inp__container {
         grid-area: B;
         .tourism__direction-inp {
           width: 554px;
@@ -60,7 +53,7 @@ section.form-section {
         justify-content: space-between;
         padding-left: 30px;
         
-        .tourism-inp__container {
+        .form-inp__container {
           display: flex;
           flex-direction: row;
           width: fit-content;
@@ -164,34 +157,6 @@ section.form-section {
 
           }
         }
-        .tourism-form__inp-submit {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 410px;
-          height: 60px;
-          margin-top: 24px;
-          background: #FF9504;
-          border-radius: 50px;
-          font-size: 1rem;
-          line-height: 1rem;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
-          color: #FFFFFF;
-          cursor: pointer;
-          &:hover {
-            background-color: #E28300;
-          }
-        }
-      }
-      .arrow {
-        position: relative;
-        overflow: hidden;
-        background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px);
-        cursor: pointer;
-      }
-        .open {
-        background: url("../img/icons/arrow-up.svg") no-repeat calc(100% - 20px); 
       }
     }
   }
@@ -233,6 +198,45 @@ section.form-section {
   }
   @media (max-width: 768px) {
     .container {
+    // width: 100%;
+    .tourism-form {
+      padding: 25px 15px;
+
+      .form-inp__container {
+        width: 100%;
+        .tourism__direction-inp {
+          width: 100%;
+        }
+      }
+      
+      .dates-inp__container {
+        padding-top: 25px;
+        padding-left: 0;
+
+        .form-inp__container {
+          flex-direction:column;
+          align-items: start;
+        }
+
+      }
+      .tourists-list {
+        .tourist-data__card {
+          border-radius: 5px;
+          padding: 24px 15px 32px 15px;
+          .tourist__birth-inp {
+            width: 328px;
+          }
+
+          .tourist__purpose-inp {
+            width: 70%;
+          }
+        }
+      }
+     }
+    }
+  }
+  @media (max-width: 560px) {
+    .container {
     width: 100%;
     .tourism-form {
       padding: 25px 15px;
@@ -260,30 +264,37 @@ section.form-section {
         }
       }
       .tourists-list {
-        width: 110%;
+        width: calc(100% + 30px);
         overflow: hidden;
         display: flex;
         flex-direction: column;
         .tourist-data__card {
-          border-radius: 0;
-          padding: 24px 15px 32px 15px;
-          .tourist__birth-inp {
-            width: 328px;
-          }
 
-          .tourist__purpose-inp {
-            width: 99%;
+          border-radius: 0;
+          padding: 24px 15px 10px 15px;
+          .tourist-data__card-title {
+            padding-bottom: 11px;
           }
+          .form-inp__container {
+            padding-bottom: 24px;
+
+            .tourist__birth-inp {
+              width: 328px;
+            }
+
+            .tourist__purpose-inp {
+              width: 100%;
+            }
+          }
+          
         }
       }
       .form__btns {
-        padding-top: 24px;
-        .tourism-form__inp-submit {
-          width: 328px;
-        }    
+        padding-top: 24px;  
       }
      }
     }
   }
 }
 @import '../plugins/air-datepicker';
+@import'./forms_style.scss';

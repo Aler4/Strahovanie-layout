@@ -4,7 +4,7 @@
       <legend class="tourism-form__title section-title">
         Туристическое страхование
       </legend>
-      <div class="tourism-inp__container">
+      <div class="form-inp__container">
         <label class="inp-title" for="direction">Направление поездки</label>
         <input class="tourism__direction-inp inp" type="text" id="direction" />
           <p class="direction-examples">
@@ -23,13 +23,13 @@
             11 дней
           </span>
         </div>
-            <div class="tourism-inp__container">
+            <div class="form-inp__container">
               <label class="date-inp__title" for="from">От</label>
               <input type="text" class="date-from__inp inp arrow" id="from" name="date" readonly />
             </div>
             
       
-            <div class="tourism-inp__container">
+            <div class="form-inp__container">
             <label class="date-inp__title" for="until">До</label>
             <input type="text" class="date-until__inp inp arrow" id="until" name="date" readonly />
           </div>
@@ -41,11 +41,11 @@
         </h3>
         <div class="tourist-data__card">
           <h3 class="tourist-data__card-title">Турист 1</h3>
-          <div class="tourism-inp__container col_1">
+          <div class="form-inp__container col_1">
               <label class="inp-title" for="birth">Дата рождения</label>
               <input type="text"  class="tourist__birth-inp inp arrow" id="birth" name="date" readonly />
           </div>
-          <div class="tourism-inp__container col_2">
+          <div class="form-inp__container col_2">
             <label class="inp-title" for="purpose">Цель поездки</label>
             <select class="tourist__purpose-inp inp arrow" id="purpose">
               <option value=""> Посещение родственников</option>
@@ -60,8 +60,31 @@
           <span class="add-tourist__btn-icon">+</span>
           <span class="add-tourist__btn-text">Добавить туриста</span>
         </button>
-        <input type="submit" class="tourism-form__inp-submit" value="От 1296 грн - смотреть полисы" />
+        <input type="submit" class="form__inp-submit" value="От 1296 грн - смотреть полисы" />
       </div>
     </form>
+    <div class="another-list__container">
+      <h3 class="another-list__title">Другие виды страхования</h3>
+      <ul class="another-list">
+        <li class="another-list__item">
+          <a href="" class="another-list__link">
+            каско
+            <img class="link__icon" src="../img/icons/link-icon.svg" alt="link-icon">
+          </a>
+        </li>
+        <li class="another-list__item">
+          <a href="" class="another-list__link">
+            осаго
+            <img class="link__icon" src="../img/icons/link-icon.svg" alt="link-icon">
+          </a>
+        </li>
+        <li class="another-list__item">
+          <a href="" class="another-list__link">
+            Зеленая карта
+            <img  class="link__icon" src="../img/icons/link-icon.svg" alt="link-icon">
+          </a>
+        </li>
+      </ul>
+    </div>  
   </div>
 </section>

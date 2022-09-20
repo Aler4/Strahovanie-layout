@@ -2,8 +2,8 @@
 import {addBurger} from "./modules/burger.js";
 import {changeText} from "./modules/banner.js";
 import {Slider} from "./modules/slider.js";
-import {createReviewSlider} from  './modules/rewiew-slider.js'
-import {dropdown} from './modules/dropdown.js';
+import {createReviewSlider} from  "./modules/rewiew-slider.js";
+import {dropdown} from "./modules/dropdown.js";
 import {inpBehavior} from "./modules/input-date.js";
 import {createPicker} from "./modules/data-picker.js";
 

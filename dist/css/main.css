@@ -29,25 +29,6 @@ button {
   position: sticky;
 }
 
-.inp {
-  height: 46px;
-  background: #FFFFFF;
-  border: 1px solid #D7E1E9;
-  border-radius: 6px;
-  box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 20px;
-}
-
-.inp-title {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.6rem;
-  color: #001237;
-  padding-bottom: 6px;
-}
-
 .logo {
   display: flex;
   align-items: center;
