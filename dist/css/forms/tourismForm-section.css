@@ -1,6 +1,7 @@
 .form-section {
   display: flex;
   background-color: #F1F6FE;
+  justify-content: center;
 }
 
 .form-section .container {
@@ -16,6 +17,7 @@
   justify-items: center;
   grid-template-areas: "A A" "B C" "D D" "E E";
   padding: 50px 30px;
+  margin: 0 auto;
 }
 
 .form-section .container .tourism-form .tourism-form__title {
@@ -1059,6 +1061,7 @@ form .form__inp-submit {
   justify-content: center;
   width: 410px;
   height: 60px;
+  font-family: "Montserrat SemiBold", sans-serif;
   margin-top: 24px;
   background: #FF9504;
   border-radius: 50px;
@@ -1180,12 +1183,12 @@ form .open {
     padding: 24px 15px 32px 15px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
+  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__birth-inp {
     width: 328px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
-    width: 70%;
+  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__purpose-inp {
+    width: 328px;
   }
 }
 
@@ -1236,18 +1239,6 @@ form .open {
 
   .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
     padding-bottom: 11px;
-  }
-
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container {
-    padding-bottom: 24px;
-  }
-
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__birth-inp {
-    width: 328px;
-  }
-
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__purpose-inp {
-    width: 100%;
   }
 
   .form-section .container .tourism-form .form__btns {

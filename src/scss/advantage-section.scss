@@ -1,12 +1,17 @@
 .advantage-section {
+	display: flex;
+	justify-content: center;
 	padding-top: 45px;
+	padding-bottom: 10px;
 	background-color: #F1F6FE;
 	.container {
 		flex-direction: column;
-		margin: 0 auto;
-		text-align: center;
 		.section-title {
 			padding-bottom: 10px;
+			text-align: center;
+			@media (max-width: 560px) {
+				text-align: left;
+			}
 		}
 		.advantage-list {
 			display: flex;
@@ -14,30 +19,73 @@
 			padding: 50px 42px;
 			width: 100%;
 			.list-item {
-			display: flex;
-			align-items: center;
-			font-family: "Proxima Nova Regular",sans-serif;
-			font-weight: 600;
-			font-size: 1.2rem;
-			line-height: 1.2rem;
-			color: #1A1B20;
+				display: flex;
+				align-items: center;
+				font-family: "Montserrat Regular",sans-serif;
+				font-weight: 600;
+				font-size: 1.2rem;
+				line-height: 1.2rem;
+				color: #1A1B20;
 				.list-item___icon-container {
 					width: 80px;
 					height: 80px;
 					border: 1px solid #D7E1E9;
 					border-radius: 8px;
 					display:flex;
-    justify-content: center; /*центрируем элемент по горизонтали */
-    align-items: center; /* и вертикали */
-    overflow: hidden;
-					.list-item__icon {
-
-					}
+    			justify-content: center;
+    			align-items: center; 
+    			overflow: hidden;
 				}
 				.list-item__text {
 					padding-left: 15px;
 				}
+
+				@media  (max-width: 1200px){
+     			flex: 0 1 50%;
+     			padding-bottom: 30px;
+   			}
+
+   			@media(max-width: 768px){
+     			flex: 0 1 100%;
+     			.list-item__text {
+					padding-left: 0px;
+					}
+     			.list-item___icon-container {
+						width: fit-content;
+						height: auto;
+						border:0;
+						border-radius: 0;
+						line-height: 1rem;
+						.list-item__icon {
+							box-sizing: content-box;
+						}
+						.money-icon {
+							padding-right: 20px;
+					
+						}
+						.watch-icon {
+							padding-right: 24px;
+						}
+						.shield-icon {
+							padding-right: 25px;
+						}
+						.house-icon {
+							padding-right: 22px;
+						}
+					}
+   			}
 			}
+			@media  (max-width: 1200px){
+     		flex-wrap: wrap;
+        width: 80%;
+    		margin: 0 15%;
+   		}
+   		@media  (max-width: 768px){
+     		flex-wrap: wrap;
+        width: 100%;
+    		margin: 0;
+				padding: 40px 0 20px 0;
+   		}
 		}
 		.vary {
 			display: none;

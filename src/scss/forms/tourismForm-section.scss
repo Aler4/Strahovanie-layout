@@ -1,6 +1,7 @@
 .form-section {
   display: flex;
   background-color: #F1F6FE;
+  justify-content: center;
   .container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -15,8 +16,8 @@
               "B C"
               "D D"
               "E E";
-      
       padding: 50px 30px;
+      margin: 0 auto;
       .tourism-form__title {
         grid-area: A;
         padding-bottom: 40px;
@@ -198,7 +199,6 @@
   }
   @media (max-width: 768px) {
     .container {
-    // width: 100%;
     .tourism-form {
       padding: 25px 15px;
 
@@ -223,13 +223,16 @@
         .tourist-data__card {
           border-radius: 5px;
           padding: 24px 15px 32px 15px;
-          .tourist__birth-inp {
-            width: 328px;
-          }
+          .form-inp__container {
+            .tourist__birth-inp {
+              width: 328px;
+            }
 
-          .tourist__purpose-inp {
-            width: 70%;
-          }
+            .tourist__purpose-inp {
+              width: 328px;
+            }
+        }
+          
         }
       }
      }
@@ -274,17 +277,6 @@
           padding: 24px 15px 10px 15px;
           .tourist-data__card-title {
             padding-bottom: 11px;
-          }
-          .form-inp__container {
-            padding-bottom: 24px;
-
-            .tourist__birth-inp {
-              width: 328px;
-            }
-
-            .tourist__purpose-inp {
-              width: 100%;
-            }
           }
           
         }

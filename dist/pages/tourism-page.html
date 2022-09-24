@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tourism</title>
-  <link rel="stylesheet" href="../css/reset.min.css?_v=20220920222338" />
-  <link rel="stylesheet" href="../css/tourism.min.css?_v=20220920222338" />
-  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220920222338" />
-  <link rel="stylesheet" href="../css/main.min.css?_v=20220920222338"/>
+  <link rel="stylesheet" href="../css/reset.min.css?_v=20220924224719" />
+  <link rel="stylesheet" href="../css/tourism.min.css?_v=20220924224719" />
+  <link rel="stylesheet" href="../css/navigation.min.css?_v=20220924224719" />
+  <link rel="stylesheet" href="../css/main.min.css?_v=20220924224719"/>
 
-  <script type="module" defer src="../js/main.min.js?_v=20220920222338"></script>
+  <script type="module" defer src="../js/main.min.js?_v=20220924224719"></script>
 </head>
 <body>
 
@@ -84,11 +84,11 @@
         </h3>
         <div class="tourist-data__card">
           <h3 class="tourist-data__card-title">Турист 1</h3>
-          <div class="form-inp__container col_1">
+          <div class="form-inp__container">
               <label class="inp-title" for="birth">Дата рождения</label>
               <input type="text"  class="tourist__birth-inp inp arrow" id="birth" name="date" readonly />
           </div>
-          <div class="form-inp__container col_2">
+          <div class="form-inp__container">
             <label class="inp-title" for="purpose">Цель поездки</label>
             <select class="tourist__purpose-inp inp arrow" id="purpose">
               <option value=""> Посещение родственников</option>
@@ -136,58 +136,117 @@
 		<h2 class="section-title">Преимущества заказа полиса онлайн - экономия 10%</h2>
 			<div class="advantage-list">
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/money-icon.svg" alt="money">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="46px" height="46px" srcset='../img/icons/money-icon.svg'>
+          	<img class="list-item__icon money-icon" width="40px" height="40px"  src="../img/icons/money-icon.svg" alt="money">		
+        	</picture>	
 					<span class="list-item__text">Безопасность платежей</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/watch-icon.svg" alt="watch">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="32px" height="48px" srcset='../img/icons/watch-icon.svg'>
+						<img class="list-item__icon watch-icon" width="33px" height="40px" src="../img/icons/watch-icon.svg" alt="watch">			
+        	</picture>	
+					
 					<span class="list-item__text">Экономия времени</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/shield-icon.svg" alt="shield">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="35px" height="45px" srcset='../img/icons/shield-icon.svg'>
+						<img class="list-item__icon shield-icon" width="31px" height="40px"  src="../img/icons/shield-icon.svg" alt="shield">
+					</picture>	
 					<span class="list-item__text">Гарантия законности</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/house-icon.svg" alt="">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="37px" height="37px" srcset='../img/icons/house-icon.svg'>
+						<img class="list-item__icon house-icon" width="36px" height="36px" src="../img/icons/house-icon.svg" alt="">
+					</picture>	
 					<span class="list-item__text">Не выходя из дома</span>
 				</div>
 			</div>
 			<div class="advantage-list vary">
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/shield-icon.svg" alt="shield">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="35px" height="45px" srcset='../img/icons/shield-icon.svg'>
+						<img class="list-item__icon shield-icon" width="31px" height="40px"  src="../img/icons/shield-icon.svg" alt="shield">
+					</picture>	
 					<span class="list-item__text">Гарантия законности</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/house-icon.svg" alt="">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="37px" height="37px" srcset='../img/icons/house-icon.svg'>
+						<img class="list-item__icon house-icon" width="36px" height="36px" src="../img/icons/house-icon.svg" alt="">
+					</picture>	
 					<span class="list-item__text">Не выходя из дома</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/money-icon.svg" alt="money">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="46px" height="46px" srcset='../img/icons/money-icon.svg'>
+          	<img class="list-item__icon money-icon"  width="40px" height="40px"  src="../img/icons/money-icon.svg" alt="money">		
+        	</picture>	
 					<span class="list-item__text">Безопасность платежей</span>
 				</div>
 				<div class="list-item">
-					<div class="list-item___icon-container">
-						<img class="list-item__icon" class src="../img/icons/watch-icon.svg" alt="watch">
-					</div>
+					<picture class="list-item___icon-container">
+          	<source media="(min-width: 768px)" width="32px" height="48px" srcset='../img/icons/watch-icon.svg'>
+						<img class="list-item__icon watch-icon" width="33px" height="40px" src="../img/icons/watch-icon.svg" alt="watch">			
+        	</picture>	
+					
 					<span class="list-item__text">Экономия времени</span>
 				</div>
-				
 			</div>
 	</div>
+</section>
+  <section class="documents-section">
+  <div class="container big">
+    <h2 class="section-title">
+      Образцы документов
+    </h2>
+  
+    <div class="documents-filter__buttons">
+        <input type="radio" class="documents-filter__button" id="online" name="filter-btn" checked>
+        <label class="documents-filter__label" for="online">Онлайн полис</label>
+
+        <input type="radio" class="documents-filter__button" id="papper" name="filter-btn">
+        <label class="documents-filter__label" for="papper">Бумажный полис</label>
+      </div>
+
+    <div class="documents">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide document">
+          <picture class="document-img_container">
+            <source media="(min-width: 970px)" srcset='../img/img/document1.webp'>
+            <img src="../img/img/document1_small.webp" alt="" class="document-img">
+          </picture>
+        </div>
+        <div class="swiper-slide document">
+          <picture class="document-img_container">
+            <source media="(min-width: 970px)" srcset='../img/img/document2.webp'>
+            <img src="../img/img/document2_small.webp" alt="" class="document-img">
+          </picture>
+        </div>
+        <div class="swiper-slide document">
+          <picture class="document-img_container">
+            <source media="(min-width: 970px)" srcset='../img/img/document1.webp'>
+            <img src="../img/img/document1_small.webp" alt="" class="document-img">
+          </picture>
+        </div>
+        <div class="swiper-slide document">
+          <picture class="document-img_container">
+            <source media="(min-width: 970px)" srcset='../img/img/document2.webp'>
+            <img src="../img/img/document2_small.webp" alt="" class="document-img">
+          </picture>
+        </div>
+  
+      </div>
+      <div class="documents-slider_navigation">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+    </div>
+  </div>
 </section>
   <section class="slider-section">
   <div class="container">

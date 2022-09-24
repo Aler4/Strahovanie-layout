@@ -36,6 +36,7 @@ form .form__inp-submit {
   justify-content: center;
   width: 410px;
   height: 60px;
+  font-family: "Montserrat SemiBold", sans-serif;
   margin-top: 24px;
   background: #FF9504;
   border-radius: 50px;
