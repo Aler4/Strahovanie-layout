@@ -1497,7 +1497,7 @@ form .open {
   padding: 40px 10px 50px 20px;
   margin-left: auto;
   margin-right: auto;
-  position: revert;
+  position: relative;
   overflow: hidden;
   background-color: white;
   list-style: none;
@@ -1517,7 +1517,9 @@ form .open {
 .documents-section .container .documents .documents-slider_navigation {
   width: 100px;
   position: absolute;
-  left: 50%;
+  left: 36%;
+  bottom: 18px;
+  display: none;
 }
 
 .review-section {
@@ -3095,5 +3097,31 @@ button.swiper-pagination-bullet {
 
   .advantage-section .container .section-title {
     text-align: left;
+  }
+
+  .documents-section .container .documents-filter__buttons .documents-filter__label {
+    width: 164px;
+  }
+
+  .documents-section .container .documents-filter__buttons {
+    padding-top: 32px;
+  }
+
+  .documents-section .container .documents {
+    padding: 24px 10px 70px 10px;
+  }
+
+  .documents-section .container .documents .document {
+    width: 156px;
+    height: 154px;
+  }
+
+  .documents-section .container .documents .documents-slider_navigation {
+    display: flex;
+  }
+
+  .documents-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

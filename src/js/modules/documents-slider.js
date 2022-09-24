@@ -5,11 +5,11 @@ export const createDocumentsSlider = () => {
         modules: [Navigation],
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 30,
         breakpoints: {
-            560: {
-                slidesPerView: 2,
+            760: {
+                slidesPerView: 3,
                 spaceBetween: 30,
             },
             1140: {
