@@ -91,7 +91,8 @@
   .offer-filter-section .offer-filter {
     flex-flow: column;
     align-items: start;
-    padding-left: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 20px;
   }
 

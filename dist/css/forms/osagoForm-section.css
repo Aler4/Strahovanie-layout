@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+.osago-section {
+  display: flex;
+  background-color: #F1F6FE;
+  justify-content: center;
+}
+
+.osago-section .container {
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.osago-section .container .osago-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-row: 5;
+  justify-items: center;
+  grid-template-areas: "A A" "B B" "C C" "D D" "E E";
+  padding: 50px 30px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.osago-section .container .osago-form .osago__title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: A;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 50px;
+  grid-area: B;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__button {
+  display: none;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__button:checked + .osago-filter__label {
+  background: rgba(33, 85, 207, 0.09);
+  font-family: "Montserrat SemiBold", sans-serif;
+  color: #001237;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
+  display: flex;
+  justify-content: center;
+  width: 196px;
+  height: 46px;
+  align-items: center;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 1rem;
+  color: #7E8595;
+  border: 1px solid #D7E1E9;
+  float: left;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__label:hover {
+  color: #001237;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__label:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.osago-section .container .osago-form .form-inputs-row1,
+.osago-section .container .osago-form .form-inputs-row2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.osago-section .container .osago-form .form-inputs-row1 .form-inp__container,
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container {
+  width: 317px;
+  box-sizing: content-box;
+  padding-right: 30px;
+}
+
+.osago-section .container .osago-form .form-inputs-row1 .form-inp__container:last-child,
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container:last-child {
+  padding-right: 0;
+}
+
+.osago-section .container .osago-form .form-inputs-row2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: D;
+}
+
+.osago-section .container .osago-form .osago_btn {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: E;
+  margin: 0;
+}
+
+form {
+  font-family: "Proxima Nova Bold", sans-serif;
+  background: #FFFFFF;
+  box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
+  border-radius: 10px;
+  max-width: 1072px;
+}
+
+form .inp {
+  height: 46px;
+  background: #FFFFFF;
+  border: 1px solid #D7E1E9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+form .inp-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #001237;
+  padding-bottom: 6px;
+}
+
+form .form-inp__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form .form-inp__container .checkbox__container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-family: "Proxima Nova Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 17px;
+  color: #263238;
+  opacity: 0.7;
+  right: 30px;
+  top: 2px;
+}
+
+form .form-inp__container .checkbox__container .inp-checkbox {
+  display: none;
+}
+
+form .form-inp__container .checkbox__container .inp-checkbox:checked + .checkbox-title:before {
+  content: "✓";
+  background-color: #2155CF;
+  color: #fff;
+}
+
+form .form-inp__container .checkbox__container .inp-checkbox:disabled + .checkbox-title:before {
+  background: #eee;
+  color: #aaa;
+}
+
+form .form-inp__container .checkbox__container .checkbox-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+form .form-inp__container .checkbox__container .checkbox-title:before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font: 25px/25px FontAwesome;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #2155CF;
+  border-radius: 2px;
+  left: -25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+form .form__inp-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 410px;
+  height: 60px;
+  font-family: "Montserrat SemiBold", sans-serif;
+  margin-top: 24px;
+  background: #FF9504;
+  border-radius: 50px;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+form .form__inp-submit:hover {
+  background-color: #E28300;
+}
+
+form .arrow {
+  position: relative;
+  overflow: hidden;
+  background: url("../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+  cursor: pointer;
+}
+
+form .open {
+  background: url("../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
+}
+
+.another-list__container {
+  font-family: "Proxima Nova Bold", sans-serif;
+  text-align: center;
+  padding: 50px 15px 50px 15px;
+  display: none;
+  background-color: #fff;
+}
+
+@media (max-width: 1140px) {
+  .osago-section .container .osago-form .form-inputs-row2 {
+    padding: 40px 0 13px 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .osago-section .container {
+    padding: 0;
+  }
+
+  .osago-section .container .osago-form {
+    padding: 50px 15px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-container .form-inp__container {
+    padding-right: 0;
+    width: 328px;
+  }
+}
+
+@media (max-width: 560px) {
+  .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
+    width: 164px;
+  }
+
+  .osago-section .container .osago-form .osago-filter__buttons {
+    padding-top: 32px;
+  }
+
+  form {
+    box-shadow: none;
+  }
+
+  form .form__inp-submit {
+    width: 328px;
+    font-size: 0.9rem;
+  }
+
+  .another-list__container {
+    display: block;
+  }
+
+  .another-list__container .another-list__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    color: #001237;
+    padding-bottom: 24px;
+  }
+
+  .another-list__container .another-list .another-list__item {
+    background-color: #f8fbfe;
+    color: #2155cf;
+    text-transform: uppercase;
+    padding: 18px 0 16px 0;
+    margin-bottom: 16px;
+    border-radius: 6px;
+  }
+
+  .another-list__container .another-list .another-list__item .another-list__link {
+    font-family: "Proxima Nova Regular", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    cursor: pointer;
+  }
+}

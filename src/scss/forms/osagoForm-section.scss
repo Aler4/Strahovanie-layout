@@ -1,0 +1,127 @@
+.osago-section {
+	display: flex;
+  background-color: #F1F6FE;
+  justify-content: center;
+	.container{
+		flex-direction: column;
+		padding-top: 50px;
+		padding-bottom: 45px;
+		
+		.osago-form {
+			display: grid;
+      grid-template-columns: auto auto;
+      grid-auto-row: 5;
+      justify-items: center;
+      grid-template-areas:
+              "A A"
+              "B B"
+              "C C"
+              "D D"
+              "E E";
+      padding: 50px 30px;
+			align-items: center;
+			margin: 0 auto;
+			.osago__title {
+				grid-area: A;
+			}
+
+			.osago-filter__buttons {
+      	width: fit-content;
+      	padding-top: 50px;
+      	grid-area: B;
+      	.osago-filter__button {
+        	display: none;
+
+        	&:checked + .osago-filter__label {
+          	background: rgba(33, 85, 207, 0.09);
+          	font-family: 'Montserrat SemiBold', sans-serif;
+          	color: #001237;
+        	}
+      	}
+
+      	.osago-filter__label {
+        	display: flex;
+        	justify-content: center;
+        	width: 196px;
+        	height: 46px;
+        	align-items: center;
+        	font-family: 'Montserrat Regular', sans-serif;
+        	font-size: 1rem;
+        	color: #7E8595;
+        	border: 1px solid #D7E1E9;
+        	float: left;
+        	cursor: pointer;
+        	user-select: none;
+        	border-top-left-radius: 6px;
+        	border-bottom-left-radius: 6px;
+        	&:hover {
+          	color: #001237;
+        	}
+        	&:last-child {
+        		border-top-left-radius: 0;
+        		border-bottom-left-radius: 0;
+        		border-top-right-radius: 6px;
+        		border-bottom-right-radius: 6px;
+        	}
+        	@media (max-width: 560px) {
+      			width: 164px;
+      		}
+      	}
+      	@media (max-width: 560px) {
+      		padding-top: 32px;
+      	}     
+    	}
+			.form-inputs-row1,.form-inputs-row2 {
+				grid-area: C;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				width: 100%;
+				padding: 40px 0;
+				.form-inp__container {
+					width: 317px;
+					box-sizing: content-box;
+					padding-right: 30px;
+					&:last-child {
+						padding-right: 0;
+					}
+				}			
+			}
+			.form-inputs-row2 {
+				grid-area: D
+			}
+			.osago_btn {
+				grid-area: E;
+				margin:0;
+			}
+		}
+
+		@media (max-width: 1140px) {
+			.osago-form {
+				.form-inputs-row2 {
+					padding: 40px 0 13px 0;
+					.form-inp__container {
+						padding-bottom: 24px;
+					}
+				}
+			}
+		}
+
+		@media (max-width: 768px) {
+			padding: 0;
+
+			.osago-form {
+				padding: 50px 15px;
+
+				.form-inputs-container {
+
+						.form-inp__container {
+						padding-right: 0;
+						width: 328px;
+					}
+				}
+			}
+		}
+	}
+}
+@import'./forms_style.scss';

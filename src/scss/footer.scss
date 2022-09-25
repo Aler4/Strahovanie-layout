@@ -148,17 +148,19 @@
           .contacts-phone {
             display: flex;
           }
+          .contacts-phone {
+            padding-bottom: 44px;
+          }
           .contacts-mail {
             font-size: 0.9rem;
             padding-right: 0;
+            padding-bottom: 24px;
           }
           .contacts-mail__text {
             padding-left: 0;
-            padding-bottom: 24px;
           }
           .contacts-phone__text {
             padding-left: 0;
-            padding-bottom: 44px;
           }
         }
         .site-support {

@@ -1,3 +1,7 @@
+section.questions-section {
+  display: flex;
+}
+
 section.questions-section .container {
   overflow: visible;
 }

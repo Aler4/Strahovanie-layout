@@ -544,7 +544,8 @@
   .offer-filter-section .offer-filter {
     flex-flow: column;
     align-items: start;
-    padding-left: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 20px;
   }
 
@@ -560,6 +561,11 @@
 }
 
 @media (max-width: 768px) {
+  .offer-card-section {
+    padding-top: 32px;
+    padding-bottom: 26px;
+  }
+
   .offer-card-section .offer-card .offer-card__info-container .offer-card__info {
     flex-direction: column;
     padding: 0 0 20px 0;
@@ -567,6 +573,10 @@
 
   .offer-card-section .offer-card .offer-card__info-container .offer-card__info .offer-card__info-item {
     padding: 0 0 18px 0;
+  }
+
+  .offers-list-section {
+    padding: 40px 15px;
   }
 
   .offers-list-section .offers-item {

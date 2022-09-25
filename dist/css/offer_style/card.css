@@ -125,6 +125,11 @@
 }
 
 @media (max-width: 768px) {
+  .offer-card-section {
+    padding-top: 32px;
+    padding-bottom: 26px;
+  }
+
   .offer-card-section .offer-card .offer-card__info-container .offer-card__info {
     flex-direction: column;
     padding: 0 0 20px 0;

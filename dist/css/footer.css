@@ -174,19 +174,22 @@
     display: flex;
   }
 
+  .footer .container .footer-info .contacts .contacts-phone {
+    padding-bottom: 44px;
+  }
+
   .footer .container .footer-info .contacts .contacts-mail {
     font-size: 0.9rem;
     padding-right: 0;
+    padding-bottom: 24px;
   }
 
   .footer .container .footer-info .contacts .contacts-mail__text {
     padding-left: 0;
-    padding-bottom: 24px;
   }
 
   .footer .container .footer-info .contacts .contacts-phone__text {
     padding-left: 0;
-    padding-bottom: 44px;
   }
 
   .footer .container .footer-info .site-support {

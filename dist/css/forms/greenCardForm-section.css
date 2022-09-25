@@ -1,5 +1,65 @@
 @charset "UTF-8";
 
+.green-card-section {
+  display: flex;
+  background-color: #F1F6FE;
+  justify-content: center;
+}
+
+.green-card-section .container {
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.green-card-section .container .green-card-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-row: 3;
+  justify-items: center;
+  grid-template-areas: "A A" "B B" "C C";
+  padding: 50px 30px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.green-card-section .container .green-card-form .green-card__title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: A;
+}
+
+.green-card-section .container .green-card-form .form-inputs-container {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.green-card-section .container .green-card-form .form-inputs-container .form-inp__container {
+  width: 317px;
+  box-sizing: content-box;
+  padding-right: 30px;
+}
+
+.green-card-section .container .green-card-form .form-inputs-container .form-inp__container:last-child {
+  padding-right: 0;
+}
+
+.green-card-section .container .green-card-form .green-card_btn {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: C;
+  margin: 0;
+}
+
 form {
   font-family: "Proxima Nova Bold", sans-serif;
   background: #FFFFFF;
@@ -124,6 +184,31 @@ form .open {
   padding: 50px 15px 50px 15px;
   display: none;
   background-color: #fff;
+}
+
+@media (max-width: 1140px) {
+  .green-card-section .container .green-card-form .form-inputs-container {
+    padding: 40px 0 13px 0;
+  }
+
+  .green-card-section .container .green-card-form .form-inputs-container .form-inp__container {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .green-card-section .container {
+    padding: 0;
+  }
+
+  .green-card-section .container .green-card-form {
+    padding: 50px 15px;
+  }
+
+  .green-card-section .container .green-card-form .form-inputs-container .form-inp__container {
+    padding-right: 0;
+    width: 328px;
+  }
 }
 
 @media (max-width: 560px) {
