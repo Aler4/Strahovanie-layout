@@ -1061,7 +1061,7 @@ form .form-inp__container {
 form .form-inp__container .checkbox__container {
   display: flex;
   align-items: center;
-  position: absolute;
+  justify-content: end;
   font-family: "Proxima Nova Regular";
   font-style: normal;
   font-weight: 400;

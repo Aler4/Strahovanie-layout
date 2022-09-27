@@ -42,7 +42,7 @@
       	.osago-filter__label {
         	display: flex;
         	justify-content: center;
-        	width: 196px;
+        	width: 221px;
         	height: 46px;
         	align-items: center;
         	font-family: 'Montserrat Regular', sans-serif;
@@ -57,21 +57,28 @@
         	&:hover {
           	color: #001237;
         	}
+        	&:nth-child(4) {
+        		border-radius: 0;
+        		border-left: none;
+        		border-right: none;
+        	}
         	&:last-child {
         		border-top-left-radius: 0;
         		border-bottom-left-radius: 0;
         		border-top-right-radius: 6px;
         		border-bottom-right-radius: 6px;
         	}
-        	@media (max-width: 560px) {
-      			width: 164px;
+        	@media (max-width: 768px) {
+      			width: 109px;
+      			font-size: .75rem;
       		}
       	}
-      	@media (max-width: 560px) {
-      		padding-top: 32px;
-      	}     
+      	// @media (max-width: 560px) {
+      	// 	padding-top: 32px;
+      	// }     
     	}
-			.form-inputs-row1,.form-inputs-row2 {
+			.form-inputs-row1,
+			.form-inputs-row2 {
 				grid-area: C;
 				display: flex;
 				flex-wrap: wrap;
@@ -85,10 +92,25 @@
 					&:last-child {
 						padding-right: 0;
 					}
-				}			
+					.inp {
+						width: 100%;
+					}
+				}		
 			}
 			.form-inputs-row2 {
-				grid-area: D
+				grid-area: D;
+				.form-inp__container {
+						flex-direction: row;
+						flex-wrap: wrap;
+
+						.inp-title {
+  						flex: 0 70%;
+						}
+						.checkbox__container {
+							flex: 0 30%;
+							padding-bottom: 6px;
+						}
+				}
 			}
 			.osago_btn {
 				grid-area: E;
@@ -101,7 +123,30 @@
 				.form-inputs-row2 {
 					padding: 40px 0 13px 0;
 					.form-inp__container {
+						flex: 0;
+						width: fit-content;
 						padding-bottom: 24px;
+
+						.osago__place-inp {
+							width: 328px;
+						}
+						.osago__term-inp, .osago__privileges-inp {
+							width: 156px;
+						}
+					}
+				}
+				.form-inputs-row1 {
+					padding-bottom: 0;
+					.form-inp__container {
+						padding-bottom: 24px;
+						width: fit-content;
+
+						.osago__type-inp {
+							width: 328px;
+						}
+						.osago-engine-inp,.osago-exp-inp {
+							width: 156px;
+						}
 					}
 				}
 			}
@@ -111,14 +156,43 @@
 			padding: 0;
 
 			.osago-form {
-				padding: 50px 15px;
+				padding: 44px 15px 0 15px;
+				.osago-filter__buttons {
+					padding-top: 32px;
+				}
+				.form-inputs-row2 {
 
-				.form-inputs-container {
-
-						.form-inp__container {
+					padding: 0px 0 8px 0;
+					.form-inp__container {
 						padding-right: 0;
-						width: 328px;
+
+						.osago__term-inp, .osago__privileges-inp {
+							width: 328px;
+						}
+						.checkbox__container {
+							flex: 0 44%;
+							justify-content: start;
+							padding-left: 26px;
+							padding-top: 14px;
+							padding-bottom: 14px;
+						}
 					}
+				}
+				.form-inputs-row1 {
+					padding-bottom: 0;
+					padding-top: 32px;
+					justify-content: start;
+    			column-gap: 16px;
+					.form-inp__container {
+						padding-right: 0;
+						&:nth-child(2),
+						&:nth-child(3) {
+							flex: 0 40%;
+						}
+					}
+				}
+				.form-inputs-row2 {
+					justify-content: start;
 				}
 			}
 		}

@@ -54,7 +54,7 @@
 .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
   display: flex;
   justify-content: center;
-  width: 196px;
+  width: 221px;
   height: 46px;
   align-items: center;
   font-family: "Montserrat Regular", sans-serif;
@@ -72,6 +72,12 @@
 
 .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label:hover {
   color: #001237;
+}
+
+.osago-section .container .osago-form .osago-filter__buttons .osago-filter__label:nth-child(4) {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
 }
 
 .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label:last-child {
@@ -106,11 +112,30 @@
   padding-right: 0;
 }
 
+.osago-section .container .osago-form .form-inputs-row1 .form-inp__container .inp,
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container .inp {
+  width: 100%;
+}
+
 .osago-section .container .osago-form .form-inputs-row2 {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: D;
+}
+
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container .inp-title {
+  flex: 0 70%;
+}
+
+.osago-section .container .osago-form .form-inputs-row2 .form-inp__container .checkbox__container {
+  flex: 0 30%;
+  padding-bottom: 6px;
 }
 
 .osago-section .container .osago-form .osago_btn {
@@ -157,7 +182,7 @@ form .form-inp__container {
 form .form-inp__container .checkbox__container {
   display: flex;
   align-items: center;
-  position: absolute;
+  justify-content: end;
   font-family: "Proxima Nova Regular";
   font-style: normal;
   font-weight: 400;
@@ -1808,7 +1833,40 @@ button.swiper-pagination-bullet {
   }
 
   .osago-section .container .osago-form .form-inputs-row2 .form-inp__container {
+    flex: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     padding-bottom: 24px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__place-inp {
+    width: 328px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__term-inp,
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__privileges-inp {
+    width: 156px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 {
+    padding-bottom: 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container {
+    padding-bottom: 24px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container .osago__type-inp {
+    width: 328px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container .osago-engine-inp,
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container .osago-exp-inp {
+    width: 156px;
   }
 
   .slider-section .sliders__wrapper .slider-title {
@@ -1846,17 +1904,63 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 768px) {
+  .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
+    width: 109px;
+    font-size: 0.75rem;
+  }
+
   .osago-section .container {
     padding: 0;
   }
 
   .osago-section .container .osago-form {
-    padding: 50px 15px;
+    padding: 44px 15px 0 15px;
   }
 
-  .osago-section .container .osago-form .form-inputs-container .form-inp__container {
+  .osago-section .container .osago-form .osago-filter__buttons {
+    padding-top: 32px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 {
+    padding: 0px 0 8px 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container {
     padding-right: 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__term-inp,
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__privileges-inp {
     width: 328px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .checkbox__container {
+    flex: 0 44%;
+    justify-content: start;
+    padding-left: 26px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 {
+    padding-bottom: 0;
+    padding-top: 32px;
+    justify-content: start;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container {
+    padding-right: 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(2),
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(3) {
+    flex: 0 40%;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row2 {
+    justify-content: start;
   }
 
   .advantage-section .container .advantage-list .list-item {
@@ -2091,14 +2195,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 560px) {
-  .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
-    width: 164px;
-  }
-
-  .osago-section .container .osago-form .osago-filter__buttons {
-    padding-top: 32px;
-  }
-
   form {
     box-shadow: none;
   }

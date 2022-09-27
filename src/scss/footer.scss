@@ -64,6 +64,13 @@
         .contacts-phone__text {
           padding-left: 8px;
         }
+        .contacts-phone__icon,
+        .site-support__logo,
+        .contacts-mail__icon {
+          path {
+            fill: #6B82B0;
+          }
+        }
       }
       .site-support {
         display: flex;
