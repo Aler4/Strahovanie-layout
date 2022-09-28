@@ -321,10 +321,6 @@ form .open {
     font-size: 0.75rem;
   }
 
-  .osago-section .container {
-    padding: 0;
-  }
-
   .osago-section .container .osago-form {
     padding: 44px 15px 0 15px;
   }
@@ -334,6 +330,7 @@ form .open {
   }
 
   .osago-section .container .osago-form .form-inputs-row2 {
+    justify-content: center;
     padding: 0px 0 8px 0;
   }
 
@@ -348,16 +345,15 @@ form .open {
 
   .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .checkbox__container {
     flex: 0 44%;
-    justify-content: start;
     padding-left: 26px;
     padding-top: 14px;
     padding-bottom: 14px;
+    justify-content: start;
   }
 
   .osago-section .container .osago-form .form-inputs-row1 {
     padding-bottom: 0;
     padding-top: 32px;
-    justify-content: start;
     -moz-column-gap: 16px;
          column-gap: 16px;
   }
@@ -369,10 +365,7 @@ form .open {
   .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(2),
   .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(3) {
     flex: 0 40%;
-  }
-
-  .osago-section .container .osago-form .form-inputs-row2 {
-    justify-content: start;
+    align-items: center;
   }
 }
 
@@ -415,5 +408,16 @@ form .open {
     font-size: 16px;
     line-height: 100%;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 360px) {
+  .osago-section .container {
+    padding: 0;
+  }
+
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(2),
+  .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(3) {
+    align-items: start;
   }
 }

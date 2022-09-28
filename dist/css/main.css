@@ -162,6 +162,7 @@ button {
 .footer .container .footer-info .contacts .contacts-mail,
 .footer .container .footer-info .contacts .contacts-phone {
   display: flex;
+  align-items: end;
 }
 
 .footer .container .footer-info .contacts .contacts-mail {
@@ -174,15 +175,30 @@ button {
   padding-left: 8px;
 }
 
-.footer .container .footer-info .contacts .contacts-phone__icon path,
-.footer .container .footer-info .contacts .site-support__logo path,
-.footer .container .footer-info .contacts .contacts-mail__icon path {
+.footer .container .footer-info .contacts .contacts-mail__icon,
+.footer .container .footer-info .contacts .contacts-phone__icon {
+  fill: #A0ABC1;
+  cursor: pointer;
+}
+
+.footer .container .footer-info .contacts .contacts-mail__icon:hover,
+.footer .container .footer-info .contacts .contacts-phone__icon:hover {
   fill: #6B82B0;
 }
 
 .footer .container .footer-info .site-support {
   display: flex;
   align-items: center;
+}
+
+.footer .container .footer-info .site-support .site-support__logo {
+  fill-rule: evenodd;
+  fill: #A0ABC1;
+  cursor: pointer;
+}
+
+.footer .container .footer-info .site-support .site-support__logo:hover {
+  fill: #6B82B0;
 }
 
 @font-face {

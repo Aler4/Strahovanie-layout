@@ -153,7 +153,6 @@
 		}
 
 		@media (max-width: 768px) {
-			padding: 0;
 
 			.osago-form {
 				padding: 44px 15px 0 15px;
@@ -161,38 +160,51 @@
 					padding-top: 32px;
 				}
 				.form-inputs-row2 {
+					justify-content: center;
 
 					padding: 0px 0 8px 0;
 					.form-inp__container {
 						padding-right: 0;
-
 						.osago__term-inp, .osago__privileges-inp {
 							width: 328px;
 						}
 						.checkbox__container {
 							flex: 0 44%;
-							justify-content: start;
 							padding-left: 26px;
 							padding-top: 14px;
 							padding-bottom: 14px;
+							justify-content: start;
 						}
 					}
 				}
 				.form-inputs-row1 {
 					padding-bottom: 0;
 					padding-top: 32px;
-					justify-content: start;
     			column-gap: 16px;
 					.form-inp__container {
 						padding-right: 0;
 						&:nth-child(2),
 						&:nth-child(3) {
 							flex: 0 40%;
+							align-items: center;
 						}
 					}
 				}
-				.form-inputs-row2 {
-					justify-content: start;
+			}
+		}
+
+		@media (max-width: 360px) {
+			padding: 0;
+
+			.osago-form {
+				.form-inputs-row1 {
+	
+					.form-inp__container {
+						&:nth-child(2),
+						&:nth-child(3) {
+							align-items: start;
+						}
+					}
 				}
 			}
 		}

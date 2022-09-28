@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
-.form-section {
+.tourism-section {
   display: flex;
   background-color: #F1F6FE;
   justify-content: center;
 }
 
-.form-section .container {
+.tourism-section .container {
   padding-top: 50px;
   padding-bottom: 50px;
   flex-direction: column;
 }
 
-.form-section .container .tourism-form {
+.tourism-section .container .tourism-form {
   display: grid;
   grid-template-columns: auto auto;
   grid-auto-row: 4;
@@ -22,7 +22,7 @@
   margin: 0 auto;
 }
 
-.form-section .container .tourism-form .tourism-form__title {
+.tourism-section .container .tourism-form .tourism-form__title {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -31,35 +31,35 @@
   text-align: center;
 }
 
-.form-section .container .tourism-form .form-inp__container {
+.tourism-section .container .tourism-form .form-inp__container {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: B;
 }
 
-.form-section .container .tourism-form .form-inp__container .tourism__direction-inp {
+.tourism-section .container .tourism-form .form-inp__container .tourism__direction-inp {
   width: 554px;
 }
 
-.form-section .container .tourism-form .form-inp__container .direction-examples {
+.tourism-section .container .tourism-form .form-inp__container .direction-examples {
   font-family: "Proxima Nova Bold", sans-serif;
   padding-top: 12px;
 }
 
-.form-section .container .tourism-form .form-inp__container .direction-examples .direction-example__title {
+.tourism-section .container .tourism-form .form-inp__container .direction-examples .direction-example__title {
   font-size: 0.9rem;
   line-height: 1.3rem;
   color: #8D94A4;
 }
 
-.form-section .container .tourism-form .form-inp__container .direction-examples .direction-example {
+.tourism-section .container .tourism-form .form-inp__container .direction-examples .direction-example {
   font-size: 0.8rem;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2155CF;
 }
 
-.form-section .container .tourism-form .dates-inp__container {
+.tourism-section .container .tourism-form .dates-inp__container {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: C;
@@ -73,7 +73,7 @@
   padding-left: 30px;
 }
 
-.form-section .container .tourism-form .dates-inp__container .form-inp__container {
+.tourism-section .container .tourism-form .dates-inp__container .form-inp__container {
   display: flex;
   flex-direction: row;
   width: -webkit-fit-content;
@@ -82,32 +82,32 @@
   align-items: center;
 }
 
-.form-section .container .tourism-form .dates-inp__container .date-notes {
+.tourism-section .container .tourism-form .dates-inp__container .date-notes {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.form-section .container .tourism-form .dates-inp__container .date-notes .dates__period {
+.tourism-section .container .tourism-form .dates-inp__container .date-notes .dates__period {
   font-size: 0.8rem;
   color: #2155CF;
 }
 
-.form-section .container .tourism-form .dates-inp__container .date-inp__title {
+.tourism-section .container .tourism-form .dates-inp__container .date-inp__title {
   padding-right: 8px;
   font-size: 0.9rem;
   line-height: 1.3rem;
   color: #8D94A4;
 }
 
-.form-section .container .tourism-form .dates-inp__container .date-from__inp,
-.form-section .container .tourism-form .dates-inp__container .date-until__inp {
+.tourism-section .container .tourism-form .dates-inp__container .date-from__inp,
+.tourism-section .container .tourism-form .dates-inp__container .date-until__inp {
   width: 174px;
   box-sizing: border-box;
   padding-left: 15px;
 }
 
-.form-section .container .tourism-form .tourists-list {
+.tourism-section .container .tourism-form .tourists-list {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -115,7 +115,7 @@
   width: 100%;
 }
 
-.form-section .container .tourism-form .tourists-list .tourists-list__title {
+.tourism-section .container .tourism-form .tourists-list .tourists-list__title {
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -125,7 +125,7 @@
   padding: 32px 0 24px 0;
 }
 
-.form-section .container .tourism-form .tourists-list .tourist-data__card {
+.tourism-section .container .tourism-form .tourists-list .tourist-data__card {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -136,7 +136,7 @@
   border-radius: 12px;
 }
 
-.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
+.tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
   width: 100%;
   font-size: 0.9rem;
   line-height: 1rem;
@@ -146,15 +146,15 @@
   color: #94A1AF;
 }
 
-.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
+.tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
   width: 200px;
 }
 
-.form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
+.tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
   width: 721px;
 }
 
-.form-section .container .tourism-form .form__btns {
+.tourism-section .container .tourism-form .form__btns {
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -162,7 +162,7 @@
   padding-top: 32px;
 }
 
-.form-section .container .tourism-form .form__btns .add-tourist__btn {
+.tourism-section .container .tourism-form .form__btns .add-tourist__btn {
   display: flex;
   justify-content: space-between;
   width: 171px;
@@ -173,7 +173,7 @@
   transition: 0.3s;
 }
 
-.form-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-icon {
+.tourism-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-icon {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -187,14 +187,14 @@
   align-items: center;
 }
 
-.form-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-text {
+.tourism-section .container .tourism-form .form__btns .add-tourist__btn .add-tourist__btn-text {
   font-size: 0.85rem;
   line-height: 1rem;
   font-weight: 400;
   color: #001237;
 }
 
-.form-section .container .tourism-form .form__btns .add-tourist__btn:hover {
+.tourism-section .container .tourism-form .form__btns .add-tourist__btn:hover {
   transform: scale(1.2);
   transition: 0.3s;
 }
@@ -1152,59 +1152,59 @@ form .open {
 }
 
 @media (max-width: 1140px) {
-  .form-section .container {
+  .tourism-section .container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 
-  .form-section .container .tourism-form {
+  .tourism-section .container .tourism-form {
     grid-auto-row: 5;
     grid-template-areas: "A A" "B B" "C C" "D D" "E E";
     padding: 30px 15px;
   }
 
-  .form-section .container .tourism-form .dates-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container {
     padding-top: 25px;
   }
 
-  .form-section .container .tourism-form .dates-inp__container .date-from__inp,
-  .form-section .container .tourism-form .dates-inp__container .date-until__inp {
+  .tourism-section .container .tourism-form .dates-inp__container .date-from__inp,
+  .tourism-section .container .tourism-form .dates-inp__container .date-until__inp {
     width: 200px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist__birth-inp {
     width: 200px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist__purpose-inp {
     width: 521px;
   }
 
-  .form-section .container .tourism-form .tourism-form__title {
+  .tourism-section .container .tourism-form .tourism-form__title {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
   }
 
-  .form-section .container .tourism-form .form-inp__container {
+  .tourism-section .container .tourism-form .form-inp__container {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
   }
 
-  .form-section .container .tourism-form .dates-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
   }
 
-  .form-section .container .tourism-form .tourists-list {
+  .tourism-section .container .tourism-form .tourists-list {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
   }
 
-  .form-section .container .tourism-form .form__btns {
+  .tourism-section .container .tourism-form .form__btns {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -1212,96 +1212,96 @@ form .open {
 }
 
 @media (max-width: 768px) {
-  .form-section .container {
+  .tourism-section .container {
     padding: 0;
   }
 
-  .form-section .container .tourism-form {
+  .tourism-section .container .tourism-form {
     padding: 25px 15px;
   }
 
-  .form-section .container .tourism-form .form-inp__container {
+  .tourism-section .container .tourism-form .form-inp__container {
     width: 100%;
   }
 
-  .form-section .container .tourism-form .form-inp__container .tourism__direction-inp {
+  .tourism-section .container .tourism-form .form-inp__container .tourism__direction-inp {
     width: 100%;
   }
 
-  .form-section .container .tourism-form .dates-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container {
     padding-top: 25px;
     padding-left: 0;
   }
 
-  .form-section .container .tourism-form .dates-inp__container .form-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container .form-inp__container {
     flex-direction: column;
     align-items: start;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card {
     border-radius: 5px;
     padding: 24px 15px 32px 15px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__birth-inp {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__birth-inp {
     width: 328px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__purpose-inp {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__purpose-inp {
     width: 328px;
   }
 }
 
 @media (max-width: 560px) {
-  .form-section .container {
+  .tourism-section .container {
     width: 100%;
   }
 
-  .form-section .container .tourism-form {
+  .tourism-section .container .tourism-form {
     padding: 25px 15px;
     overflow: hidden;
   }
 
-  .form-section .container .tourism-form .tourism-inp__container {
+  .tourism-section .container .tourism-form .tourism-inp__container {
     width: 100%;
   }
 
-  .form-section .container .tourism-form .tourism-inp__container .tourism__direction-inp {
+  .tourism-section .container .tourism-form .tourism-inp__container .tourism__direction-inp {
     width: 100%;
   }
 
-  .form-section .container .tourism-form .dates-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container {
     padding-top: 25px;
     padding-left: 0;
   }
 
-  .form-section .container .tourism-form .dates-inp__container .tourism-inp__container {
+  .tourism-section .container .tourism-form .dates-inp__container .tourism-inp__container {
     flex-direction: column;
     align-items: start;
   }
 
-  .form-section .container .tourism-form .dates-inp__container .date-from__inp,
-  .form-section .container .tourism-form .dates-inp__container .date-until__inp {
+  .tourism-section .container .tourism-form .dates-inp__container .date-from__inp,
+  .tourism-section .container .tourism-form .dates-inp__container .date-until__inp {
     width: 156px;
   }
 
-  .form-section .container .tourism-form .tourists-list {
+  .tourism-section .container .tourism-form .tourists-list {
     width: calc(100% + 30px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card {
     border-radius: 0;
     padding: 24px 15px 10px 15px;
   }
 
-  .form-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .tourist-data__card-title {
     padding-bottom: 11px;
   }
 
-  .form-section .container .tourism-form .form__btns {
+  .tourism-section .container .tourism-form .form__btns {
     padding-top: 24px;
   }
 
