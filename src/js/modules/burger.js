@@ -1,7 +1,6 @@
 export const addBurger = () => {
     let res = null;
     if (window.innerWidth < 1060 && !(document.querySelector('.burger'))) {
-        console.log('dasd');
         res = document.querySelector('.menu');
         if (res != null) {
             res.classList.add('burger');

@@ -1,4 +1,3 @@
-// @ts-ignore
 import Swiper, { Navigation } from "swiper";
 export const createDocumentsSlider = () => {
     const swiper = new Swiper('.documents', {

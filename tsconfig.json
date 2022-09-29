@@ -3,17 +3,18 @@
     "src/ts/**/*"
   ],
   "exclude": [
-    ""
+    "node_modules",
   ],
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "ES2020",
+    "target": "ES6",
+    "module": "ES6",
+    "moduleResolution": "node",
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
     "sourceMap": true,
     "outDir": "./src/js/modules",
     "strict": true,
-    "noImplicitAny": true
-  }
+    "noImplicitAny": true,
+  },
 }

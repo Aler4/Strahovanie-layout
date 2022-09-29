@@ -1,5 +1,3 @@
-
-// @ts-ignore
 import Swiper, {Navigation} from "swiper";
 
 export const createDocumentsSlider: Function = ():void => {
