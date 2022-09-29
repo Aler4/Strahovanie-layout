@@ -164,12 +164,6 @@
 					.form-inp__container {
 						padding-bottom: 24px;
 						padding-right: 0;
-						.kasko__place-inp {
-							width: 328px;
-						}
-						.kasko__term-inp, .kasko__privileges-inp {
-							width: 156px;
-						}
 					}
 				}
 				.form-inputs-row1 {
@@ -180,10 +174,9 @@
 						padding: 0;
 						padding-bottom: 24px;
 						width: fit-content;
-						flex: -1 50%;
+						flex: 0 24%;
 						&:nth-child(3),
 						&:nth-child(4) {
-							flex: 0 24%;
 							align-items: center;
 						}
 					}
@@ -201,9 +194,9 @@
 				.form-inputs-row2 {
 					justify-content: center;
 
-					padding: 0px 0 8px 0;
 					.form-inp__container {
 						padding-right: 0;
+						width: 328px;
 					}
 				}
 				.form-inputs-row1 {
@@ -214,9 +207,17 @@
 
 					.form-inp__container {
 						padding-right: 0;
+						.kasko-model-inp,
+						.kasko-brand-inp {
+							width: 328px;
+						}
+						.kasko-year-inp,
+						.kasko-price-inp {
+							width: 156px;
+						}
 						&:nth-child(3),
 						&:nth-child(4) {
-							flex: 0 33%;
+							flex: 0 40%;
 						}
 					}
 				}
@@ -227,6 +228,8 @@
 			padding: 0;
 
 			.kasko-form {
+					padding: 0px 0 8px 0;
+				
 				.form-inputs-row1 {
 	
 					.form-inp__container {

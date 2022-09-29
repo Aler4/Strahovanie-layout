@@ -1,8 +1,19 @@
 @import './forms/kaskoForm-section.scss';
 @import "./advantage-section.scss";
+@import "./kasko__style/payments-section.scss";
+@import "./kasko__style/cases-section.scss";
 @import './banner.scss';
 @import "plugins/slider";
 @import "./documents-section.scss";
 @import "./reviews-section.scss";
 @import "./questions-section.scss";
 @import 'plugins/swiper';
+
+.advantage-section {
+	.container {
+			
+		.advantage-list_two {
+			display: flex;
+		}
+	}
+}

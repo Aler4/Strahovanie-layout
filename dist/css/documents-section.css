@@ -1,7 +1,7 @@
 .documents-section {
   display: flex;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 90px;
 }
 
 .documents-section .container {
@@ -88,6 +88,13 @@
   display: none;
 }
 
+@media (max-width: 768px) {
+  .documents-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 @media (max-width: 560px) {
   .documents-section .container .documents-filter__buttons .documents-filter__label {
     width: 164px;
@@ -108,10 +115,5 @@
 
   .documents-section .container .documents .documents-slider_navigation {
     display: flex;
-  }
-
-  .documents-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 }

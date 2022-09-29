@@ -343,15 +343,6 @@ form .open {
     padding-right: 0;
   }
 
-  .kasko-section .container .kasko-form .form-inputs-row2 .form-inp__container .kasko__place-inp {
-    width: 328px;
-  }
-
-  .kasko-section .container .kasko-form .form-inputs-row2 .form-inp__container .kasko__term-inp,
-  .kasko-section .container .kasko-form .form-inputs-row2 .form-inp__container .kasko__privileges-inp {
-    width: 156px;
-  }
-
   .kasko-section .container .kasko-form .form-inputs-row1 {
     padding-bottom: 0;
     justify-content: center;
@@ -365,12 +356,11 @@ form .open {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    flex: -1 50%;
+    flex: 0 24%;
   }
 
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(3),
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(4) {
-    flex: 0 24%;
     align-items: center;
   }
 }
@@ -386,11 +376,11 @@ form .open {
 
   .kasko-section .container .kasko-form .form-inputs-row2 {
     justify-content: center;
-    padding: 0px 0 8px 0;
   }
 
   .kasko-section .container .kasko-form .form-inputs-row2 .form-inp__container {
     padding-right: 0;
+    width: 328px;
   }
 
   .kasko-section .container .kasko-form .form-inputs-row1 {
@@ -405,9 +395,19 @@ form .open {
     padding-right: 0;
   }
 
+  .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container .kasko-model-inp,
+  .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container .kasko-brand-inp {
+    width: 328px;
+  }
+
+  .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container .kasko-year-inp,
+  .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container .kasko-price-inp {
+    width: 156px;
+  }
+
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(3),
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(4) {
-    flex: 0 33%;
+    flex: 0 40%;
   }
 }
 
@@ -456,6 +456,10 @@ form .open {
 @media (max-width: 360px) {
   .kasko-section .container {
     padding: 0;
+  }
+
+  .kasko-section .container .kasko-form {
+    padding: 0px 0 8px 0;
   }
 
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(3),

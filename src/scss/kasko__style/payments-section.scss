@@ -1,0 +1,78 @@
+.payments-section {
+	display: flex;
+	justify-content: center;
+	.container {
+		padding: 90px 0;
+		flex-direction: column;
+		margin: 0 15px;
+		overflow: visible;
+		.section-title {
+			text-align: center;
+		}
+		.payments-list {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			column-gap: 30px;
+			.payments-card {
+				display: flex;
+				flex-direction: column;
+				flex: 0 23%;
+				text-align: center;
+				padding-top: 44px;
+				.payments-card__img {
+					border-radius: 10px;
+					box-shadow: 0px 4px 46px rgba(123, 139, 181, 0.22);
+					width: 100%;
+				}
+				.payments-card__title {
+					font-size: 1.5rem;
+					line-height: 1.2rem;
+					font-family: "Proxima Nova Bold",sans-serif;
+					color: #2155CF;
+					padding-top: 24px;
+					padding-bottom: 6px;
+				}
+				.payments-card__desc {
+					font-size: 1rem;
+					line-height: 1.3rem;
+					color: #000000;
+					opacity: 0.8;
+				}
+			}
+		}
+		@media (max-width: 1140px) {
+			.payments-list {
+				column-gap: 15px;
+				.payments-card {
+					flex: 0 48%;
+				}
+			}
+		}
+		@media (max-width: 768px) {
+			padding: 50px 0 60px 0;
+			.payments-list {
+				padding: 0 15px;
+				.payments-card {
+					flex: 0 45%;
+					padding-top: 30px;
+					text-align: left;
+					.payments-card__img {
+						box-shadow: none;
+					}
+					.payments-card__title {
+					font-size: 1.1rem;
+					line-height: 1.2rem;
+					padding-top: 14px;
+					padding-bottom: 8px;
+				}
+				.payments-card__desc {
+					font-size: .75rem;
+					line-height: 1.1rem;
+				}
+				}
+			}
+		}
+	}
+}
