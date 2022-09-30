@@ -1,7 +1,10 @@
+@charset "UTF-8";
+
 .contacts-section {
   padding: 70px 0 90px 0;
   font-family: "Proxima Nova Regular", sans-serif;
   overflow: hidden;
+  background-color: #F8FBFE;
   display: flex;
   justify-content: center;
 }
@@ -17,6 +20,8 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 36px;
+  box-shadow: none;
+  background-color: #F8FBFE;
 }
 
 .contacts-section .container .contacts-form .form-title {
@@ -61,6 +66,27 @@
 .contacts-section .container .contacts-form .form-inp__container .form-inp__message {
   resize: none;
   height: 124px;
+}
+
+.contacts-section .container .contacts-form .error {
+  position: relative;
+}
+
+.contacts-section .container .contacts-form .error .inp {
+  border-color: #F6372B;
+}
+
+.contacts-section .container .contacts-form .error:after {
+  position: absolute;
+  content: "Обязательно для заполнения";
+  display: block;
+  color: #F6372B;
+  font-size: 13px;
+  bottom: -16px;
+}
+
+.contacts-section .container .contacts-form .focus .inp {
+  border-color: #353D52;
 }
 
 .contacts-section .container .contacts-form .padding {

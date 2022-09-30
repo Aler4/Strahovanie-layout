@@ -6,12 +6,20 @@ form {
   max-width: 1072px;
 	.inp {
   	height: 46px;
-  	background: #FFFFFF;
-  	border: 1px solid #D7E1E9;
-  	border-radius: 6px;
   	box-sizing: border-box;
   	padding-left: 15px;
   	padding-right: 20px;
+  	font-size: 1rem;
+  	font-family: "Montserrat Regular",sans-serif;
+  	color: #263238;
+  	background: #FFFFFF;
+  	border: 1px solid #D7E1E9;
+  	border-radius: 6px;
+
+	}
+	.select {
+		padding: 0;
+		border: none;
 	}
 	.inp-title {
   	font-style: normal;
@@ -73,6 +81,25 @@ form {
 			}
 		}
   }
+  .error {
+		position: relative;
+		.inp {
+			border-color: #F6372B;
+		}
+		&:after {
+			position: absolute;
+			content: 'Обязательно для заполнения';
+			display: block;
+			color: #F6372B;
+			font-size: 13px;
+			bottom: -16px;
+		}
+	}
+	.focus {
+		.inp {
+			border-color: #353D52;
+		}
+	}
   .form__inp-submit {
    	display: flex;
    	align-items: center;

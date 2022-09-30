@@ -12,7 +12,7 @@ export const createPicker = () => {
             let picker = new AirDatepicker(`#${id}`, {
                 inline: false,
                 autoClose: true,
-                isMobile: true,
+                // isMobile: true,
                 buttons: ['today', 'clear'],
                 onSelect() {
                     el.classList.remove('open');

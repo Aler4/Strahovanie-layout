@@ -1,16 +1,17 @@
 
-import { addBurger } from "./modules/burger.js";
+import {addBurger} from "./modules/burger.js";
 import {changeText} from "./modules/banner.js";
 import {Slider} from "./modules/slider.js";
 import {createReviewSlider} from  "./modules/rewiew-slider.js";
 import {createDocumentsSlider} from  "./modules/documents-slider.js";
 import {dropdown} from "./modules/dropdown.js";
-import {inpBehavior} from "./modules/input-date.js";
 import {createPicker} from "./modules/data-picker.js";
 import {createSelector} from "./modules/selector.js";
+import {inputsBihevior} from "./modules/inputsBihevior.js";
 
 
 window.onload = (function() {
+     inputsBihevior();
     
     if (document.querySelector('.questions-list')){
         document.querySelector('.questions-list').addEventListener('mousedown',dropdown);
@@ -19,7 +20,6 @@ window.onload = (function() {
         createDocumentsSlider();
     }
     if(document.querySelector('.select')) {
-        alert('have');
         createSelector();
     }
 

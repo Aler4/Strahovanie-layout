@@ -2,6 +2,7 @@
   padding: 70px 0 90px 0;
   font-family: "Proxima Nova Regular",sans-serif;
   overflow: hidden;
+  background-color: #F8FBFE;
   display: flex;
   justify-content: center;
   .container {
@@ -13,6 +14,10 @@
       display: flex;
       flex-wrap: wrap;
       padding-bottom: 36px;
+      box-shadow: none;
+      background-color: #F8FBFE;
+
+
       .form-title {
         font-size: 2.9rem;
         font-weight: 700;
@@ -51,6 +56,26 @@
           height: 124px;
         }
       }
+      .error {
+          position: relative;
+          .inp {
+            border-color: #F6372B;
+          }
+          &:after {
+            position: absolute;
+            content: 'Обязательно для заполнения';
+            display: block;
+            color: #F6372B;
+            font-size: 13px;
+            bottom: -16px;
+          }
+        }
+        .focus {
+          .inp {
+            border-color: #353D52;
+          }
+        }
+
       .padding {
         padding-left: 30px;
       }

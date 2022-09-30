@@ -1,6 +1,13 @@
 import SlimSelect from "slim-select";
 export const createSelector = () => {
-    new SlimSelect({
-        select: document.querySelector('.select'),
+    let selects = document.querySelectorAll('.select');
+    selects.forEach(el => {
+        let id = el.id;
+        if (id !== undefined) {
+            new SlimSelect({
+                select: `#${id}`,
+                showSearch: false,
+            });
+        }
     });
 };

@@ -10,12 +10,20 @@ form {
 
 form .inp {
   height: 46px;
-  background: #FFFFFF;
-  border: 1px solid #D7E1E9;
-  border-radius: 6px;
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 20px;
+  font-size: 1rem;
+  font-family: "Montserrat Regular", sans-serif;
+  color: #263238;
+  background: #FFFFFF;
+  border: 1px solid #D7E1E9;
+  border-radius: 6px;
+}
+
+form .select {
+  padding: 0;
+  border: none;
 }
 
 form .inp-title {
@@ -85,6 +93,27 @@ form .form-inp__container .checkbox__container .checkbox-title:before {
   cursor: pointer;
 }
 
+form .error {
+  position: relative;
+}
+
+form .error .inp {
+  border-color: #F6372B;
+}
+
+form .error:after {
+  position: absolute;
+  content: "Обязательно для заполнения";
+  display: block;
+  color: #F6372B;
+  font-size: 13px;
+  bottom: -16px;
+}
+
+form .focus .inp {
+  border-color: #353D52;
+}
+
 form .form__inp-submit {
   display: flex;
   align-items: center;
@@ -132,7 +161,6 @@ form .open {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  color: #666;
   width: 100%;
 }
 
@@ -140,14 +168,15 @@ form .open {
   display: flex;
   cursor: pointer;
   width: 100%;
-  height: 30px;
-  padding: 6px;
-  border: 1px solid #dcdee2;
-  border-radius: 4px;
+  height: 46px;
+  padding-left: 15px;
+  padding-right: 20px;
   background-color: #fff;
+  border-radius: 6px;
   outline: 0;
   box-sizing: border-box;
   transition: background-color 0.2s;
+  border: 1px solid #D7E1E9;
 }
 
 .ss-main .ss-single-selected.ss-disabled {
@@ -158,11 +187,6 @@ form .open {
 .ss-main .ss-single-selected.ss-open-above {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-}
-
-.ss-main .ss-single-selected.ss-open-below {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
 }
 
 .ss-main .ss-single-selected .placeholder {
@@ -199,7 +223,6 @@ form .open {
   justify-content: flex-end;
   flex: 0 1 auto;
   margin: 0 6px 0 6px;
-  font-weight: bold;
 }
 
 .ss-main .ss-single-selected .ss-deselect.ss-hide {
@@ -211,11 +234,11 @@ form .open {
   align-items: center;
   justify-content: flex-end;
   flex: 0 1 auto;
-  margin: 0 6px 0 6px;
+  margin: 0;
 }
 
 .ss-main .ss-single-selected .ss-arrow span {
-  border: solid #666;
+  border: solid #2155CF;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
@@ -239,7 +262,6 @@ form .open {
   min-height: 30px;
   width: 100%;
   padding: 0 0 0 3px;
-  border: 1px solid #dcdee2;
   border-radius: 4px;
   background-color: #fff;
   outline: 0;
@@ -409,9 +431,8 @@ form .open {
 .ss-content {
   position: absolute;
   width: 100%;
-  margin: -1px 0 0 0;
+  margin: 0;
   box-sizing: border-box;
-  border: solid 1px #dcdee2;
   z-index: 1010;
   background-color: #fff;
   transform-origin: center top;
@@ -422,6 +443,9 @@ form .open {
 
 .ss-content.ss-open {
   display: block;
+  box-shadow: 1px 16px 46px 0px rgba(123, 139, 181, 0.22);
+  border-radius: 6px;
+  border: none;
   opacity: 1;
   transform: scaleY(1);
 }
@@ -456,7 +480,6 @@ form .open {
   height: 30px;
   padding: 6px 8px;
   margin: 0;
-  border: 1px solid #dcdee2;
   border-radius: 4px;
   background-color: #fff;
   outline: 0;
@@ -467,12 +490,10 @@ form .open {
 }
 
 .ss-content .ss-search input::-moz-placeholder {
-  color: #8a8a8a;
   vertical-align: middle;
 }
 
 .ss-content .ss-search input::placeholder {
-  color: #8a8a8a;
   vertical-align: middle;
 }
 
@@ -485,12 +506,10 @@ form .open {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 1rem;
   flex: 0 0 30px;
   height: 30px;
   margin: 0 0 0 8px;
-  border: 1px solid #dcdee2;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -508,7 +527,6 @@ form .open {
 
 .ss-content .ss-list .ss-optgroup .ss-optgroup-label {
   padding: 6px 10px 6px 10px;
-  font-weight: bold;
 }
 
 .ss-content .ss-list .ss-optgroup .ss-option {
@@ -549,7 +567,6 @@ form .open {
 }
 
 .ss-content .ss-list .ss-option:not(.ss-disabled).ss-option-selected {
-  color: #666;
   background-color: rgba(88, 151, 251, 0.1);
 }
 
