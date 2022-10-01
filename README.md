@@ -1,7 +1,7 @@
 ## Strahovanie layout
 
 # How to install
-- `npm run init`
+- `npm i`
 
 # Run for dev
 - `npm run dev`
