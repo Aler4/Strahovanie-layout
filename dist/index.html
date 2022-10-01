@@ -4,21 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>General</title>
-  <link rel="stylesheet" href="../css/reset.min.css?_v=20221001063143" />
-  <link rel="stylesheet" href="@@pageStyle?_v=20221001063143" />
-  <link rel="stylesheet" href="../css/navigation.min.css?_v=20221001063143" />
-  <link rel="stylesheet" href="../css/main.min.css?_v=20221001063143"/>
+  <link rel="stylesheet" href="../css/reset.min.css?_v=20221001090856" />
+  <link rel="stylesheet" href="@@pageStyle?_v=20221001090856" />
+  <link rel="stylesheet" href="../css/navigation.min.css?_v=20221001090856" />
+  <link rel="stylesheet" href="../css/main.min.css?_v=20221001090856"/>
 
-  <script type="module" defer src="../js/main.min.js?_v=20221001063143"></script>
+  <script type="module" defer src="../js/main.min.js?_v=20221001090856"></script>
 </head>
 <body>
+  <style>
+    a {
+      text-decoration: none;
+      color: #2155CF;
+      cursor: pointer;
+    }
+    .notes {
+      padding-left: 15px;
+    }
+    .company {
+      font-family: "Proxima Nova Bold",sans-serif;
+      font-size: 3rem;
+      color: #000;
+      padding-left: 5px;
+      padding-top: 15px;
+    }
+    .design {
+      color: #ebeb1d;
+    }
+    .point {
+      font-family: "Montserrat SemiBold";
+      font-size: 1.2rem;
+      padding-top: 16px;
+    }
+    .desc {
+       font-family: "Montserrat Regular",sans-serif;
+      font-size: 1.1rem;
+      padding-left: 5px;
+    }
+    .libraries-list li {
+      font-family: 'Montserrat SemiBold';
+      color: #27272a;
+      padding-top: 12px;
+    }
+    .libraries-list li a {
+          color: #4f3bcb;
+          cursor: pointer;
+    }
+    .point a {
+      color: #ff3333;
+      cursor: pointer;
+    }
+    .pages-title {
+      font-family: "Proxima Nova Bold";
+      font-size: 1.7rem;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .pages-list {
+      font-family: 'Montserrat SemiBold';
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 15px;
+    }
+    .pages-list li {
+      padding-top: 10px;
+      transition: .3s;
+    }
+    .pages-list li:hover {
+      transform: scale(1.2);
+      transition: .3s;
+    }
+
+  </style>
 <main>
-  <ul>
-    <li><a href="./pages/offers-page.html" target="_blank">Offers</a></li>
-    <li><a href="./pages/contacts-page.html" target="_blank">Contacts</a></li>
-    <li><a href="./pages/about-page.html" target="_blank">About</a></li>
-    <li><a href="./pages/tourism-page.html" target="_blank">Tourism</a></li>
-    <li><a href="./pages/greenCard-page.html" target="_blank">Green card</a></li>
+    <h2 class="company"><span class="design">Art</span>joker</h2>
+  <div class="notes">
+    <p class="point">Выполнил: <span class="desc">Даниленко Валерий</span></p>
+    <p class="point">Задание: <span class="desc">Верстка макета (многостраничный сайт)</span></p>
+    <div class="libraries"><p class="point">Использованные библиотеки:<p>
+      <ul class="libraries-list">
+        <li>
+          <span>Слайдеры - </span>
+          <a href="https://swiperjs.com" target="_blank">Swiper</a>
+        </li>
+        <li>
+          <span>Календарь - </span>
+          <a href="https://air-datepicker.com" target="_blank">Air Datapicker</a>
+        </li>
+        <li>
+          <span>Инпуты с меню - </span>
+          <a href="https://slimselectjs.com" target="_blank">Slim-select</a>
+        </li>
+      </ul>
+    </div>
+    <p class="point">Сборка: <a href="https://gulpjs.com" target="_blank">Gulp</a></p>
+
+  </div>
+  <h3 class="pages-title">
+    Готовые страницы
+  </h3>
+  <ul class="pages-list">
+    <li><a href="./pages/offers-page.html" target="_blank">Предложения</a></li>
+    <li><a href="./pages/contacts-page.html" target="_blank">Контакты</a></li>
+    <li><a href="./pages/about-page.html" target="_blank">О Нас</a></li>
+    <li><a href="./pages/tourism-page.html" target="_blank">Туристическое страхование</a></li>
+    <li><a href="./pages/greenCard-page.html" target="_blank">Зеленая карта</a></li>
     <li><a href="./pages/osago-page.html" target="_blank">ОСАГО</a></li>
     <li><a href="./pages/kasko-page.html" target="_blank">КАСКО</a></li>
   </ul>
