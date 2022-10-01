@@ -68,9 +68,7 @@
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
-  justify-content: center;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  justify-content: space-between;
   padding-left: 30px;
 }
 
