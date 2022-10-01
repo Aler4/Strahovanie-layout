@@ -2,8 +2,7 @@ import fileInclude from  'gulp-file-include';
 import versionNumber from 'gulp-version-number';
 
 export const html = () => {
-    return app.gulp.src(app.path.src.html)
-        .pipe(app.gulp.src(app.path.src.pages))
+    return app.gulp.src(app.path.src.pages)
         .pipe(fileInclude())
         .pipe(
             versionNumber({
@@ -21,6 +20,6 @@ export const html = () => {
                 }
             })
         )
-        .pipe(app.gulp.dest([app.path.build.html, !!app.path.build.html]))
+        .pipe(app.gulp.dest(app.path.build.pages))
         .pipe(app.plugins.browsersync.stream());
 };
