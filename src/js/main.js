@@ -11,24 +11,26 @@ import {inputsBihevior} from "./modules/inputsBihevior.js";
 
 
 window.onload = (function() {
-     inputsBihevior();
-    
+    if(document.querySelector('form')) {
+        createSelector();
+        inputsBihevior();
+        createPicker();
+    }
     if (document.querySelector('.questions-list')){
         document.querySelector('.questions-list').addEventListener('mousedown',dropdown);
     }
     if(document.querySelector('.documents')){
         createDocumentsSlider();
     }
-    if(document.querySelector('.select')) {
-        createSelector();
+    
+    if(document.querySelector('.slider-section')) {
+        let slider = new Slider();
     }
-
-    let slider = new Slider();
-    createPicker();
-    createReviewSlider();
+    if(document.querySelector('.rewiew-section')) {
+        createReviewSlider();
+    }
     addBurger();
     changeText();
-    inpBehavior();
     window.addEventListener('resize', addBurger);
     window.addEventListener('resize', changeText);
 

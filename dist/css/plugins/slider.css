@@ -71,7 +71,6 @@
   font-size: 1rem;
   bottom: -26px;
   color: #9E9E9E;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
@@ -92,7 +91,6 @@
   font-size: 1rem;
   bottom: -26px;
   color: #263238;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }

@@ -156,18 +156,6 @@
   white-space: nowrap;
 }
 
-@-webkit-keyframes scaleIn {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 @keyframes scaleIn {
   0% {
     transform: scale(0);
@@ -177,18 +165,6 @@
   100% {
     transform: scale(1);
     opacity: 1;
-  }
-}
-
-@-webkit-keyframes scaleOut {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(0);
-    opacity: 0;
   }
 }
 
@@ -216,23 +192,16 @@
   color: #fff;
   background-color: #5897fb;
   border-radius: 4px;
-  -webkit-animation-name: scaleIn;
-          animation-name: scaleIn;
-  -webkit-animation-duration: 0.2s;
-          animation-duration: 0.2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: scaleIn;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
 }
 
 .ss-main .ss-multi-selected .ss-values .ss-value.ss-out {
-  -webkit-animation-name: scaleOut;
-          animation-name: scaleOut;
-  -webkit-animation-duration: 0.2s;
-          animation-duration: 0.2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-name: scaleOut;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-out;
 }
 
 .ss-main .ss-multi-selected .ss-values .ss-value .ss-value-delete {

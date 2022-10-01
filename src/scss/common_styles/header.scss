@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  position: sticky;
+  z-index: 99999;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: #ffff;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: 26px 0;
+    margin: 0 15px;
+  }
+
+    .header__button {
+      width: 17.5%;
+      height: 54px;
+      border-radius: 50px;
+      color: #FFFFFF;
+      background-color: #2155CF;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #1442AE;
+      }
+    }
+}
+
+
+
+
+  @media (max-width: 970px) {
+    .header {
+      .logo {
+        order: 2;
+
+      }
+
+      .burger {
+        order: 1;
+      }
+
+      .header__button {
+        order: 3;
+        width: 165px;
+      }
+    }
+
+  }
+  @media (max-width: 768px) {
+    .header {
+
+      .header__button {
+        width: 165px;
+        height: 36px;
+        font-size: 12px;
+      }
+    }
+  }

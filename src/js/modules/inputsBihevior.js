@@ -13,9 +13,7 @@ export const inputsBihevior = () => {
         if (e.target.classList.contains('valid')) {
             bihevior(e);
         }
-        if (e.target.classList.contains('arrow')) {
-            arrows(e);
-        }
+        arrows(e);
     });
 };
 function validation(inputs, form, e) {
@@ -23,6 +21,7 @@ function validation(inputs, form, e) {
         let parent = el.closest('div');
         if (el.value.length <= 3 || el.value == "") {
             e.preventDefault();
+            parent.classList.remove('focus');
             parent.classList.add('error');
         }
         else if (el.value.length > 3 || el.value !== "") {
@@ -33,24 +32,29 @@ function validation(inputs, form, e) {
 }
 ;
 function inputInFocus(inputs, form, e) {
-    let parent = e.target.closest('div');
     inputs.forEach((el) => {
-        if (el.classList.contains('focus')) {
-            el.classList.remove('focus');
+        let parent = el.closest('div');
+        if (parent.classList.contains('focus') || e.target.classList.contains('valid') === false) {
+            parent.classList.remove('focus');
         }
     });
-    if (parent.classList.contains('error')) {
-        parent.classList.remove('error');
+    let evenParent = e.target.closest('div');
+    if (evenParent.classList.contains('error')) {
+        evenParent.classList.remove('error');
     }
-    parent.classList.add('focus');
+    if (e.target.classList.contains('valid')) {
+        evenParent.classList.add('focus');
+    }
 }
 ;
 function behaviorOfArrows(inputs, form, e) {
     inputs.forEach(el => {
-        if (el.classList.contains('open')) {
+        if (el.classList.contains('open') || e.target.classList.contains('arrow') === false) {
             el.classList.remove('open');
         }
     });
-    (e.target).classList.add('open');
+    if (e.target.classList.contains('arrow')) {
+        (e.target).classList.add('open');
+    }
 }
 ;

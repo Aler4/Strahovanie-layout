@@ -1,0 +1,180 @@
+form {
+	font-family: 'Proxima Nova Bold',sans-serif;        
+  background: #FFFFFF;
+  box-shadow: 0 4px 32px rgba(123, 139, 181, 0.2);
+  border-radius: 10px;
+  max-width: 1072px;
+	.inp {
+  	height: 46px;
+  	box-sizing: border-box;
+  	padding-left: 15px;
+  	padding-right: 20px;
+  	font-size: 1rem;
+  	font-family: "Montserrat Regular",sans-serif;
+  	color: #263238;
+  	background: #FFFFFF;
+  	border: 1px solid #D7E1E9;
+  	border-radius: 6px;
+
+	}
+	.select {
+		padding: 0;
+		border: none;
+	}
+	.inp-title {
+  	font-style: normal;
+  	font-weight: 600;
+  	font-size: 1rem;
+  	line-height: 1.6rem;
+  	color: #001237;
+  	padding-bottom: 6px;
+	}
+	.form-inp__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .checkbox__container {
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			font-family: 'Proxima Nova Regular';
+			font-style: normal;
+			font-weight: 400;
+			font-size: .9rem;
+			line-height: 17px;
+			color: #263238;
+			opacity: 0.7;
+			right: 30px;
+			top: 2px;
+			.inp-checkbox {
+				display: none;
+				&:checked + .checkbox-title:before {
+ 					content: "✓";
+ 					background-color: #2155CF;
+ 					color: #fff;
+				}
+ 
+				&:disabled + .checkbox-title:before {
+ 					background: #eee;
+ 					color: #aaa;
+				}
+			}
+			.checkbox-title {
+				position: relative;
+				display: flex;
+				align-items: center;
+				&:before {
+					content: "";
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					position: absolute;
+					font: 25px/25px FontAwesome;
+					width: 18px;
+					height: 18px;
+					border: 1px solid #2155CF;
+					border-radius: 2px;
+					left: -25px;
+					color: #fff;
+					cursor: pointer;
+				}
+			}
+		}
+  }
+  .error {
+		position: relative;
+		.inp {
+			border-color: #F6372B;
+		}
+		&:after {
+			position: absolute;
+			content: 'Обязательно для заполнения';
+			display: block;
+			color: #F6372B;
+			font-size: 13px;
+			bottom: -16px;
+		}
+	}
+	.focus {
+		.inp {
+			border-color: #353D52;
+		}
+	}
+  .form__inp-submit {
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   	width: 410px;
+   	height: 60px;
+   	font-family: 'Montserrat SemiBold',sans-serif;
+   	margin-top: 24px;
+   	background: #FF9504;
+   	border-radius: 50px;
+   	font-size: 1rem;
+   	line-height: 1rem;
+   	letter-spacing: 0.08em;
+   	text-transform: uppercase;
+   	color: #FFFFFF;
+   	cursor: pointer;
+  	 &:hover {
+      background-color: #E28300;
+    }
+  }
+  .arrow {
+    position: relative;
+    overflow: hidden;
+    background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+    cursor: pointer;
+  }
+  .open {
+    background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 20px); 
+  }
+  @media (max-width: 560px) {
+  	box-shadow: none;
+  	.form__inp-submit {
+          width: 328px;
+          font-size: .9rem;
+        }  
+  }
+}
+.another-list__container {
+	  font-family: 'Proxima Nova Bold',sans-serif;        
+		text-align: center;
+		padding: 50px 15px 50px 15px;
+		display: none;
+		background-color: #fff;
+		@media(max-width: 560px) {
+			display: block;
+			.another-list__title {
+    	font-style: normal;
+    	font-weight: 600;
+    	font-size: 1.4rem;
+    	line-height: 1.3rem;
+    	color: #001237;
+    	padding-bottom: 24px;
+		}
+		.another-list {
+			.another-list__item {
+				background-color:#f8fbfe;
+				color: #2155cf;
+				text-transform: uppercase;
+				padding: 18px 0 16px 0;
+				margin-bottom: 16px;
+				border-radius: 6px;
+
+				.another-list__link {
+	  			font-family: 'Proxima Nova Regular',sans-serif;        
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 100%;
+					cursor: pointer;
+
+					.link__icon {
+					}
+				}
+			}
+		}
+	}	
+}
+@import "../plugins/slimselect.scss";

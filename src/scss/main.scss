@@ -119,6 +119,7 @@ button {
 	}
 }
 
-@import 'header';
-@import 'footer.scss';
+@import './common_styles/header.scss';
+@import './common_styles/footer.scss';
+@import './common_styles/navigation.scss';
 @import 'fonts';

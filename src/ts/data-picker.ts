@@ -14,12 +14,12 @@ export const createPicker: Function = ():void => {
                
                   inline: false,
                   autoClose:true,
-                  isMobile: true,
                   buttons: ['today', 'clear'],
                   onSelect() {
                     (el as Element).classList.remove('open');
                   }
                 })
+           
           }
     });
  

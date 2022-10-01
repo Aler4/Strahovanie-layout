@@ -9,6 +9,7 @@
 
 .offers-list-section .container {
   display: block;
+  overflow: visible;
 }
 
 .offers-list-section .offers-item {
