@@ -11,26 +11,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ts/input-date.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/forms/tourismForm-section.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/tourism.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/tourism.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/forms/tourismForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/forms/tourismForm-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/about_style/about-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/about-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/offers-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/offers-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/osago_style/osago-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/osago_style/osago-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/greenCard-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/greenCard-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/kasko-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/kasko-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/osago-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/osago-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/pages/tourism-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/tourism-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/data-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/data-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/documents-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/documents-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/inputsBihevior.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/inputsBihevior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/rewiew-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/rewiew-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common_styles/forms_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common_styles/forms_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/greenCard_style/greenCard-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/greenCard_style/greenCard-page.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +76,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/plugins" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -176,6 +189,7 @@
       <workItem from="1662110741597" duration="12604000" />
       <workItem from="1662229312527" duration="8123000" />
       <workItem from="1662914629923" duration="1443000" />
+      <workItem from="1664809109475" duration="297000" />
     </task>
     <servers />
   </component>

@@ -26,7 +26,7 @@ window.onload = (function() {
     if(document.querySelector('.slider-section')) {
         let slider = new Slider();
     }
-    if(document.querySelector('.rewiew-section')) {
+    if(document.querySelector('.review-section')) {
         createReviewSlider();
     }
     addBurger();

@@ -228,7 +228,7 @@ form .form-inp__container .checkbox__container .checkbox-title:before {
   justify-content: center;
   align-items: center;
   position: absolute;
-  font: 25px/25px FontAwesome;
+  font: 12px/25px FontAwesome;
   width: 18px;
   height: 18px;
   border: 1px solid #2155CF;
