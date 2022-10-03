@@ -11,7 +11,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5bc302-be13-4a68-8393-eaf9a77b487a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/about_style/about-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/about-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/about_style/about-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/about_style/about-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/contacts_style/contacts-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/greenCard_style/greenCard-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/kasko__style/kasko-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/offers-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/offers-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/offer_style/offers-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/offer_style/offers-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/osago_style/osago-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/osago_style/osago-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/osago_style/osago-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/osago_style/osago-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/tourism_style/tourism-page.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/about-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/greenCard-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/greenCard-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/kasko-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/kasko-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/osago-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/osago-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/tourism-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pages/tourism-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/advantage-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/advantage-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/banner-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/banner-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/contacts/contacts-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/contacts/contacts-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/forms/greenCardForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/greenCardForm-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/forms/kaskoForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/kaskoForm-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/forms/osagoForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/osagoForm-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/tourismForm-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/offer/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/offer/offer-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/offer/offer-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/questions-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/questions-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/inputsBihevior.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/inputsBihevior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/greenCard-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/greenCard-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/kasko-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kasko-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/offers-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/offers-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/osago-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/osago-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tourism-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tourism-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common_styles/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common_styles/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common_styles/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common_styles/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/contacts_style/contacts-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/contacts_style/contacts-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/forms_style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/greenCardForm-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/kaskoForm-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/osagoForm-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/forms/tourismForm-section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/greenCard_style/greenCardForm-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/greenCard_style/greenCardForm-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/kasko__style/kasko-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/kasko__style/kasko-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/offer_style/offers-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/offer_style/offers-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/inputsBihevior.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/inputsBihevior.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +118,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
-    <property name="ts.external.directory.path" value="D:\Aler4\Strahovanie-layout\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Aler4\Study\Strahovanie-layout\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\home\alerch\Dev\Strahovanie-layout\src\scss\plugins" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss\swiper_style" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
-      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\home\alerch\Dev\Strahovanie-layout\src\scss\plugins" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\js\modules" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
       <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\home\alerch\Dev\Strahovanie-layout\src\scss\plugins" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\scss\swiper_style" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html\offer" />
+      <recent name="C:\Aler4_Study\Artjoker\verstka\src\html" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -158,7 +218,10 @@
       <workItem from="1662110741597" duration="12604000" />
       <workItem from="1662229312527" duration="8123000" />
       <workItem from="1662914629923" duration="1443000" />
-      <workItem from="1664809109475" duration="652000" />
+      <workItem from="1664809109475" duration="2186000" />
+      <workItem from="1664820897674" duration="219000" />
+      <workItem from="1664823014530" duration="3678000" />
+      <workItem from="1664830539852" duration="6883000" />
     </task>
     <servers />
   </component>
@@ -178,6 +241,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="792" y="47" key="#HTML" timestamp="1664832595793">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="792" y="47" key="#HTML/62.0.1858.1080@62.0.1858.1080" timestamp="1664832595793" />
     <state x="419" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661794329439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -187,10 +254,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1660645442972" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1656449139739">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="692" y="175" key="FileChooserDialogImpl" timestamp="1664821115884">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656449139739" />
+    <state x="692" y="175" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1664821115884" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1662028789777">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -208,12 +276,13 @@
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661540757542" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1661630766160" />
     <state x="92" y="93" width="1182" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1662152147618" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1661884529453">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="523" y="240" width="915" height="1005" key="run.anything.popup" timestamp="1664835044165">
+      <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1658094183012" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1920.1160@0.0.1366.728" timestamp="1661376354334" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1661884529453" />
+    <state x="523" y="240" width="915" height="1005" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1664835044165" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1661541107228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

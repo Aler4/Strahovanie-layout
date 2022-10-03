@@ -18,7 +18,15 @@ export const inputsBihevior = (): void => {
 			bihevior(e);
 		}
 
-			arrows(e);
+		if (!(e.target as HTMLInputElement).classList.contains('valid')){
+			inputs?.forEach(el => {
+				let parent: HTMLElement | null = (el as HTMLElement).closest('div');
+				(parent as HTMLElement).classList.remove('focus');
+			});
+		}
+
+
+		arrows(e);
  });
 
 }
@@ -48,7 +56,7 @@ function inputInFocus(inputs:NodeList, form:HTMLFormElement,e:Event): any {
 	(inputs as NodeList).forEach((el) => {
 	let parent: Element | null = (el as Element).closest('div');
 
-		if((parent as HTMLElement).classList.contains('focus') || (e.target as Element).classList.contains('valid') === false) {
+		if((parent as HTMLElement).classList.contains('focus') || !(e.target as Element).classList.contains('valid')) {
 			(parent as HTMLElement).classList.remove('focus');
 		}
 	})
@@ -65,7 +73,7 @@ function inputInFocus(inputs:NodeList, form:HTMLFormElement,e:Event): any {
 
 function behaviorOfArrows(inputs:NodeList, form:HTMLFormElement,e:Event){
 	(inputs as NodeList).forEach(el => {
-    if((el as Element).classList.contains('open') || (e.target as Element).classList.contains('arrow') === false) {
+    if((el as Element).classList.contains('open') || !(e.target as Element).classList.contains('arrow')) {
       (el as Element).classList.remove('open');
     }
   });

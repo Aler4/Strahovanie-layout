@@ -13,6 +13,12 @@ export const inputsBihevior = () => {
         if (e.target.classList.contains('valid')) {
             bihevior(e);
         }
+        if (!e.target.classList.contains('valid')) {
+            inputs === null || inputs === void 0 ? void 0 : inputs.forEach(el => {
+                let parent = el.closest('div');
+                parent.classList.remove('focus');
+            });
+        }
         arrows(e);
     });
 };
@@ -34,7 +40,7 @@ function validation(inputs, form, e) {
 function inputInFocus(inputs, form, e) {
     inputs.forEach((el) => {
         let parent = el.closest('div');
-        if (parent.classList.contains('focus') || e.target.classList.contains('valid') === false) {
+        if (parent.classList.contains('focus') || !e.target.classList.contains('valid')) {
             parent.classList.remove('focus');
         }
     });
@@ -49,7 +55,7 @@ function inputInFocus(inputs, form, e) {
 ;
 function behaviorOfArrows(inputs, form, e) {
     inputs.forEach(el => {
-        if (el.classList.contains('open') || e.target.classList.contains('arrow') === false) {
+        if (el.classList.contains('open') || !e.target.classList.contains('arrow')) {
             el.classList.remove('open');
         }
     });

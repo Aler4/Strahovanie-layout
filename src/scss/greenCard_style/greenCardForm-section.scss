@@ -9,7 +9,7 @@
 		.green-card-form {
 			display: grid;
       grid-template-columns: auto auto;
-      grid-auto-row: 3;
+      grid-auto-rows: auto;
       justify-items: center;
       grid-template-areas:
               "A A"
@@ -38,7 +38,7 @@
 				}
 				
 			}
-			.green-card_btn {
+			.form__inp-submit {
 				grid-area: C;
 				margin:0;
 			}

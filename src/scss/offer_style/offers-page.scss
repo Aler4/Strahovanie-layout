@@ -2,3 +2,10 @@
 @import '../common_styles/banner.scss';
 @import './filter.scss';
 @import './list.scss';
+.banner-section {
+  .container {
+    .banner-article__container {
+      display: none;
+    }
+  }
+};
