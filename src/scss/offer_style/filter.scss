@@ -3,6 +3,7 @@
   justify-content: center;
   .container {
     display: block;
+    padding: 0 15px;
   }
   .offer-filter {
     display: flex;
@@ -87,7 +88,10 @@
     }
 
   }
-    @media (max-width: 1060px) {
+    @media (max-width: 1190px) {
+      .container {
+          padding: 0;
+        }
       .offer-filter {
         flex-flow: column;
         align-items: start;

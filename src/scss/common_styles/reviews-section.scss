@@ -19,8 +19,9 @@
     .reviews-title {
       width: 23%;
       box-sizing: content-box;
-      padding-top: 20px;
+      padding-top: 15px;
       padding-right: 50px;
+      line-height: 3.1rem;
 
       @media (max-width: 1360px) {
         width: 100%;
@@ -44,20 +45,21 @@
         color: #263238;
 
         .reviews-card__rating {
-          width: 118px;
+          display: flex;
+          column-gap: 5px;
         }
         .reviews-card_text {
           font-family: "Proxima Nova Regular",sans-serif;
           font-size: 1rem;
-          line-height: 1.3rem;
+          line-height: 1.4rem;
           height: 120px;
-          padding-top: 19px;
+          padding-top: 14px;
           overflow: hidden;
           opacity: 0.8;
         }
         .reviews-card__person-container {
           display: flex;
-          padding-top: 35px;
+          padding-top: 48px;
           .person-avatar__container {
             width: 60px;
             height: 60px;
@@ -75,9 +77,9 @@
             padding-left: 30px;
             font-family: "Proxima Nova Bold",sans-serif;
             .person-info__name {
-              font-size: 1.3rem;
-              line-height: 1.5rem;
-              padding-bottom: 4px;
+              font-size: 1.25rem;
+              line-height: 2rem;
+              padding-bottom: 5px;
             }
             .person-info__date {
               font-size: .9rem;
