@@ -5,7 +5,7 @@
 	.container{
 		flex-direction: column;
 		padding-top: 50px;
-		padding-bottom: 45px;
+		padding-bottom: 60px;
 		
 		.osago-form {
 			display: grid;
@@ -27,7 +27,7 @@
 
 			.osago-filter__buttons {
       	width: fit-content;
-      	padding-top: 50px;
+      	padding-top: 39px;
       	grid-area: B;
       	.osago-filter__button {
         	display: none;
@@ -83,22 +83,23 @@
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
+				column-gap: 30px;
 				width: 100%;
-				padding: 40px 0;
 				.form-inp__container {
 					width: 317px;
 					box-sizing: content-box;
-					padding-right: 30px;
-					&:last-child {
-						padding-right: 0;
-					}
 					.inp {
 						width: 100%;
 					}
 				}		
 			}
+			.form-inputs-row1, {
+					padding-top: 32px;
+			}
+
 			.form-inputs-row2 {
 				grid-area: D;
+				padding: 27px 0 40px 0;
 				.form-inp__container {
 						flex-direction: row;
 						flex-wrap: wrap;
@@ -164,7 +165,6 @@
 
 					padding: 0px 0 8px 0;
 					.form-inp__container {
-						padding-right: 0;
 						.osago__term-inp, .osago__privileges-inp {
 							width: 328px;
 						}

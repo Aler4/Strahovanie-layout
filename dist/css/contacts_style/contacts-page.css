@@ -163,8 +163,8 @@
 }
 
 .banner-section {
-  padding-top: 26px;
-  padding-bottom: 70px;
+  padding-top: 58px;
+  padding-bottom: 40px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -172,6 +172,7 @@
 
 .banner-section .container {
   display: block;
+  padding: 0 15px;
 }
 
 .banner-section .container .banner {
@@ -193,7 +194,7 @@
 
 .banner-section .container .banner .banner-description {
   order: 1;
-  padding: 40px 15px 0px 24px;
+  padding: 40px 15px 13px 24px;
   color: #ffffff;
 }
 
@@ -236,9 +237,10 @@
 }
 
 .banner-section .container .banner-article__container {
-  padding: 0 15px;
+  width: 100%;
   margin-top: 60px;
-  overflow: hidden;
+  padding: 0;
+  overflow: visible;
   font-family: "Proxima Nova Regular", sans-serif;
   position: relative;
 }
@@ -302,6 +304,10 @@
     padding-top: 60px;
   }
 
+  .banner-section .container {
+    padding: 0;
+  }
+
   .banner-section .container .banner {
     display: flex;
     flex-direction: row;
@@ -344,6 +350,7 @@
 
   .banner-section .container .banner-article__container .banner-article__title {
     font-size: 2.1rem;
+    padding-top: 24px;
     padding-bottom: 16px;
   }
 

@@ -16,7 +16,7 @@
               "B C"
               "D D"
               "E E";
-      padding: 50px 30px;
+      padding: 55px 30px 50px 30px;
       margin: 0 auto;
       .tourism-form__title {
         grid-area: A;
@@ -30,7 +30,7 @@
         }
         .direction-examples {
           font-family: 'Proxima Nova Bold',sans-serif;
-          padding-top: 12px;
+          padding-top: 3px;
           .direction-example__title {
             font-size: .9rem;
             line-height: 1.3rem;

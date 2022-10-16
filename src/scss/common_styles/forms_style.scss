@@ -136,11 +136,17 @@ form {
           font-size: .9rem;
         }  
   }
+  @media (max-width: 970px) {
+		.section-title {
+			font-size: 2rem;
+			line-height: 2.1rem;
+		}
+	}	
 }
 .another-list__container {
 	  font-family: 'Proxima Nova Bold',sans-serif;        
 		text-align: center;
-		padding: 50px 15px 50px 15px;
+		padding: 43px 15px 50px 15px;
 		display: none;
 		background-color: #fff;
 		@media(max-width: 560px) {
@@ -175,6 +181,6 @@ form {
 				}
 			}
 		}
-	}	
+	}
 }
 @import "../plugins/slimselect.scss";

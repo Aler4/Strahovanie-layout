@@ -13,6 +13,10 @@
     font-size: 1rem;
     padding: 26px 0;
     margin: 0 15px;
+    @media (max-width: 970px) {
+      padding-top: 12px;
+      padding-bottom: 46px;
+    }
   }
 
     .header__button {

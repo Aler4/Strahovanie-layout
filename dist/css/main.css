@@ -271,14 +271,14 @@ button {
   position: relative;
   align-items: center;
   z-index: 1;
-  width: 26px;
+  width: 30px;
   height: 26px;
   cursor: pointer;
 }
 
 .burger .menu__btn > span {
   position: relative;
-  width: 26px;
+  width: 30px;
   height: 2px;
   background-color: #616161;
 }
@@ -514,6 +514,11 @@ button {
     line-height: 2.1rem;
   }
 
+  .header .container {
+    padding-top: 12px;
+    padding-bottom: 46px;
+  }
+
   .header .logo {
     order: 2;
   }
@@ -551,7 +556,7 @@ button {
   }
 
   .footer .container .menu {
-    padding-bottom: 17px;
+    padding-bottom: 33px;
     padding-right: 0;
     font-size: 0.9rem;
     line-height: 1rem;
@@ -596,7 +601,7 @@ button {
   }
 
   .footer .container .footer-info .contacts .contacts-phone {
-    padding-bottom: 44px;
+    padding-bottom: 50px;
   }
 
   .footer .container .footer-info .contacts .contacts-mail {
@@ -623,11 +628,6 @@ button {
 }
 
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 1.6rem;
-    line-height: 1.7rem;
-  }
-
   .logo {
     padding-right: 18px;
     padding-left: 19px;
@@ -647,6 +647,11 @@ button {
 
   .container {
     width: 560px;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
   }
 
   .header .header__button {
@@ -672,7 +677,7 @@ button {
   }
 
   .footer .container .logo .logo__text {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 
   .footer .container .logo .logo__text p:first-child {

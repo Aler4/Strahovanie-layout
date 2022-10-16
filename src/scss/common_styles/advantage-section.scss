@@ -4,6 +4,7 @@
 	padding-top: 45px;
 	padding-bottom: 10px;
 	background-color: #F1F6FE;
+
 	.container {
 		flex-direction: column;
 		.section-title {
@@ -16,7 +17,7 @@
 		.advantage-list_one,.advantage-list_two {
 			display: flex;
 			justify-content: space-between;
-			padding: 50px 42px;
+			padding: 50px 73px 50px 0;
 			width: 100%;
 			.list-item {
 				display: flex;
@@ -85,7 +86,7 @@
      			flex-wrap: wrap;
         		width: 100%;
     			margin: 0;
-				padding: 40px 0 0px 0;
+				padding: 30px 0 0px 0;
    			}
 		}
 		.advantage-list_two {
@@ -106,4 +107,7 @@
    			}
 		}
 	}
+	@media  (max-width: 768px){
+		padding-top: 28px;
+   	}
 }

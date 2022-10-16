@@ -58,7 +58,7 @@
 			}
 			.form-inputs-row2 {
 				grid-area: C;
-				padding-top: 32px;
+				padding-top: 27px;
 				padding-bottom: 40px;
 				.form-inp__container {
 						flex-direction: row;
@@ -193,10 +193,15 @@
 				}
 				.form-inputs-row2 {
 					justify-content: center;
+					padding-top: 0;
+					padding-bottom: 4px;
 
 					.form-inp__container {
 						padding-right: 0;
 						width: 328px;
+					}
+					.risk {
+							padding-bottom: 22px;
 					}
 				}
 				.form-inputs-row1 {
@@ -207,6 +212,7 @@
 
 					.form-inp__container {
 						padding-right: 0;
+						padding-bottom: 19px;
 						.kasko-model-inp,
 						.kasko-brand-inp {
 							width: 328px;

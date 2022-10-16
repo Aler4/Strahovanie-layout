@@ -6,3 +6,9 @@
 @import "../common_styles/reviews-section.scss";
 @import "../common_styles/questions-section.scss";
 @import '../plugins/swiper';
+
+@media (min-width: 970px) {
+  .banner-section {
+    padding-bottom: 60px;
+  } 
+}

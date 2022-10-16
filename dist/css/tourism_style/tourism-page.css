@@ -18,7 +18,7 @@
   grid-auto-row: 4;
   justify-items: center;
   grid-template-areas: "A A" "B C" "D D" "E E";
-  padding: 50px 30px;
+  padding: 55px 30px 50px 30px;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@
 
 .tourism-section .container .tourism-form .form-inp__container .direction-examples {
   font-family: "Proxima Nova Bold", sans-serif;
-  padding-top: 12px;
+  padding-top: 3px;
 }
 
 .tourism-section .container .tourism-form .form-inp__container .direction-examples .direction-example__title {
@@ -1173,7 +1173,7 @@ form .open {
 .another-list__container {
   font-family: "Proxima Nova Bold", sans-serif;
   text-align: center;
-  padding: 50px 15px 50px 15px;
+  padding: 43px 15px 50px 15px;
   display: none;
   background-color: #fff;
 }
@@ -1591,7 +1591,7 @@ form .open {
 .advantage-section .container .advantage-list_two {
   display: flex;
   justify-content: space-between;
-  padding: 50px 42px;
+  padding: 50px 73px 50px 0;
   width: 100%;
 }
 
@@ -1633,8 +1633,8 @@ form .open {
 }
 
 .banner-section {
-  padding-top: 26px;
-  padding-bottom: 70px;
+  padding-top: 58px;
+  padding-bottom: 40px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -1642,6 +1642,7 @@ form .open {
 
 .banner-section .container {
   display: block;
+  padding: 0 15px;
 }
 
 .banner-section .container .banner {
@@ -1663,7 +1664,7 @@ form .open {
 
 .banner-section .container .banner .banner-description {
   order: 1;
-  padding: 40px 15px 0px 24px;
+  padding: 40px 15px 13px 24px;
   color: #ffffff;
 }
 
@@ -1706,9 +1707,10 @@ form .open {
 }
 
 .banner-section .container .banner-article__container {
-  padding: 0 15px;
+  width: 100%;
   margin-top: 60px;
-  overflow: hidden;
+  padding: 0;
+  overflow: visible;
   font-family: "Proxima Nova Regular", sans-serif;
   position: relative;
 }
@@ -1912,7 +1914,8 @@ form .open {
 .documents-section {
   display: flex;
   align-items: center;
-  padding-top: 90px;
+  padding-top: 125px;
+  padding-bottom: 50px;
 }
 
 .documents-section .container {
@@ -3039,6 +3042,10 @@ button.swiper-pagination-bullet {
     padding-top: 60px;
   }
 
+  .banner-section .container {
+    padding: 0;
+  }
+
   .banner-section .container .banner {
     display: flex;
     flex-direction: row;
@@ -3081,12 +3088,17 @@ button.swiper-pagination-bullet {
 
   .banner-section .container .banner-article__container .banner-article__title {
     font-size: 2.1rem;
+    padding-top: 24px;
     padding-bottom: 16px;
   }
 
   .banner-section .container .banner-article__container .banner-article {
     height: 265px;
     font-size: 1rem;
+  }
+
+  .banner-section {
+    padding-bottom: 60px;
   }
 }
 
@@ -3181,9 +3193,9 @@ button.swiper-pagination-bullet {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 365px;
     overflow: hidden;
     position: relative;
-    height: 395px;
     padding-top: 100px;
   }
 
@@ -3228,6 +3240,13 @@ button.swiper-pagination-bullet {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
+  }
+}
+
+@media (max-width: 970px) {
+  form .section-title {
+    font-size: 2rem;
+    line-height: 2.1rem;
   }
 }
 
@@ -3332,11 +3351,15 @@ button.swiper-pagination-bullet {
     flex-wrap: wrap;
     width: 100%;
     margin: 0;
-    padding: 40px 0 0px 0;
+    padding: 30px 0 0px 0;
   }
 
   .advantage-section .container .advantage-list_two {
     padding: 0 0px 20px 0;
+  }
+
+  .advantage-section {
+    padding-top: 28px;
   }
 
   .slider-section {
@@ -3344,11 +3367,17 @@ button.swiper-pagination-bullet {
   }
 
   .slider-section .sliders__wrapper .slider-title {
-    padding-bottom: 35px;
+    font-size: 1.6rem;
+    padding-bottom: 39px;
   }
 
   .slider-section .sliders__wrapper .slider-range {
-    width: 81%;
+    width: 89%;
+  }
+
+  .slider-section .sliders__wrapper .slider-range .slider-step {
+    width: 35px;
+    height: 35px;
   }
 
   .slider-section .sliders__wrapper .slider-range .slider-step .slider-step__title {
@@ -3361,7 +3390,7 @@ button.swiper-pagination-bullet {
 
   .slider-section .sliders__wrapper .sliders .slide {
     width: 91%;
-    padding: 24px 18px 50px 19px;
+    padding: 31px 18px 56px 19px;
   }
 
   .slider-section .sliders__wrapper .sliders .slide .slide__img {
@@ -3379,8 +3408,12 @@ button.swiper-pagination-bullet {
     color: #001237;
   }
 
+  .slider-section .sliders__wrapper .sliders .slide .slide__description .slide__text {
+    line-height: 1.4rem;
+  }
+
   .documents-section {
-    padding-top: 50px;
+    padding-top: 64px;
     padding-bottom: 50px;
   }
 
@@ -3393,6 +3426,16 @@ button.swiper-pagination-bullet {
     text-align: left;
     padding-left: 15px;
     padding-top: 10px;
+    line-height: 1.7rem;
+  }
+
+  .review-section .reviews .reviews-slider .reviews-card {
+    padding: 27px 24px 44px 19px;
+  }
+
+  .review-section .reviews .reviews-slider .reviews-card .reviews-card_text {
+    height: auto;
+    padding-top: 20px;
   }
 
   section.questions-section .container {
@@ -3404,7 +3447,7 @@ button.swiper-pagination-bullet {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding: 30px 15px 20px 15px;
+    padding: 50px 15px 20px 15px;
   }
 
   section.questions-section .container .questions-wrapper .questions-section__title.section-title {
