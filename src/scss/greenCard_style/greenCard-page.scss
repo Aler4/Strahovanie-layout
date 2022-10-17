@@ -10,3 +10,14 @@
 .slider-section {
 	padding-top: 103px;
 }
+.banner-section {
+	padding-top: 72px;
+	.container {
+  		padding: 0;
+	}
+}
+@media (max-width: 768px){
+  .documents-section {
+    padding-top: 74px;
+  }
+}

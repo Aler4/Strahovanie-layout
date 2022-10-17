@@ -1,5 +1,5 @@
 .about-section {
-  padding-top: 40px;
+  padding-top: 42px;
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
@@ -33,6 +33,8 @@
 
 .about-section .container .about .about-description .about-description__title {
   font-family: "Proxima Nova Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 2rem;
   padding-bottom: 16px;
 }
 
@@ -41,7 +43,7 @@
   opacity: 0.8;
   font-size: 1rem;
   line-height: 1.5rem;
-  padding-bottom: 32px;
+  padding-bottom: 35px;
 }
 
 .types-section {
@@ -120,7 +122,7 @@
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -1433,6 +1435,15 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
+.banner-section {
+  padding-top: 72px;
+  padding-bottom: 60px;
+}
+
+.banner-section .container {
+  padding: 0;
+}
+
 @media (min-width: 970px) {
   .about-section {
     padding-top: 80px;
@@ -1605,12 +1616,12 @@ button.swiper-pagination-bullet {
   .types-section .types .types__title {
     font-size: 1.5rem;
     line-height: 1.5rem;
-    padding-bottom: 7px;
+    padding-bottom: 32px;
   }
 
   .types-section .types .types-cards {
     display: flex;
-    row-gap: 25px;
+    row-gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 0px;

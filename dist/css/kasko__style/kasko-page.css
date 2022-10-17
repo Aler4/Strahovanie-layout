@@ -341,12 +341,12 @@ form .form__inp-submit:hover {
 form .arrow {
   position: relative;
   overflow: hidden;
-  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 15px);
   cursor: pointer;
 }
 
 form .open {
-  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 15px);
 }
 
 .another-list__container {
@@ -914,7 +914,7 @@ form .open {
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -2326,6 +2326,14 @@ button.swiper-pagination-bullet {
   padding-top: 118px;
 }
 
+.banner-section {
+  padding-top: 70px;
+}
+
+.banner-section .container {
+  padding: 0;
+}
+
 @media (min-width: 970px) {
   .banner-section {
     padding-top: 60px;
@@ -2529,7 +2537,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 970px) {
   form .section-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 2.1rem;
   }
 }
@@ -2584,6 +2592,10 @@ button.swiper-pagination-bullet {
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(3),
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(4) {
     flex: 0 40%;
+  }
+
+  form .error:after {
+    bottom: 0;
   }
 
   .advantage-section .container .advantage-list_one .list-item,
@@ -2911,7 +2923,7 @@ button.swiper-pagination-bullet {
 
   form .form__inp-submit {
     width: 328px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .another-list__container {
@@ -2971,13 +2983,13 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .kasko-section .container {
     padding: 0;
   }
 
   .kasko-section .container .kasko-form {
-    padding: 0px 0 8px 0;
+    padding: 36px 0 8px 0;
   }
 
   .kasko-section .container .kasko-form .form-inputs-row1 .form-inp__container:nth-child(3),

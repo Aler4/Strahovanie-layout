@@ -23,6 +23,10 @@
     border-radius: 10px;
     height: 120px;
 
+    .offers-item__logo {
+      width: 131px;
+      height: 34px;
+    }
 
     .offers-item__name {
       font-size: 1rem;
@@ -181,7 +185,9 @@
       }
       .item-price {
         grid-area: E;
-        padding: 0;
+        padding-top: 0;
+        padding-left: 9px;
+        padding-bottom: 0;
         font-size: 1.13rem;
 
         .item-price__old {
@@ -196,7 +202,22 @@
       .offers-item__name {
         grid-area: C;
         font-size: 1rem;
-
+        padding-top: 19px;
+        position: relative;
+        overflow: visible;
+        &:before {
+          content: "Название";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-family: "Proxima Nova Bold",sans-serif;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1;
+          color: #001237;
+          opacity: 0.5;
+        }
       }
 
       .item-rating {
@@ -208,17 +229,19 @@
       .item__button {
         grid-area: F;
         width: 277px;
+        margin-top: 23px
 
       }
       .title {
         display: block;
+        padding-bottom: 7px;
       }
 
     }
   }
   @media (max-width: 480px) {
     .offers-item {
-      padding: 27px 25px 32px 25px;
+      padding: 5px 25px 32px 25px;
 
       justify-items: start;
 
@@ -239,6 +262,9 @@
 
       .item-rating {
         font-weight: 700;
+      }
+      &:nth-child(even) {
+        display: none;
       }
     }
   }

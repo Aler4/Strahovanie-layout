@@ -198,25 +198,27 @@
 }
 @media (max-width: 768px) {
   .contacts-section {
+    padding-top: 46px;
+    padding-bottom: 0;
     .container {
       .contacts-form {
         width: 100%;
-
-        padding-bottom: 36px;
+        padding-bottom: 18px;
         .form-title {
-          font-size: 2.9rem;
+          font-size: 2rem;
           font-weight: 700;
-          padding-bottom: 16px;
+          padding-bottom: 6px;
         }
         .form-inp__container {
           display: flex;
           flex-direction: column;
           width: 100%;
-          padding: 24px 0 0 0;
+          padding: 22px 0 0 0;
           .form-inp__title {
             font-size: 1rem;
             line-height: 1.6rem;
             font-weight: 600;
+            padding-bottom: 5px;
           }
           .form-inp__name,
           .form-inp__phone,
@@ -235,23 +237,28 @@
 
           .form-inp__message {
             resize: none;
-            height: 124px;
+            height: 129px;
           }
+          .form-inp__phone {
+            padding-bottom: 3px;
+          }
+
         }
         .padding {
           padding-left: 0;
         }
         .form-btn_submit {
-          width: 333px;
-          height: 60px;
+          width: 329px;
+          height: 54px;
           color: #ffff;
+          font-size: .9rem;
           background-color: #FF9504;
           border-radius: 50px;
           letter-spacing: 0.08em;
           text-transform: uppercase;
           margin: 32px auto 0 auto;
           letter-spacing: 0.08em;
-          text-transform: uppercase;
+          text-transform: none;
           &:hover {
             background-color: #E28300;
           }
@@ -264,7 +271,7 @@
         .contacts-topic {
           width: 100%;
           height: auto;
-          padding: 32px 0 32px 16px;
+          padding: 37px 0 25px 19px;
           .topic-title {
             font-size: 1.6rem;
             line-height: 1.6rem;

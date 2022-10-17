@@ -108,4 +108,26 @@
         }
       }
     }
+    @media (max-width: 768px) {
+      .offer-filter {
+  
+        .offer-filter__description {
+          padding-top: 35px;
+          padding-bottom: 29px;
+
+
+          .offer-filter__title {
+            font-family: 'Montserrat Regular', sans-serif;
+            line-height: 1.3rem;
+            font-size: 0.87rem;
+          }
+
+          .offer-filter__results-counter {
+            font-family: 'Proxima Nova Bold', sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.3rem;
+          }
+        }
+      }
+    }
 }

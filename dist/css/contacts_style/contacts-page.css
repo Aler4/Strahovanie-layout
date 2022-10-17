@@ -164,7 +164,7 @@
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -295,8 +295,8 @@
   width: 5px;
 }
 
-.banner-section .container .banner-article__container {
-  display: none;
+.banner-section .container {
+  padding: 0;
 }
 
 @media (min-width: 970px) {
@@ -363,6 +363,10 @@
     padding-top: 88px;
     padding-bottom: 90px;
   }
+
+  .container .banner-article__container {
+    display: none;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -412,28 +416,34 @@
 }
 
 @media (max-width: 768px) {
+  .contacts-section {
+    padding-top: 46px;
+    padding-bottom: 0;
+  }
+
   .contacts-section .container .contacts-form {
     width: 100%;
-    padding-bottom: 36px;
+    padding-bottom: 18px;
   }
 
   .contacts-section .container .contacts-form .form-title {
-    font-size: 2.9rem;
+    font-size: 2rem;
     font-weight: 700;
-    padding-bottom: 16px;
+    padding-bottom: 6px;
   }
 
   .contacts-section .container .contacts-form .form-inp__container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 24px 0 0 0;
+    padding: 22px 0 0 0;
   }
 
   .contacts-section .container .contacts-form .form-inp__container .form-inp__title {
     font-size: 1rem;
     line-height: 1.6rem;
     font-weight: 600;
+    padding-bottom: 5px;
   }
 
   .contacts-section .container .contacts-form .form-inp__container .form-inp__name,
@@ -454,7 +464,11 @@
 
   .contacts-section .container .contacts-form .form-inp__container .form-inp__message {
     resize: none;
-    height: 124px;
+    height: 129px;
+  }
+
+  .contacts-section .container .contacts-form .form-inp__container .form-inp__phone {
+    padding-bottom: 3px;
   }
 
   .contacts-section .container .contacts-form .padding {
@@ -462,16 +476,17 @@
   }
 
   .contacts-section .container .contacts-form .form-btn_submit {
-    width: 333px;
-    height: 60px;
+    width: 329px;
+    height: 54px;
     color: white;
+    font-size: 0.9rem;
     background-color: #FF9504;
     border-radius: 50px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin: 32px auto 0 auto;
     letter-spacing: 0.08em;
-    text-transform: uppercase;
+    text-transform: none;
   }
 
   .contacts-section .container .contacts-form .form-btn_submit:hover {
@@ -487,7 +502,7 @@
   .contacts-section .container .contacts-topic__container .contacts-topic {
     width: 100%;
     height: auto;
-    padding: 32px 0 32px 16px;
+    padding: 37px 0 25px 19px;
   }
 
   .contacts-section .container .contacts-topic__container .contacts-topic .topic-title {

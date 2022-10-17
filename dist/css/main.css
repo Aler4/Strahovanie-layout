@@ -516,7 +516,7 @@ button {
 
   .header .container {
     padding-top: 12px;
-    padding-bottom: 46px;
+    padding-bottom: 10px;
   }
 
   .header .logo {
@@ -558,6 +558,11 @@ button {
   .footer .container .menu {
     padding-bottom: 33px;
     padding-right: 0;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .footer .container .menu .menu__link {
     font-size: 0.9rem;
     line-height: 1rem;
   }

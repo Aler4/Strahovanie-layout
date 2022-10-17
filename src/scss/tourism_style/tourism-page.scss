@@ -7,8 +7,19 @@
 @import "../common_styles/questions-section.scss";
 @import '../plugins/swiper';
 
+.banner-section {
+  padding-top: 72px;
+  .container {
+    padding: 0;
+  }
+}
 @media (min-width: 970px) {
   .banner-section {
     padding-bottom: 60px;
   } 
+}
+@media (max-width: 768px){
+  .documents-section {
+    padding-top: 34px;
+  }
 }

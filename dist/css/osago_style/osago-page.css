@@ -284,12 +284,12 @@ form .form__inp-submit:hover {
 form .arrow {
   position: relative;
   overflow: hidden;
-  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 15px);
   cursor: pointer;
 }
 
 form .open {
-  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 15px);
 }
 
 .another-list__container {
@@ -756,7 +756,7 @@ form .open {
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -2163,6 +2163,14 @@ button.swiper-pagination-bullet {
   padding-top: 100px;
 }
 
+.banner-section {
+  padding-top: 72px;
+}
+
+.banner-section .container {
+  padding: 0;
+}
+
 @media (min-width: 970px) {
   .banner-section {
     padding-top: 60px;
@@ -2281,7 +2289,7 @@ button.swiper-pagination-bullet {
     flex: 0;
     width: -moz-fit-content;
     width: fit-content;
-    padding-bottom: 24px;
+    padding-bottom: 19px;
   }
 
   .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__place-inp {
@@ -2348,7 +2356,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 970px) {
   form .section-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 2.1rem;
   }
 }
@@ -2356,20 +2364,20 @@ button.swiper-pagination-bullet {
 @media (max-width: 768px) {
   .osago-section .container .osago-form .osago-filter__buttons .osago-filter__label {
     width: 109px;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 
   .osago-section .container .osago-form {
-    padding: 44px 15px 0 15px;
+    padding: 39px 15px 10px 15px;
   }
 
   .osago-section .container .osago-form .osago-filter__buttons {
-    padding-top: 32px;
+    padding-top: 21px;
   }
 
   .osago-section .container .osago-form .form-inputs-row2 {
     justify-content: center;
-    padding: 0px 0 8px 0;
+    padding: 0px 0 13px 0;
   }
 
   .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .osago__term-inp,
@@ -2380,7 +2388,7 @@ button.swiper-pagination-bullet {
   .osago-section .container .osago-form .form-inputs-row2 .form-inp__container .checkbox__container {
     flex: 0 44%;
     padding-left: 26px;
-    padding-top: 14px;
+    padding-top: 10px;
     padding-bottom: 14px;
     justify-content: start;
   }
@@ -2400,6 +2408,10 @@ button.swiper-pagination-bullet {
   .osago-section .container .osago-form .form-inputs-row1 .form-inp__container:nth-child(3) {
     flex: 0 40%;
     align-items: center;
+  }
+
+  form .error:after {
+    bottom: 0;
   }
 
   .advantage-section .container .advantage-list_one .list-item,
@@ -2672,6 +2684,11 @@ button.swiper-pagination-bullet {
     bottom: 0;
     right: 16px;
   }
+
+  .documents-section {
+    padding-top: 74px;
+    padding-bottom: 64px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -2681,7 +2698,7 @@ button.swiper-pagination-bullet {
 
   form .form__inp-submit {
     width: 328px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .another-list__container {

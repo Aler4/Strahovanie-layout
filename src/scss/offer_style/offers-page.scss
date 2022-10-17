@@ -2,10 +2,19 @@
 @import '../common_styles/banner.scss';
 @import './filter.scss';
 @import './list.scss';
+
 .banner-section {
-  .container {
-    .banner-article__container {
-      display: none;
+   .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 970px) {
+  .banner-section {
+    .container {
+      .banner-article__container {
+        display: none;
+      }
     }
   }
-};
+}

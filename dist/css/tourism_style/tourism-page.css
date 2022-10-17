@@ -1162,12 +1162,12 @@ form .form__inp-submit:hover {
 form .arrow {
   position: relative;
   overflow: hidden;
-  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 15px);
   cursor: pointer;
 }
 
 form .open {
-  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 15px);
 }
 
 .another-list__container {
@@ -1634,7 +1634,7 @@ form .open {
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -3037,6 +3037,14 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
+.banner-section {
+  padding-top: 72px;
+}
+
+.banner-section .container {
+  padding: 0;
+}
+
 @media (min-width: 970px) {
   .banner-section {
     padding-top: 60px;
@@ -3245,7 +3253,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 970px) {
   form .section-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 2.1rem;
   }
 }
@@ -3259,12 +3267,12 @@ button.swiper-pagination-bullet {
     padding: 25px 0;
   }
 
-  .tourism-section .container .tourism-form .form-inp__container {
-    width: 328px;
-  }
-
   .tourism-section .container .tourism-form .form-inp__container .tourism__direction-inp {
     width: 100%;
+  }
+
+  .tourism-section .container .tourism-form .form-inp__container .direction-examples {
+    padding-top: 8px;
   }
 
   .tourism-section .container .tourism-form .dates-inp__container {
@@ -3283,6 +3291,16 @@ button.swiper-pagination-bullet {
     align-items: start;
   }
 
+  .tourism-section .container .tourism-form .dates-inp__container .dates__period {
+    display: inline;
+    padding-top: 7px;
+    padding-right: 4px;
+  }
+
+  .tourism-section .container .tourism-form .dates-inp__container .date-inp__title {
+    padding-bottom: 5px;
+  }
+
   .tourism-section .container .tourism-form .tourists-list .tourist-data__card {
     border-radius: 5px;
     padding: 24px 15px 34px 15px;
@@ -3290,7 +3308,11 @@ button.swiper-pagination-bullet {
   }
 
   .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container {
-    padding-top: 24px;
+    padding-top: 5px;
+  }
+
+  .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container:last-child {
+    padding-top: 20px;
   }
 
   .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__birth-inp {
@@ -3299,6 +3321,10 @@ button.swiper-pagination-bullet {
 
   .tourism-section .container .tourism-form .tourists-list .tourist-data__card .form-inp__container .tourist__purpose-inp {
     width: 328px;
+  }
+
+  form .error:after {
+    bottom: 0;
   }
 
   .advantage-section .container .advantage-list_one .list-item,
@@ -3571,6 +3597,10 @@ button.swiper-pagination-bullet {
     bottom: 0;
     right: 16px;
   }
+
+  .documents-section {
+    padding-top: 34px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -3580,6 +3610,12 @@ button.swiper-pagination-bullet {
 
   .tourism-section .container .tourism-form {
     overflow: hidden;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .tourism-section .container .tourism-form .tourism-form__title {
+    padding-bottom: 35px;
   }
 
   .tourism-section .container .tourism-form .dates-inp__container {
@@ -3601,7 +3637,12 @@ button.swiper-pagination-bullet {
     flex-direction: column;
   }
 
+  .tourism-section .container .tourism-form .tourists-list .tourists-list__title {
+    padding-top: 21px;
+  }
+
   .tourism-section .container .tourism-form .tourists-list .tourist-data__card {
+    padding-top: 15px;
     border-right: none;
     border-left: none;
   }
@@ -3611,7 +3652,11 @@ button.swiper-pagination-bullet {
   }
 
   .tourism-section .container .tourism-form .form__btns {
-    padding-top: 24px;
+    padding-top: 22px;
+  }
+
+  .tourism-section .container .tourism-form .form__btns .form__inp-submit {
+    margin-top: 39px;
   }
 
   form {
@@ -3620,7 +3665,7 @@ button.swiper-pagination-bullet {
 
   form .form__inp-submit {
     width: 328px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .another-list__container {

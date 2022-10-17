@@ -199,12 +199,12 @@ form .form__inp-submit:hover {
 form .arrow {
   position: relative;
   overflow: hidden;
-  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow.svg") no-repeat calc(100% - 15px);
   cursor: pointer;
 }
 
 form .open {
-  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 20px);
+  background: url("../../img/icons/arrow-up.svg") no-repeat calc(100% - 15px);
 }
 
 .another-list__container {
@@ -671,7 +671,7 @@ form .open {
 
 .banner-section {
   padding-top: 58px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -2078,6 +2078,14 @@ button.swiper-pagination-bullet {
   padding-top: 103px;
 }
 
+.banner-section {
+  padding-top: 72px;
+}
+
+.banner-section .container {
+  padding: 0;
+}
+
 @media (min-width: 970px) {
   .banner-section {
     padding-top: 60px;
@@ -2189,11 +2197,11 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 1140px) {
   .green-card-section .container .green-card-form .form-inputs-container {
-    padding: 40px 0 13px 0;
+    padding: 27px 0 13px 0;
   }
 
   .green-card-section .container .green-card-form .form-inputs-container .form-inp__container {
-    padding-bottom: 24px;
+    padding-bottom: 22px;
   }
 
   .slider-section .sliders__wrapper .slider-title {
@@ -2232,7 +2240,7 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 970px) {
   form .section-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 2.1rem;
   }
 }
@@ -2243,12 +2251,16 @@ button.swiper-pagination-bullet {
   }
 
   .green-card-section .container .green-card-form {
-    padding: 50px 15px;
+    padding: 38px 15px 5px 15px;
   }
 
   .green-card-section .container .green-card-form .form-inputs-container .form-inp__container {
     padding-right: 0;
     width: 328px;
+  }
+
+  form .error:after {
+    bottom: 0;
   }
 
   .advantage-section .container .advantage-list_one .list-item,
@@ -2521,6 +2533,10 @@ button.swiper-pagination-bullet {
     bottom: 0;
     right: 16px;
   }
+
+  .documents-section {
+    padding-top: 74px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -2530,7 +2546,7 @@ button.swiper-pagination-bullet {
 
   form .form__inp-submit {
     width: 328px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .another-list__container {
