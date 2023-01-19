@@ -1,11 +1,12 @@
 .banner-section {
-  padding-top: 26px;
-  padding-bottom: 50px;
+  padding-top: 58px;
+  padding-bottom: 60px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   .container {
     display: block;
+    padding: 0 15px;
     .banner {
       background: linear-gradient(0deg, #072D85, #072D85);
       border-radius: 12px;
@@ -24,7 +25,7 @@
 
       .banner-description {
         order: 1;
-        padding: 40px 15px 0px 24px;
+        padding: 40px 15px 13px 24px;
         color: #ffffff;
 
         .banner-description__title {
@@ -38,13 +39,12 @@
           padding-bottom: 20px;
 
           p {
-            font-family: "Montserrat Regular", sans-serif;
+            font-family: "Proxima Nova Regular", sans-serif;
             font-size: 1.1rem;
             line-height: 1.3rem;
             padding-left: 19px;
             letter-spacing: 0.01rem;
           }
-        ;
 
         }
 
@@ -68,11 +68,11 @@
         }
       }
     }
-
     .banner-article__container {
-      padding: 0 15px;
+      width: 100%;
       margin-top: 60px;
-      overflow: hidden;
+      padding: 0;
+      overflow: visible;
       font-family: "Proxima Nova Regular", sans-serif;
       position: relative;
 
@@ -89,18 +89,18 @@
       }
 
       .banner-article__title {
-        font-size: 2.1rem;
+        font-size: 1.25rem;
+        padding-bottom: 10px;
         color: #001237;
-        padding-bottom: 16px;
       }
 
       .banner-article {
         width: 101%;
-        height: 265px;
-        font-size: 1rem;
-        line-height: 1.25rem;
+        height: 185px;
+        font-family: "Montserrat Regular",sans-serif;
+        font-size: .9rem;
+        line-height: 24px;
         color: #263238;
-        opacity: .8;
         overflow-y: scroll;
 
         &::-webkit-scrollbar {
@@ -128,11 +128,12 @@
     }
   }
 }
-@media (min-width: 760px) {
 
+@media (min-width: 970px) {
   .banner-section {
     padding-top: 60px;
     .container {
+      padding: 0;
       .banner {
         display: flex;
         flex-direction: row;
@@ -148,22 +149,23 @@
           color: #ffffff;
 
           .banner-description__title {
-            font-size: 2.8rem;
-            line-height: 2.8rem;
+            font-size: 2.9rem;
+            line-height: 3rem;
+            padding-top: 4px;
             padding-bottom: 36px;
           }
           .banner-description__item {
             p {
               font-size: 1.5rem;
               line-height: 1.5rem;
-              padding-left: 21px;
+              padding-left: 19px;
 
             }
           }
           .banner__button {
             width: 410px;
-            height: 50px;
-            margin: 50px 0 0 0;
+            height: 70px;
+            margin: 30px 0 0 0;
             font-weight: 600;
             font-size: 1rem;
             line-height: 1rem;
@@ -172,18 +174,17 @@
           }
         }
       }
-      @media (max-width: 560px) {
-        .banner-article__container {
+      .banner-article__container {
           .banner-article__title {
-            font-size: 1.25rem;
-            padding-bottom: 10px;
+            font-size: 2.1rem;
+            padding-top: 24px;
+            padding-bottom: 16px;
           }
           .banner-article {
-            height: 185px;
-            font-size: .9rem;
+            height: 265px;
+            font-size: 1rem;
           }
         }
-      }
     }
   }
 

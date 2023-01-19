@@ -13,10 +13,14 @@
     font-size: 1rem;
     padding: 26px 0;
     margin: 0 15px;
+    @media (max-width: 970px) {
+      padding-top: 12px;
+      padding-bottom: 10px;
+    }
   }
 
     .header__button {
-      width: 17.5%;
+      width: 16.5%;
       height: 54px;
       border-radius: 50px;
       color: #FFFFFF;

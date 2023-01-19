@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	.container {
-		padding: 90px 0;
+		padding: 124px 0 90px 0;
 		flex-direction: column;
 		margin: 0 15px;
 		overflow: visible;
@@ -31,10 +31,11 @@
 					line-height: 1.2rem;
 					font-family: "Proxima Nova Bold",sans-serif;
 					color: #2155CF;
-					padding-top: 24px;
-					padding-bottom: 6px;
+					padding-top: 37px;
+					padding-bottom: 14px;
 				}
 				.payments-card__desc {
+					font-family: "Proxima Nova Regular",sans-serif;
 					font-size: 1rem;
 					line-height: 1.3rem;
 					color: #000000;
@@ -53,9 +54,8 @@
 		@media (max-width: 768px) {
 			padding: 50px 0 60px 0;
 			.payments-list {
-				padding: 0 15px;
 				.payments-card {
-					flex: 0 45%;
+					flex: 0 47%;
 					padding-top: 30px;
 					text-align: left;
 					.payments-card__img {
@@ -63,13 +63,13 @@
 					}
 					.payments-card__title {
 					font-size: 1.1rem;
-					line-height: 1.2rem;
+					line-height: 1.4rem;
 					padding-top: 14px;
 					padding-bottom: 8px;
 				}
 				.payments-card__desc {
-					font-size: .75rem;
-					line-height: 1.1rem;
+				    font-size: .9rem;
+    				line-height: 1.2rem;
 				}
 				}
 			}

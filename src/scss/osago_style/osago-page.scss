@@ -1,8 +1,24 @@
-@import './osagoForm-section.scss';
+@import "./osagoForm-section.scss";
 @import "../common_styles/advantage-section.scss";
-@import '../common_styles/banner.scss';
+@import "../common_styles/banner.scss";
 @import "../plugins/slider";
 @import "../common_styles/documents-section.scss";
 @import "../common_styles/reviews-section.scss";
 @import "../common_styles/questions-section.scss";
-@import '../plugins/swiper';
+@import "../plugins/swiper";
+
+.slider-section {
+	padding-top: 100px;
+}
+@media (max-width: 768px){
+  .documents-section {
+    padding-top: 74px;
+    padding-bottom: 64px;
+  }
+}
+.banner-section {
+	padding-top: 72px;
+	.container {
+		padding: 0;
+	}
+}

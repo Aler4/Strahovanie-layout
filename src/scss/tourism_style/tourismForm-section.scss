@@ -16,7 +16,7 @@
               "B C"
               "D D"
               "E E";
-      padding: 50px 30px;
+      padding: 55px 30px 50px 30px;
       margin: 0 auto;
       .tourism-form__title {
         grid-area: A;
@@ -30,7 +30,7 @@
         }
         .direction-examples {
           font-family: 'Proxima Nova Bold',sans-serif;
-          padding-top: 12px;
+          padding-top: 3px;
           .direction-example__title {
             font-size: .9rem;
             line-height: 1.3rem;
@@ -204,10 +204,13 @@
       padding: 0;
     .tourism-form {
       padding: 25px 0; 
+
       .form-inp__container {
-        width: 328px;
         .tourism__direction-inp {
           width: 100%;
+        }
+        .direction-examples {
+          padding-top: 8px;
         }
       }
       
@@ -222,6 +225,14 @@
           flex-direction:column;
           align-items: start;
         }
+        .dates__period {
+          display: inline;
+          padding-top: 7px;
+          padding-right: 4px;
+        }
+        .date-inp__title {
+          padding-bottom: 5px;
+        }
 
       }
       .tourists-list {
@@ -230,7 +241,10 @@
           padding: 24px 15px 34px 15px;
           justify-content: center;
           .form-inp__container {
-              padding-top: 24px; 
+              padding-top: 5px; 
+              &:last-child {
+                padding-top: 20px;
+              }
             .tourist__birth-inp {
               width: 328px;
             }
@@ -250,6 +264,11 @@
     width: 100%;
     .tourism-form {
       overflow: hidden;
+      padding-top: 35px;
+      padding-bottom: 10px;
+      .tourism-form__title {
+        padding-bottom: 35px;
+      }
       
       .dates-inp__container {
         padding-left: 0;
@@ -265,8 +284,11 @@
       .tourists-list {
         display: flex;
         flex-direction: column;
+        .tourists-list__title {
+          padding-top: 21px;
+        }
         .tourist-data__card {
-
+          padding-top: 15px;
           border-right: none;
           border-left: none;
 
@@ -277,7 +299,10 @@
         }
       }
       .form__btns {
-        padding-top: 24px;  
+        padding-top: 22px; 
+        .form__inp-submit {
+          margin-top: 39px;
+        } 
       }
      }
     }

@@ -8,19 +8,22 @@
   overflow: hidden;
   .container {
     display: block;
+
   }
   .offer-card{
     background-color: #FFFFFF;
     color: #001237;
     padding: 30px 0 28px 0;
     border-radius: 10px;
+    margin: 0 15px;
 
     .offer-card__title {
       font-family: 'Proxima Nova Bold',sans-serif;
       font-size: 2.9rem;
       line-height: 3.3rem;
-      padding-bottom: 26px;
+      padding-bottom: 19px;
       padding-left: 41px;
+      padding-bottom: 29px;
       border-bottom: 1px solid #CFDAE2;
     }
     .offer-card__info-container{
@@ -28,19 +31,19 @@
       justify-content: space-between;
       padding-left: 41px;
       padding-right: 40px;
-      padding-top: 33px;
+      padding-top: 25px;
 
-      .offer-card__info{
+      .offer-card__info {
         display: flex;
-        justify-content: space-between;
-        padding-right: 208px;
+        column-gap: 119px;
+        padding-top: 4px;
         flex-grow: 1;
         .offer-card__info-item{
           padding-top: 4px;
           .info-item__title{
-            font-family: 'Montserrat Regular', sans-serif;
+            font-family: 'Proxima Nova Regular', sans-serif;
             color: #263238;
-            font-size: 0.9rem;
+            font-size: 1rem;
             line-height: 1.25rem;
           }
 
@@ -48,6 +51,7 @@
             font-family: 'Montserrat Bold',sans-serif;
             font-size: 1rem;
             line-height: 1.9rem;
+            padding-top: 5px;
           }
         }
       }
@@ -82,6 +86,7 @@
 @media (max-width: 1350px) {
   .offer-card-section {
     .offer-card{
+      margin: 0;
 
       .offer-card__title {
         font-size: 2.5rem;
@@ -102,9 +107,9 @@
   .offer-card-section {
     .offer-card{
       .offer-card__title {
-        text-align: center;
         font-size: 2.1rem;
         padding-left: 24px;
+        padding-bottom: 16px;
       }
       .offer-card__info-container {
         flex-direction: column;
@@ -126,16 +131,29 @@
 }
 @media (max-width: 768px) {
   .offer-card-section {
-    padding-top: 32px;
-    padding-bottom: 26px;
+    padding-top: 36px;
+    padding-bottom: 33px;
+     .container {
+      display: block;
+      padding: 0 15px;
+    }
     .offer-card {
+      padding-top: 13px;
+      padding-bottom: 34px;
       .offer-card__info-container{
         .offer-card__info{
           flex-direction: column;
-          padding: 0 0 20px 0;
+          padding: 0 0 4px 0;
           .offer-card__info-item{
             padding: 0 0 18px 0;
+            &:first-child {
+              padding-bottom: 12px;
+            }
           }
+        }
+        .offer-card__info-button {
+          width: 210px;
+          margin: 0;
         }
       }
     }

@@ -1,6 +1,7 @@
 .menu {
-  padding-left: 57px;
+  padding-left: 91px;
   padding-right: 20px;
+  padding-top: 3px;
   .menu__toggle {
     display: none;
     opacity: 0;
@@ -8,10 +9,10 @@
 
   .menu__list	{
     display: flex;
-
+    flex-direction: row;
+    column-gap: 38.7px;
     .menu__item {
       display: block;
-      padding: 0 19px;
       position: relative;
       &:after {
         content: "";
@@ -26,36 +27,17 @@
       &:hover {
         &:after {
           visibility: visible;
-          width: calc(100% - 40px);
-        }
-      }
-      &:nth-child(1) {
-        padding-left: 0;
-
-        &:hover {
-          &:after {
-            width: calc(100% - 20px);
-          }
-        }
-
-      }
-      &:nth-child(6) {
-        padding-right: 0;
-
-        &:hover {
-          &:after {
-            width: calc(100% - 20px);
-          }
+          width: 100%;
         }
       }
 
     }
 
     .menu__link {
-      font-family: 'Montserrat Regular', sans-serif;
+      font-family: 'Proxima Nova Regular', sans-serif;
       color: #001237;
       line-height: 1.25rem;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 }
@@ -69,14 +51,14 @@
     position: relative;
     align-items: center;
     z-index: 1;
-    width: 26px;
+    width: 30px;
     height: 26px;
     cursor: pointer;
 
   }
   .menu__btn > span {
     position: relative;
-    width: 26px;
+    width: 30px;
     height: 2px;
     background-color: #616161;
 
@@ -165,8 +147,8 @@
   .menu {
     padding-left: 30px;
     .menu__list	{
+      column-gap: 25px;
       .menu__item {
-        padding: 0 15px;
         &:hover {
           &:after {
             visibility: visible;
@@ -200,8 +182,8 @@
   .menu {
     padding-left: 0;
     .menu__list	{
+      column-gap: 15px;
       .menu__item {
-        padding: 0 10px;
         &:hover {
           &:after {
             visibility: visible;
@@ -235,8 +217,8 @@
 @media (max-width: 1190px) {
   .menu {
     .menu__list	{
+      column-gap: 10px;
       .menu__item {
-        padding: 0 5px;
         &:hover {
           &:after {
             visibility: visible;

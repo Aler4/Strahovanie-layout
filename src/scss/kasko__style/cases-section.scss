@@ -3,27 +3,28 @@
 	justify-content: center;
 	background-color: #F8FBFE;
 	.container {
-		padding: 80px 0 90px 0;
+		padding: 88px 0 90px 0;
 		flex-direction: column;
 		margin: 0 15px;
 		overflow: visible;
 		margin: 0;
 		.section-title {
 			text-align: center;
-			padding-bottom: 45px;
+			padding-bottom: 52px;
 		}
 		.cases-list {
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			justify-content: center;
 			column-gap: 30px;
 			.case {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				flex: 0 14%;
+				// width: 230px;
+				flex: 0 15%;
 				height: 100px;
+				padding: 0 18px;
 				border-radius: 10px;
 				box-shadow: 0px 4px 46px rgba(123, 139, 181, 0.22);
 				text-align: center;
@@ -45,11 +46,14 @@
 		}
 		@media (max-width: 768px) {
 			padding: 50px 0 60px 0;
+			.section-title {
+				padding-bottom: 37px;
+			}
 			.cases-list {
-				padding: 0 15px;
 				row-gap: 15px;
+				padding: 0 15px;
 				.case {
-					flex: 0 45%;
+					flex: 0 47%;
 					padding: 0 25px;
 					font-size: .75rem;
 					height: 66px;

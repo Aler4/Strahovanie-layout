@@ -40,7 +40,6 @@ button {
 
 	.logo__text {
 		padding-left: 14px;
-		padding-bottom: 10px;
 		letter-spacing: 0.1rem;
 		font-family: 'Proxima Nova Bold', sans-serif;
 		display: flex;
@@ -88,10 +87,6 @@ button {
 
 
 @media (max-width: 768px) {
-	.section-title {
-		font-size: 1.6rem;
-		line-height: 1.7rem;
-	}
 	.logo {
 		padding-right: 18px;
 		padding-left: 19px;
@@ -111,6 +106,10 @@ button {
 	}
 	.container {
 		width: 560px;
+	}
+	.section-title {
+		font-size: 1.7rem;
+		line-height: 1.7rem;
 	}
 }
 

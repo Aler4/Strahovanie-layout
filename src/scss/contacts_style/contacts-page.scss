@@ -2,9 +2,18 @@
 @import '../common_styles/banner.scss';
 
 .banner-section {
+   .container {
+    padding: 0;
+  }
+}
+@media (min-width: 970px) {
+  .banner-section {
+    padding-top: 88px;
+    padding-bottom: 90px;
+  } 
   .container {
     .banner-article__container {
       display: none;
     }
   }
-};
+}

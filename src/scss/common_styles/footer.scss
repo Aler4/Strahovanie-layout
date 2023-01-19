@@ -12,6 +12,7 @@
     .logo {
       width: fit-content;
       margin: 0 auto;
+      padding-right: 0;
 
       padding-bottom: 60px;
       .logo__img {
@@ -21,13 +22,16 @@
       .logo__text {
         font-size: 1.35rem;
         display: flex;
+        flex-direction: row;
         span:first-child {
           padding-right: 7px;
         }
       }
     }
     .menu {
-      padding-bottom: 50px;
+      font-family: 'Proxima Nova Bold',sans-serif;
+      padding-bottom: 43px;
+      padding-left: 0;
       width: fit-content;
       margin: 0 auto;
 
@@ -35,13 +39,19 @@
       font-weight: 800;
       text-transform: uppercase;
       color: #001237;
+      .menu__list {
+        column-gap : 34px;
+        .menu__link {
+          line-height: 0;
+        }
+      }
     }
     .footer-info {
       font-family: 'Montserrat Regular', sans-serif;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 45px;
+      padding-top: 51px;
       padding-bottom: 60px;
       font-size: 0.8rem;
       color: #001237;
@@ -76,7 +86,7 @@
       }
       .site-support {
         display: flex;
-        align-items: center;
+        align-items: baseline;
         .site-support__logo {
           fill-rule: evenodd;
           fill: #A0ABC1;
@@ -124,14 +134,27 @@
         width: fit-content;
         margin: 0 auto;
         padding-left: 0;
+        padding-right: 0;
         padding-bottom: 44px;
+        .logo__text {
+        font-size: 1.35rem;
+        display: flex;
+        flex-direction: row;
+        span:first-child {
+          padding-right: 4px;
+        }
+      }
       }
       .menu {
-        padding-bottom: 17px;
+        padding-bottom: 33px;
         padding-right: 0;
 
         font-size: 0.9rem;
         line-height: 1rem;
+        .menu__link {
+          font-size: 0.9rem;
+          line-height: 1rem;
+        }
         ul{
           display: flex;
           flex-direction: column;
@@ -166,7 +189,7 @@
             display: flex;
           }
           .contacts-phone {
-            padding-bottom: 44px;
+            padding-bottom: 50px;
           }
           .contacts-mail {
             font-size: 0.9rem;
@@ -198,7 +221,7 @@
           height: 41px;
         }
         .logo__text {
-          font-size: 0.6rem;
+          font-size: 0.9rem;
 
           p:first-child {
             padding-right: 4px;

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding-top: 10px;
+  padding-top: 58px;
   padding-bottom: 100px;
   .types {
     display: flex;
@@ -17,10 +17,11 @@
     }
     .types-cards {
       display: flex;
-      justify-content: space-between;
+      column-gap: 25px;
+      padding-left: 15px;
       .types-card {
         position: relative;
-        width: 23.5%;
+        width: 25%;
         height: auto;
         border-radius: 10px;
         overflow: hidden;
@@ -74,19 +75,21 @@
       display: flex;
       flex-direction: column;
       width: 100%;
+
       .types__title {
         font-size: 1.5rem;
         line-height: 1.5rem;
-        padding-bottom: 7px;
+        padding-bottom: 32px;
       }
       .types-cards {
         display: flex;
-        justify-content: space-between;
+        row-gap: 20px;
         flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
         .types-card {
           width: 328px;
           height: auto;
-          margin: 25px auto;
 
           .types-card__title {
             text-align: center;

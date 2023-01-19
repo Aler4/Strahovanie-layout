@@ -1,13 +1,15 @@
 .offers-list-section {
-  padding-top: 80px;
-  padding-bottom: 61px;
+  padding: 80px 0;
   background-color: #F1F7FE;
   overflow: hidden;
   display: flex;
   justify-content: center;
   .container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     overflow: visible;
+    padding: 0 15px;
+    row-gap: 30px;
   }
 
   .offers-item {
@@ -15,16 +17,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 60px 38px 40px 54px;
-    font-family: 'Montserrat Regular', sans-serif;
+    font-family: 'Proxima Nova Regular', sans-serif;
     box-shadow: 0px 4px 46px rgba(123, 139, 181, 0.22);
     background-color: #FFFFFF;
     border-radius: 10px;
-    margin-bottom: 30px;
     height: 120px;
 
+    .offers-item__logo {
+      width: 131px;
+      height: 34px;
+    }
 
     .offers-item__name {
-      font-size: 0.9rem;
+      font-size: 1rem;
       overflow: hidden;
     }
 
@@ -34,9 +39,12 @@
       flex-direction: column;
       text-align: center;
     }
+    .item-franchise {
+      font-size: 1.13rem;
+    }
 
     .item-rating {
-      padding-left: 58px;
+      padding-left: 45px;
 
 
       .item-rating__status {
@@ -74,7 +82,7 @@
     }
 
     .item__button {
-      width: 12.3%;
+      width: 14.3%;
       height: 44px;
       padding: 0;
       background-color: #FF9504;
@@ -102,9 +110,12 @@
   }
 
   @media (max-width: 1350px) {
+    .container {
+      padding: 0;
+      row-gap: 20px;
+    }
     .offers-item {
       padding: 60px 28px 40px 44px;
-      margin-bottom: 20px;
       font-size: .9rem;
 
       .offers-item__logo {
@@ -129,7 +140,6 @@
   @media (max-width: 1180px) {
     .offers-item {
       padding: 30px 10px 20px 25px;
-      margin-bottom: 20px;
       font-size: .8rem;
 
       .offers-item__logo {
@@ -162,7 +172,6 @@
       grid-template-rows: repeat(4, 1fr);
       grid-template-areas: "A  B " "C  C " "D  E " "F  F ";
       justify-items: center;
-      margin-bottom: 20px;
       font-size: 1.1rem;
       font-family: 'Proxima Nova Bold', sans-serif;
 
@@ -176,7 +185,9 @@
       }
       .item-price {
         grid-area: E;
-        padding: 0;
+        padding-top: 0;
+        padding-left: 9px;
+        padding-bottom: 0;
         font-size: 1.13rem;
 
         .item-price__old {
@@ -191,7 +202,22 @@
       .offers-item__name {
         grid-area: C;
         font-size: 1rem;
-
+        padding-top: 19px;
+        position: relative;
+        overflow: visible;
+        &:before {
+          content: "Название";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-family: "Proxima Nova Bold",sans-serif;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1;
+          color: #001237;
+          opacity: 0.5;
+        }
       }
 
       .item-rating {
@@ -203,17 +229,19 @@
       .item__button {
         grid-area: F;
         width: 277px;
+        margin-top: 23px
 
       }
       .title {
         display: block;
+        padding-bottom: 7px;
       }
 
     }
   }
   @media (max-width: 480px) {
     .offers-item {
-      padding: 27px 25px 32px 25px;
+      padding: 5px 25px 32px 25px;
 
       justify-items: start;
 
@@ -234,6 +262,9 @@
 
       .item-rating {
         font-weight: 700;
+      }
+      &:nth-child(even) {
+        display: none;
       }
     }
   }

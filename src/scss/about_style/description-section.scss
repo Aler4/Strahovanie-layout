@@ -1,5 +1,5 @@
 .about-section {
-  padding-top: 40px;
+  padding-top: 42px;
   padding-bottom: 50px;
   overflow: hidden;
   display: flex;
@@ -27,6 +27,8 @@
         flex-direction: column;
         .about-description__title {
           font-family: "Proxima Nova Bold",sans-serif;
+          font-size: 2rem;
+          line-height: 2rem;
           padding-bottom: 16px;
         }
         .about-description__text {
@@ -34,7 +36,7 @@
           opacity: 0.8;
           font-size: 1rem;
           line-height: 1.5rem;
-          padding-bottom: 32px;
+          padding-bottom: 35px;
         }
       }
     }
@@ -57,14 +59,15 @@
         .about-description {
           width: 750px;
           padding-right: 20px;
-          padding-top: 60px;
+          padding-top: 71px;
           .about-description__title {
-            padding-bottom: 24px;
+            padding-bottom: 31px;
             text-align: left;
+            font-size: 3rem;
           }
           .about-description__text {
             font-size: 1.1rem;
-            line-height: 1.5rem;
+            line-height: 1.75rem;
           }
         }
       }

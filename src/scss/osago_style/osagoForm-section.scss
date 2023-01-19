@@ -5,7 +5,7 @@
 	.container{
 		flex-direction: column;
 		padding-top: 50px;
-		padding-bottom: 45px;
+		padding-bottom: 60px;
 		
 		.osago-form {
 			display: grid;
@@ -27,7 +27,7 @@
 
 			.osago-filter__buttons {
       	width: fit-content;
-      	padding-top: 50px;
+      	padding-top: 39px;
       	grid-area: B;
       	.osago-filter__button {
         	display: none;
@@ -70,12 +70,9 @@
         	}
         	@media (max-width: 768px) {
       			width: 109px;
-      			font-size: .75rem;
+      			font-size: .65rem;
       		}
-      	}
-      	// @media (max-width: 560px) {
-      	// 	padding-top: 32px;
-      	// }     
+      	}   
     	}
 			.form-inputs-row1,
 			.form-inputs-row2 {
@@ -83,22 +80,23 @@
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
+				column-gap: 30px;
 				width: 100%;
-				padding: 40px 0;
 				.form-inp__container {
 					width: 317px;
 					box-sizing: content-box;
-					padding-right: 30px;
-					&:last-child {
-						padding-right: 0;
-					}
 					.inp {
 						width: 100%;
 					}
 				}		
 			}
+			.form-inputs-row1, {
+					padding-top: 32px;
+			}
+
 			.form-inputs-row2 {
 				grid-area: D;
+				padding: 27px 0 40px 0;
 				.form-inp__container {
 						flex-direction: row;
 						flex-wrap: wrap;
@@ -125,7 +123,7 @@
 					.form-inp__container {
 						flex: 0;
 						width: fit-content;
-						padding-bottom: 24px;
+						padding-bottom: 19px;
 
 						.osago__place-inp {
 							width: 328px;
@@ -155,23 +153,22 @@
 		@media (max-width: 768px) {
 
 			.osago-form {
-				padding: 44px 15px 0 15px;
+				padding: 39px 15px 10px 15px;
 				.osago-filter__buttons {
-					padding-top: 32px;
+					padding-top: 21px;
 				}
 				.form-inputs-row2 {
 					justify-content: center;
 
-					padding: 0px 0 8px 0;
+					padding: 0px 0 13px 0;
 					.form-inp__container {
-						padding-right: 0;
 						.osago__term-inp, .osago__privileges-inp {
 							width: 328px;
 						}
 						.checkbox__container {
 							flex: 0 44%;
 							padding-left: 26px;
-							padding-top: 14px;
+							padding-top: 10px;
 							padding-bottom: 14px;
 							justify-content: start;
 						}
